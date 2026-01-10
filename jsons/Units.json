@@ -2,15 +2,15 @@
     {
 		"name": "Worker",
 		"unitType": "Civilian",
-		"movement": 2,
+		"movement": 3,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 70
 	},
 	{
 		"name": "Settler",
 		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 106,
+		"movement": 3,
+		"cost": 100,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
@@ -19,9 +19,9 @@
 		"name": "Vampire Fledgling",
 		"unitType": "Gunpowder Melee",
 		"uniqueTo": "Blood Pyramid",
-		"movement": 2,
-		"strength": 10,
-		"cost": 40,
+		"movement": 3,
+		"strength": 15,
+		"cost": 50,
 		"uniques": [
 			"Heals [15] damage if it kills a unit"
 		]
@@ -31,20 +31,24 @@
 		"name": "American APA Infantry",
 		"unitType": "Gunpowder Melee",
 		"uniqueTo": "American Paranormal Agency",
-		"movement": 2,
+		"movement": 3,
+        "range": 1,
 		"strength": 13,
-		"cost": 50,
+		"rangedStrength": 13,
+		"cost": 60,
 		"uniques": [
 		]
 		"attackSound": "shot"
 	},
 	{
-		"name": "Roundtable Hunter",
+		"name": "Roundtable Paramilitary",
 		"unitType": "Gunpowder Melee",
 		"uniqueTo": "Roundtable",
-		"movement": 2,
+		"movement": 3,
+		"range": 1,
 		"strength": 10,
-		"cost": 40,
+		"rangedStrength": 10,
+		"cost": 50,
 		"uniques": [
 		]
 		"attackSound": "shot"
@@ -53,10 +57,36 @@
 		"name": "Anglican Knight",
 		"unitType": "Gunpowder Melee",
 		"uniqueTo": "Roundtable",
+		"movement": 3,
+		"strength": 15,
+		"cost": 55,
+		"uniques": [
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Frankenstein Construct"
+		"unitType": "Gunpowder Melee",
+		"uniqueTo": "Roundtable",
 		"movement": 2,
 		"strength": 10,
-		"cost": 40,
+		"cost": 80,
 		"uniques": [
+			"[20] Strength <when defending>"
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Royal Vampire Cannoneer"
+		"unitType": "Gunpowder Melee",
+		"uniqueTo": "Roundtable",
+		"movement": 3,
+		"range": 3,
+		"strength": 10,
+		"rangedStrength": 15,
+		"cost": 70,
+		"uniques": [
+			"[+2] Sight",
 		]
 		"attackSound": "shot"
 	}
