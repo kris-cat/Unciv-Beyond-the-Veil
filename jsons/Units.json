@@ -53,7 +53,6 @@
 		"name": "Anglican Knight",
 		"unitType": "Gunpowder Melee",
 		"uniqueTo": "Roundtable",
-		"replaces": "Infantry",
 		"movement": 2,
 		"strength": 10,
 		"cost": 40,
