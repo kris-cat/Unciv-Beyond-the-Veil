@@ -7,7 +7,7 @@
     },
     {
 		"name": "Infantry",
-		"unitType": "Infantry",
+		"unitType": "Gunpowder Melee",
 		"movement": 2,
 		"strength": 5,
         "range": 2,
