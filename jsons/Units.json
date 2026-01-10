@@ -26,6 +26,7 @@
 	 {
 		"name": "American APA Infantry",
 		"unitType": "Gunpowder Melee",
+		"replaces": "Infantry",
 		"movement": 2,
 		"strength": 12,
 		"cost": 50,
