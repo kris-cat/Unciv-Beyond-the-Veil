@@ -143,4 +143,31 @@
 			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"
         ]
 	},
+	{
+		"name": "Roundtable",
+		"leaderName": "WIPLeader6",
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+        "declaringWar": "Sample text.",
+		"attacked": "Sample text.",
+		"defeated": "Sample text.",
+		"introduction": "Sample text.",
+		"neutralHello": "Sample text.",
+		"hateHello": "Sample text.",
+		"tradeRequest": "Sample text.",
+		"outerColor": [109, 2, 0],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Her Majesty's Finest",
+		"uniques": [
+        ],
+		"cities": [
+			"London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
+			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
+			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
+			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"
+		],
+        "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
+    },
 ]
