@@ -15,19 +15,10 @@
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
-    {
-		"name": "Infantry",
-		"unitType": "Gunpowder Melee",
-		"movement": 2,
-		"strength": 10,
-		"cost": 40,
-		"attackSound": "shot"
-	}
 	{
 		"name": "Vampire Fledgling",
 		"unitType": "Gunpowder Melee",
 		"uniqueTo": "Blood Pyramid",
-		"replaces": "Infantry",
 		"movement": 2,
 		"strength": 10,
 		"cost": 40,
@@ -40,10 +31,32 @@
 		"name": "American APA Infantry",
 		"unitType": "Gunpowder Melee",
 		"uniqueTo": "American Paranormal Agency",
-		"replaces": "Infantry",
 		"movement": 2,
 		"strength": 13,
 		"cost": 50,
+		"uniques": [
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Roundtable Hunter",
+		"unitType": "Gunpowder Melee",
+		"uniqueTo": "Roundtable",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"uniques": [
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Anglican Knight",
+		"unitType": "Gunpowder Melee",
+		"uniqueTo": "Roundtable",
+		"replaces": "Infantry",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
 		"uniques": [
 		]
 		"attackSound": "shot"
