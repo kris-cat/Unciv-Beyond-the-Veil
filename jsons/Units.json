@@ -23,6 +23,7 @@
 		"strength": 15,
 		"cost": 50,
 		"uniques": [
+			"Vampiric",
 			"Heals [15] damage if it kills a unit"
 		]
 		"attackSound": "shot"
@@ -100,6 +101,7 @@
 		"rangedStrength": 20,
 		"cost": 70,
 		"uniques": [
+			"Vampiric",
 			"[+1] Sight",
 		]
 		"attackSound": "shot"
