@@ -14,7 +14,7 @@
 		"hateHello": "Sample text.",
 		"tradeRequest": "Sample text.",
         "outerColor": [0,0,0],
-        "innerColor": [0,0,175],
+        "innerColor": [255,255,255],
 		"uniqueName": "Out Of Sight, Out Of Mind",
 		"uniques": [
         ],
@@ -97,7 +97,7 @@
 		"neutralHello": "Sample text.",
 		"hateHello": "Sample text.",
 		"tradeRequest": "Sample text.",
-		"outerColor": [255,255,255],
+		"outerColor": [0,0,0],
 		"innerColor": [0,65,155],
 		"uniqueName": "The Sea Gives, The Sea Takes",
 		"uniques": [
