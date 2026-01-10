@@ -13,8 +13,8 @@
 		"neutralHello": "Sample text.",
 		"hateHello": "Sample text.",
 		"tradeRequest": "Sample text.",
-        "outerColor": [0,0,0],
-        "innerColor": [255,255,255],
+        "outerColor": [255,255,255]
+        "innerColor": [0,0,0],
 		"uniqueName": "Out Of Sight, Out Of Mind",
 		"uniques": [
         ],
