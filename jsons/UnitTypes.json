@@ -4,8 +4,11 @@
         "movementType": "Land"
     },
     {
-        "name": "Gunpowder Melee",
+        "name": "Melee",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged",
         "movementType": "Land"
     }
-    
 ]
