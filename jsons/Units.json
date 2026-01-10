@@ -23,16 +23,16 @@
 		"cost": 40,
 		"attackSound": "shot"
 	}
-	 {
+	{
 		"name": "American APA Infantry",
 		"unitType": "Gunpowder Melee",
+		"uniqueTo": "American Paranormal Agency",
 		"replaces": "Infantry",
 		"movement": 2,
 		"strength": 12,
 		"cost": 50,
-		 "uniques": [
-			 "Only available <for [American Paranormal Agency] Civilizations>"
-		 ]
+		"uniques": [
+		]
 		"attackSound": "shot"
 	}
 ]
