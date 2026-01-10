@@ -1,0 +1,30 @@
+[
+    {
+		"name": "American Deep State",
+		"leaderName": "WIPLeader1",
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+        "declaringWar": "Sample text.",
+		"attacked": "Sample text.",
+		"defeated": "Sample text.",
+		"introduction": "Sample text.",
+		"neutralHello": "Sample text.",
+		"hateHello": "Sample text.",
+		"tradeRequest": "Sample text.",
+		"outerColor": [0,0,0],
+		"innerColor": [142,22,0],
+		"uniqueName": "The Illuminati",
+		"uniques": [
+        ],
+		"cities": [
+            "Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
+			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
+			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
+			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
+			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
+			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"
+        ]
+	},
+]
