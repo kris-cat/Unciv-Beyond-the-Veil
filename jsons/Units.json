@@ -24,12 +24,25 @@
 		"attackSound": "shot"
 	}
 	{
+		"name": "Vampire Fledgling",
+		"unitType": "Gunpowder Melee",
+		"uniqueTo": "Blood Pyramid",
+		"replaces": "Infantry",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"uniques": [
+			"Heals [15] damage if it kills a unit"
+		]
+		"attackSound": "shot"
+	},
+	{
 		"name": "American APA Infantry",
 		"unitType": "Gunpowder Melee",
 		"uniqueTo": "American Paranormal Agency",
 		"replaces": "Infantry",
 		"movement": 2,
-		"strength": 12,
+		"strength": 13,
 		"cost": 50,
 		"uniques": [
 		]
