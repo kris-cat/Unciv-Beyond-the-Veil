@@ -1,6 +1,6 @@
 [
     {
-		"name": "American Deep State",
+		"name": "American Paranormal Agency",
 		"leaderName": "WIPLeader1",
 		"preferredVictoryType": "Domination",
 
@@ -13,9 +13,9 @@
 		"neutralHello": "Sample text.",
 		"hateHello": "Sample text.",
 		"tradeRequest": "Sample text.",
-		"outerColor": [0,0,0],
-		"innerColor": [142,22,0],
-		"uniqueName": "The Illuminati",
+        "outerColor": [0,0,0],
+        "innerColor": [0,0,175],
+		"uniqueName": "Out Of Sight, Out Of Mind",
 		"uniques": [
         ],
 		"cities": [
@@ -25,6 +25,98 @@
 			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
 			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
 			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"
+        ]
+	},
+	{
+		"name": "Zeta Reticulans",
+		"leaderName": "WIPLeader2",
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+        "declaringWar": "Sample text.",
+		"attacked": "Sample text.",
+		"defeated": "Sample text.",
+		"introduction": "Sample text.",
+		"neutralHello": "Sample text.",
+		"hateHello": "Sample text.",
+		"tradeRequest": "Sample text.",
+		"outerColor": [0,0,0],
+		"innerColor": [136,164,173],
+		"uniqueName": "Pre-FTL Inteference",
+		"uniques": [
+        ],
+		"cities": [
+            
+        ]
+	},
+	{
+		"name": "Miskatonic Society",
+		"leaderName": "WIPLeader3",
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+        "declaringWar": "Sample text.",
+		"attacked": "Sample text.",
+		"defeated": "Sample text.",
+		"introduction": "Sample text.",
+		"neutralHello": "Sample text.",
+		"hateHello": "Sample text.",
+		"tradeRequest": "Sample text.",
+		"outerColor": [0,0,0],
+		"innerColor": [198,163,135],
+		"uniqueName": "Out Of Light Into Darkness",
+		"uniques": [
+        ],
+		"cities": [
+            
+        ]
+	},
+	{
+		"name": "The Deep Ones",
+		"leaderName": "WIPLeader4",
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+        "declaringWar": "Sample text.",
+		"attacked": "Sample text.",
+		"defeated": "Sample text.",
+		"introduction": "Sample text.",
+		"neutralHello": "Sample text.",
+		"hateHello": "Sample text.",
+		"tradeRequest": "Sample text.",
+		"outerColor": [255,255,255],
+		"innerColor": [0,65,155],
+		"uniqueName": "The Sea Gives, The Sea Takes",
+		"uniques": [
+        ],
+		"cities": [
+            
+        ]
+	},
+	{
+		"name": "Blood Pyramid",
+		"leaderName": "WIPLeader5",
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+        "declaringWar": "Sample text.",
+		"attacked": "Sample text.",
+		"defeated": "Sample text.",
+		"introduction": "Sample text.",
+		"neutralHello": "Sample text.",
+		"hateHello": "Sample text.",
+		"tradeRequest": "Sample text.",
+		"outerColor": [124,0,8],
+		"innerColor": [0,0,0],
+		"uniqueName": "The Masquerade",
+		"uniques": [
+        ],
+		"cities": [
+            
         ]
 	},
 ]
