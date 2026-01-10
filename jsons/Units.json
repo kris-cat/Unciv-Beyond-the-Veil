@@ -2,14 +2,14 @@
     {
 		"name": "Worker",
 		"unitType": "Civilian",
-		"movement": 3,
+		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 70
 	},
 	{
 		"name": "Settler",
 		"unitType": "Civilian",
-		"movement": 3,
+		"movement": 2,
 		"cost": 100,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
@@ -17,9 +17,9 @@
 	},
 	{
 		"name": "Vampire Fledgling",
-		"unitType": "Gunpowder Melee",
+		"unitType": "Melee",
 		"uniqueTo": "Blood Pyramid",
-		"movement": 3,
+		"movement": 2,
 		"strength": 15,
 		"cost": 50,
 		"uniques": [
@@ -29,9 +29,9 @@
 	},
 	{
 		"name": "American APA Infantry",
-		"unitType": "Gunpowder Melee",
+		"unitType": "Ranged",
 		"uniqueTo": "American Paranormal Agency",
-		"movement": 3,
+		"movement": 2,
         "range": 1,
 		"strength": 13,
 		"rangedStrength": 13,
@@ -41,10 +41,24 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Men in Black Agent",
+		"unitType": "Ranged",
+		"uniqueTo": "American Paranormal Agency",
+		"movement": 2,
+        "range": 1,
+		"strength": 10,
+		"rangedStrength": 10,
+		"cost": 60,
+		"uniques": [
+			"[-20]% Strength for enemy [All] units in adjacent [All] tiles"
+		]
+		"attackSound": "shot"
+	},
+	{
 		"name": "Roundtable Paramilitary",
-		"unitType": "Gunpowder Melee",
+		"unitType": "Ranged",
 		"uniqueTo": "Roundtable",
-		"movement": 3,
+		"movement": 2,
 		"range": 1,
 		"strength": 10,
 		"rangedStrength": 10,
@@ -55,9 +69,9 @@
 	},
 	{
 		"name": "Anglican Knight",
-		"unitType": "Gunpowder Melee",
+		"unitType": "Melee",
 		"uniqueTo": "Roundtable",
-		"movement": 3,
+		"movement": 2,
 		"strength": 15,
 		"cost": 55,
 		"uniques": [
@@ -66,7 +80,7 @@
 	},
 	{
 		"name": "Frankenstein Construct"
-		"unitType": "Gunpowder Melee",
+		"unitType": "Melee",
 		"uniqueTo": "Roundtable",
 		"movement": 2,
 		"strength": 10,
@@ -78,15 +92,15 @@
 	},
 	{
 		"name": "Royal Vampire Cannoneer"
-		"unitType": "Gunpowder Melee",
+		"unitType": "Ranged",
 		"uniqueTo": "Roundtable",
-		"movement": 3,
-		"range": 3,
+		"movement": 2,
+		"range": 2,
 		"strength": 10,
-		"rangedStrength": 15,
+		"rangedStrength": 20,
 		"cost": 70,
 		"uniques": [
-			"[+2] Sight",
+			"[+1] Sight",
 		]
 		"attackSound": "shot"
 	}
