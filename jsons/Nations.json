@@ -4,7 +4,7 @@
 		"outerColor": [255,255,255]
 	},
     {
-		"name": "American Paranormal Agency",
+		"name": "American Paranormal Bureau",
 		"leaderName": "WIPLeader1",
 		"preferredVictoryType": "Domination",
 
@@ -32,7 +32,7 @@
         ]
 	},
 	{
-		"name": "Zeta Reticulans",
+		"name": "British Roundtable",
 		"leaderName": "WIPLeader2",
 		"preferredVictoryType": "Domination",
 
@@ -45,22 +45,21 @@
 		"neutralHello": "Sample text.",
 		"hateHello": "Sample text.",
 		"tradeRequest": "Sample text.",
-		"outerColor": [0,0,0],
-		"innerColor": [136,164,173],
-		"uniqueName": "Pre-FTL Inteference",
+		"outerColor": [0, 0, 0],
+		"innerColor": [190, 0, 40],
+		"uniqueName": "Her Majesty's Finest",
 		"uniques": [
         ],
 		"cities": [
-            "Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
-			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
-			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
-			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
-			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
-			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"
-        ]
-	},
+			"London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
+			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
+			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
+			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"
+		],
+        "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
+    },
 	{
-		"name": "Miskatonic Society",
+		"name": "Papal Inquisition",
 		"leaderName": "WIPLeader3",
 		"preferredVictoryType": "Domination",
 
@@ -73,101 +72,14 @@
 		"neutralHello": "Sample text.",
 		"hateHello": "Sample text.",
 		"tradeRequest": "Sample text.",
-		"outerColor": [0,0,0],
-		"innerColor": [198,163,135],
-		"uniqueName": "Out Of Light Into Darkness",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 191, 0],
+		"uniqueName": "In God's Name",
 		"uniques": [
         ],
 		"cities": [
-            "Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
-			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
-			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
-			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
-			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
-			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"
-        ]
-	},
-	{
-		"name": "The Deep Ones",
-		"leaderName": "WIPLeader4",
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text.",
-        "declaringWar": "Sample text.",
-		"attacked": "Sample text.",
-		"defeated": "Sample text.",
-		"introduction": "Sample text.",
-		"neutralHello": "Sample text.",
-		"hateHello": "Sample text.",
-		"tradeRequest": "Sample text.",
-		"outerColor": [0,0,0],
-		"innerColor": [0,65,155],
-		"uniqueName": "The Sea Gives, The Sea Takes",
-		"uniques": [
-        ],
-		"cities": [
-            "Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
-			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
-			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
-			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
-			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
-			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"
-        ]
-	},
-	{
-		"name": "Blood Pyramid",
-		"leaderName": "WIPLeader5",
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text.",
-        "declaringWar": "Sample text.",
-		"attacked": "Sample text.",
-		"defeated": "Sample text.",
-		"introduction": "Sample text.",
-		"neutralHello": "Sample text.",
-		"hateHello": "Sample text.",
-		"tradeRequest": "Sample text.",
-		"outerColor": [124,0,8],
-		"innerColor": [0,0,0],
-		"uniqueName": "The Masquerade",
-		"uniques": [
-        ],
-		"cities": [
-            "Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
-			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
-			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
-			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
-			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
-			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"
-        ]
-	},
-	{
-		"name": "Roundtable",
-		"leaderName": "WIPLeader6",
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text.",
-        "declaringWar": "Sample text.",
-		"attacked": "Sample text.",
-		"defeated": "Sample text.",
-		"introduction": "Sample text.",
-		"neutralHello": "Sample text.",
-		"hateHello": "Sample text.",
-		"tradeRequest": "Sample text.",
-		"outerColor": [109, 2, 0],
-		"innerColor": [255, 255, 255],
-		"uniqueName": "Her Majesty's Finest",
-		"uniques": [
-        ],
-		"cities": [
-			"London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
-			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
-			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
-			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"
+			"Vatican","Avignon","Andorra","Cologne","Mainz"
 		],
-        "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
+        "spyNames": ["Pierre","Tomas","Luis"]
     },
 ]
