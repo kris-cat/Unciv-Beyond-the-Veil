@@ -1,2 +1,2 @@
 # Unciv-Beyond-the-Veil
-Warfare focused ruleset themed about the supernatural, cryptids and conspiracies. 
+Warfare focused ruleset inspired by fiction about supernatural, cryptids and conspiracies.
