@@ -16,94 +16,15 @@
 		"hurryCostModifier": 20
 	},
 	{
-		"name": "Vampire Fledgling",
-		"unitType": "Melee",
-		"uniqueTo": "Blood Pyramid",
-		"movement": 2,
-		"strength": 15,
-		"cost": 50,
-		"uniques": [
-			"Vampiric",
-			"Heals [15] damage if it kills a unit"
-		]
-		"attackSound": "shot"
-	},
-	{
-		"name": "American APA Infantry",
+		"name": "Infantry",
 		"unitType": "Ranged",
-		"uniqueTo": "American Paranormal Agency",
 		"movement": 2,
         "range": 1,
-		"strength": 13,
-		"rangedStrength": 13,
+		"strength": 30,
+		"rangedStrength": 30,
 		"cost": 60,
 		"uniques": [
 		]
 		"attackSound": "shot"
 	},
-	{
-		"name": "Men in Black Agent",
-		"unitType": "Ranged",
-		"uniqueTo": "American Paranormal Agency",
-		"movement": 2,
-        "range": 1,
-		"strength": 10,
-		"rangedStrength": 10,
-		"cost": 60,
-		"uniques": [
-			"[-20]% Strength for enemy [All] units in adjacent [All] tiles"
-		]
-		"attackSound": "shot"
-	},
-	{
-		"name": "Roundtable Paramilitary",
-		"unitType": "Ranged",
-		"uniqueTo": "Roundtable",
-		"movement": 2,
-		"range": 1,
-		"strength": 10,
-		"rangedStrength": 10,
-		"cost": 50,
-		"uniques": [
-		]
-		"attackSound": "shot"
-	},
-	{
-		"name": "Anglican Knight",
-		"unitType": "Melee",
-		"uniqueTo": "Roundtable",
-		"movement": 2,
-		"strength": 15,
-		"cost": 55,
-		"uniques": [
-		]
-		"attackSound": "shot"
-	},
-	{
-		"name": "Frankenstein Construct"
-		"unitType": "Melee",
-		"uniqueTo": "Roundtable",
-		"movement": 2,
-		"strength": 10,
-		"cost": 80,
-		"uniques": [
-			"[20] Strength <when defending>"
-		]
-		"attackSound": "shot"
-	},
-	{
-		"name": "Royal Vampire Cannoneer"
-		"unitType": "Ranged",
-		"uniqueTo": "Roundtable",
-		"movement": 2,
-		"range": 2,
-		"strength": 10,
-		"rangedStrength": 20,
-		"cost": 70,
-		"uniques": [
-			"Vampiric",
-			"[+1] Sight",
-		]
-		"attackSound": "shot"
-	}
 ]
