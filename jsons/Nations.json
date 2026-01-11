@@ -45,8 +45,8 @@
 		"neutralHello": "Sample text.",
 		"hateHello": "Sample text.",
 		"tradeRequest": "Sample text.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [190, 0, 40],
+		"outerColor": [190, 0, 40],
+		"innerColor": [255, 255, 255],
 		"uniqueName": "Her Majesty's Finest",
 		"uniques": [
         ],
@@ -72,8 +72,8 @@
 		"neutralHello": "Sample text.",
 		"hateHello": "Sample text.",
 		"tradeRequest": "Sample text.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255, 191, 0],
+		"outerColor": [255, 191, 0],
+		"innerColor": [255, 255, 255],
 		"uniqueName": "In God's Name",
 		"uniques": [
         ],
