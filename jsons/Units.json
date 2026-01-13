@@ -16,14 +16,41 @@
 		"hurryCostModifier": 20
 	},
 	{
-		"name": "Infantry",
+		"name": "Roundtable Paramilitary",
 		"unitType": "Ranged",
+		"uniqueTo": "British Roundtable",
 		"movement": 2,
         "range": 1,
+		"strength": 25,
+		"rangedStrength": 25,
+		"cost": 50,
+		"uniques": [
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Anglican Knight",
+		"unitType": "Melee",
+		"uniqueTo": "British Roundtable",
+		"movement": 2,
+		"strength": 33,
+		"cost": 65,
+		"uniques": [
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Royal Vampire Cannoneer",
+		"unitType": "Ranged",
+		"uniqueTo": "British Roundtable",
+		"movement": 2,
+        "range": 3,
 		"strength": 30,
 		"rangedStrength": 30,
-		"cost": 60,
+		"cost": 70,
 		"uniques": [
+			"Vampiric",
+			"[+1] Sight"
 		]
 		"attackSound": "shot"
 	},
