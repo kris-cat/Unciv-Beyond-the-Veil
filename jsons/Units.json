@@ -47,7 +47,7 @@
 		"unitType": "Melee",
 		"uniqueTo": "Papal Inquisition",
 		"movement": 2,
-		"strength": 20,
+		"strength": 25,
 		"cost": 60,
 		"uniques": [
 			"Can carry [4] [Missile] units"
