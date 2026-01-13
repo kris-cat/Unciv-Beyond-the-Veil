@@ -1,0 +1,48 @@
+
+TileSets.png
+size: 256, 64
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/Anglican Knight
+  rotate: false
+  xy: 4, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chaplain
+  rotate: false
+  xy: 44, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Evangelist
+  rotate: false
+  xy: 84, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Exorcist
+  rotate: false
+  xy: 124, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Roundtable Paramilitary
+  rotate: false
+  xy: 164, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Royal Vampire Cannoneer
+  rotate: false
+  xy: 204, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
