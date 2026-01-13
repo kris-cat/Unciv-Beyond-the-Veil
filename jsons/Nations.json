@@ -45,8 +45,8 @@
 		"neutralHello": "Sample text.",
 		"hateHello": "Sample text.",
 		"tradeRequest": "Sample text.",
-		"outerColor": [109, 2, 0],
-		"innerColor": [255, 255, 255],
+		"outerColor": [255, 255, 255],
+		"innerColor": [109, 2, 0],
 		"uniqueName": "Her Majesty's Finest",
 		"uniques": [
         ],
