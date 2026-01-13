@@ -21,7 +21,7 @@
 		"uniqueTo": "Papal Inquisition",
 		"movement": 2,
 		"range": 3,
-		"strength": 20,
+		"strength": 30,
 		"rangedStrength": 20,
 		"cost": 50,
 		"uniques": [
