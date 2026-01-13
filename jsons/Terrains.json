@@ -2,7 +2,7 @@
 	{
 		"name": "Grassland",
 		"type": "Land",
-		"food": 2,
+		"food": 3,
 		"production": 2,
 		"gold": 2,
 		"happiness": 2,
