@@ -21,9 +21,9 @@
 		"uniqueTo": "British Roundtable",
 		"movement": 2,
         "range": 1,
-		"strength": 25,
-		"rangedStrength": 25,
-		"cost": 50,
+		"strength": 27,
+		"rangedStrength": 27,
+		"cost": 55,
 		"uniques": [
 		]
 		"attackSound": "shot"
@@ -45,12 +45,13 @@
 		"uniqueTo": "British Roundtable",
 		"movement": 2,
         "range": 3,
-		"strength": 30,
-		"rangedStrength": 30,
+		"strength": 25,
+		"rangedStrength": 25,
 		"cost": 70,
 		"uniques": [
 			"Vampiric",
-			"[+1] Sight"
+			"[+1] Sight",
+			"[+25] Strength <vs cities>"
 		]
 		"attackSound": "shot"
 	},
