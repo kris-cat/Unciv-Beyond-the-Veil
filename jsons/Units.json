@@ -22,10 +22,10 @@
 		"movement": 2,
 		"range": 3,
 		"strength": 30,
-		"rangedStrength": 20,
+		"rangedStrength": 10,
 		"cost": 50,
 		"uniques": [
-			"[+1] additional attacks per turn"
+			"[+2] additional attacks per turn"
 		]
 		"attackSound": "shot"
 	},
