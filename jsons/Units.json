@@ -16,6 +16,19 @@
 		"hurryCostModifier": 20
 	},
 	{
+		"name": "Exorcist",
+		"unitType": "Melee",
+		"uniqueTo": "Papal Inquisition",
+		"movement": 2,
+        "range": 1,
+		"strength": 27,
+		"rangedStrength": 27,
+		"cost": 55,
+		"uniques": [
+		]
+		"attackSound": "shot"
+	},
+	{
 		"name": "Roundtable Paramilitary",
 		"unitType": "Ranged",
 		"uniqueTo": "British Roundtable",
