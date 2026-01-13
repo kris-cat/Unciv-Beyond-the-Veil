@@ -63,7 +63,6 @@
 		"rangedStrength": 15,
 		"range": 8,
 		"cost": 30,
-		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
 			"[+10] Strength <vs [Vampiric]>"
