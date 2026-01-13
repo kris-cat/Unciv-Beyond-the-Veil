@@ -16,17 +16,59 @@
 		"hurryCostModifier": 20
 	},
 	{
+		"name": "Evangelist",
+		"unitType": "Ranged",
+		"uniqueTo": "Papal Inquisition",
+		"movement": 2,
+		"range": 3,
+		"strength": 20,
+		"rangedStrength": 20,
+		"cost": 50,
+		"uniques": [
+			"[+1] additional attacks per turn"
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Chaplain",
+		"unitType": "Melee",
+		"uniqueTo": "Papal Inquisition",
+		"movement": 2,
+		"strength": 25,
+		"cost": 60,
+		"uniques": [
+			"All adjacent units heal [+5] HP when healing",
+			"[+10] HP when healing"
+		]
+		"attackSound": "shot"
+	},
+	{
 		"name": "Exorcist",
 		"unitType": "Melee",
 		"uniqueTo": "Papal Inquisition",
 		"movement": 2,
-        "range": 1,
-		"strength": 27,
-		"rangedStrength": 27,
-		"cost": 55,
+		"strength": 20,
+		"cost": 60,
 		"uniques": [
+			"Can carry [4] [Missile] units"
 		]
 		"attackSound": "shot"
+	},
+	{
+		"name": "Holy Scripture",
+		"unitType": "Missile",
+		"uniqueTo": "Papal Inquisition",
+		"movement": 1,
+		"strength": 15,
+		"rangedStrength": 15,
+		"range": 8,
+		"cost": 30,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": [
+			"[-100]% maintenance costs",
+			"[+10] Strength <vs [Vampiric]>"
+		],
+		"attackSound": "missile"
 	},
 	{
 		"name": "Roundtable Paramilitary",
@@ -46,7 +88,7 @@
 		"unitType": "Melee",
 		"uniqueTo": "British Roundtable",
 		"movement": 2,
-		"strength": 33,
+		"strength": 35,
 		"cost": 65,
 		"uniques": [
 		]
