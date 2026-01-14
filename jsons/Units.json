@@ -82,6 +82,7 @@
 		"uniques": [
 			"Unbuildable",
 			"Angelic",
+			"Armored",
 			"May Paradrop to [all] tiles up to [3] tiles away"
 		]
 		"attackSound": "shot"
@@ -110,7 +111,8 @@
 		"cost": 50,
 		"uniques": [
 			"Werebeast",
-			"[-25]% Strength <vs [Armoured]>"
+			"[+10] Strength <vs [non-[Armored]]>",
+			"[-10] Strength <vs [Armored]>"
 		]
 		"attackSound": "shot"
 	},
