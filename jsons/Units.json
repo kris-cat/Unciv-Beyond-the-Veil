@@ -20,7 +20,7 @@
 		"unitType": "Ranged",
 		"uniqueTo": "Papal Inquisition",
 		"movement": 2,
-		"range": 3,
+		"range": 1,
 		"strength": 30,
 		"rangedStrength": 15,
 		"cost": 65,
