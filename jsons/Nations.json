@@ -78,6 +78,7 @@
 		"uniques": [
 			"Earn [100]% of killed [all] unit's [Strength] as [Faith] <for [Human] units>",
 			"May buy [Angelic] units with [Faith] [in all cities]",
+			"[+5 Faith]"
         ],
 		"cities": [
 			"Vatican","Avignon","Andorra","Cologne","Mainz"
