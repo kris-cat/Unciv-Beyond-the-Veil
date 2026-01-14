@@ -76,7 +76,7 @@
     {
         "columnNumber": 4,
 		"era": "Preparation Level: 3",
-		"techCost": 100,
+		"techCost": 200,
 		"buildingCost": 50,
 		"wonderCost": 200,
 		"techs": 
@@ -98,7 +98,7 @@
     {
         "columnNumber": 5,
 		"era": "Preparation Level: 3",
-		"techCost": 150,
+		"techCost": 300,
 		"buildingCost": 75,
 		"wonderCost": 250,
 		"techs": 
