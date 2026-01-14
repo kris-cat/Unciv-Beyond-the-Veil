@@ -82,4 +82,27 @@
 		],
         "spyNames": ["Pierre","Tomas","Luis"]
     },
+	{
+		"name": "Blood Pyramid",
+		"leaderName": "WIPLeader4",
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+        "declaringWar": "Sample text.",
+		"attacked": "Sample text.",
+		"defeated": "Sample text.",
+		"introduction": "Sample text.",
+		"neutralHello": "Sample text.",
+		"hateHello": "Sample text.",
+		"tradeRequest": "Sample text.",
+		"outerColor": [255, 191, 0],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "The Masquerade",
+		"uniques": [
+        ],
+		"cities": [
+			"Vienna","Munich","Prague","Paris"
+		],
+    },
 ]
