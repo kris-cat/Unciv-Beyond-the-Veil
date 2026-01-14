@@ -123,7 +123,7 @@
 		"movement": 2,
         "range": 3,
 		"strength": 25,
-		"rangedStrength": 30,
+		"rangedStrength": 25,
 		"cost": 75,
 		"uniques": [
 			"Vampiric",
@@ -131,6 +131,45 @@
 			"Must set up to ranged attack",
 			"[+5] Strength <vs cities> <when attacking>",
 			"[+5] Strength <vs [Armored]> <when attacking>"
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Vampire Fledgling",
+		"unitType": "Melee",
+		"uniqueTo": "Blood Pyramid",
+		"movement": 2,
+		"strength": 30,
+		"cost": 75,
+		"uniques": [
+			"Vampiric",
+			"Heals [15] damage if it kills a unit"
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Vampire Sire",
+		"unitType": "Melee",
+		"uniqueTo": "Blood Pyramid",
+		"movement": 2,
+		"strength": 40,
+		"cost": 75,
+		"uniques": [
+			"Vampiric",
+			"Heals [20] damage if it kills a unit"
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Vampire Lord",
+		"unitType": "Melee",
+		"uniqueTo": "Blood Pyramid",
+		"movement": 2,
+		"strength": 50,
+		"cost": 75,
+		"uniques": [
+			"Vampiric",
+			"Heals [25] damage if it kills a unit"
 		]
 		"attackSound": "shot"
 	},
