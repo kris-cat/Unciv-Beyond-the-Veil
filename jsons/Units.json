@@ -87,21 +87,6 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Roundtable Paramilitary",
-		"unitType": "Ranged",
-		"uniqueTo": "British Roundtable",
-		"movement": 2,
-        "range": 1,
-		"strength": 27,
-		"rangedStrength": 27,
-		"cost": 50,
-		"uniques": [
-			"Human",
-			"[-30]% Strength <vs [Armoured]>"
-		]
-		"attackSound": "shot"
-	},
-	{
 		"name": "Anglican Knight",
 		"unitType": "Melee",
 		"uniqueTo": "British Roundtable",
@@ -110,8 +95,22 @@
 		"cost": 75,
 		"uniques": [
 			"Human",
-			"Armored",
-			"[+50]% maintenance costs",
+			"[+5] Strength <when defending> <when adjacent to a [Anglican Knight] unit>",
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Royal Werewolf Gunner",
+		"unitType": "Ranged",
+		"uniqueTo": "British Roundtable",
+		"movement": 2,
+        "range": 1,
+		"strength": 35,
+		"rangedStrength": 25,
+		"cost": 50,
+		"uniques": [
+			"Werebeast",
+			"[-25]% Strength <vs [Armoured]>"
 		]
 		"attackSound": "shot"
 	},
@@ -122,13 +121,14 @@
 		"movement": 2,
         "range": 3,
 		"strength": 25,
-		"rangedStrength": 25,
+		"rangedStrength": 30,
 		"cost": 75,
 		"uniques": [
 			"Vampiric",
 			"[+1] Sight",
 			"Must set up to ranged attack",
-			"[+10] Strength <vs [Armored]>"
+			"[+5] Strength <vs cities> <when attacking>",
+			"[+5] Strength <vs [Armored]> <when attacking>"
 		]
 		"attackSound": "shot"
 	},
