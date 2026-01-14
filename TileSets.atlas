@@ -46,14 +46,14 @@ TileSets/FantasyHex/Units/Exorcist
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Roundtable Paramilitary
+TileSets/FantasyHex/Units/Royal Vampire Cannoneer
   rotate: false
   xy: 244, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Royal Vampire Cannoneer
+TileSets/FantasyHex/Units/Royal Werewolf Gunner
   rotate: false
   xy: 284, 4
   size: 32, 28
