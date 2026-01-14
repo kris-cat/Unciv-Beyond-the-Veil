@@ -1,6 +1,6 @@
 
 TileSets.png
-size: 256, 64
+size: 512, 64
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -18,30 +18,44 @@ TileSets/FantasyHex/Units/Chaplain
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Evangelist
+TileSets/FantasyHex/Units/Divine Iris
   rotate: false
   xy: 84, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Exorcist
+TileSets/FantasyHex/Units/Divine Wheel
   rotate: false
   xy: 124, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Roundtable Paramilitary
+TileSets/FantasyHex/Units/Evangelist
   rotate: false
   xy: 164, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Royal Vampire Cannoneer
+TileSets/FantasyHex/Units/Exorcist
   rotate: false
   xy: 204, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Roundtable Paramilitary
+  rotate: false
+  xy: 244, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Royal Vampire Cannoneer
+  rotate: false
+  xy: 284, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
