@@ -7,6 +7,7 @@
 		"name": "American Paranormal Bureau",
 		"leaderName": "WIPLeader1",
 		"preferredVictoryType": "Domination",
+		"personality": "Average Guys",
 
 		"startIntroPart1": "Sample text.",
 		"startIntroPart2": "Sample text.",
@@ -35,6 +36,7 @@
 		"name": "British Roundtable",
 		"leaderName": "WIPLeader2",
 		"preferredVictoryType": "Domination",
+		"personality": "Average Guys",
 
 		"startIntroPart1": "Sample text.",
 		"startIntroPart2": "Sample text.",
@@ -62,6 +64,7 @@
 		"name": "Papal Inquisition",
 		"leaderName": "WIPLeader3",
 		"preferredVictoryType": "Domination",
+		"personality": "Average Guys",
 
 		"startIntroPart1": "Sample text.",
 		"startIntroPart2": "Sample text.",
@@ -89,6 +92,7 @@
 		"name": "Blood Pyramid",
 		"leaderName": "WIPLeader4",
 		"preferredVictoryType": "Domination",
+		"personality": "Average Guys",
 
 		"startIntroPart1": "Sample text.",
 		"startIntroPart2": "Sample text.",
@@ -112,6 +116,7 @@
 		"name": "Werebeast Horde",
 		"leaderName": "WIPLeader5",
 		"preferredVictoryType": "Domination",
+		"personality": "Average Guys",
 
 		"startIntroPart1": "Sample text.",
 		"startIntroPart2": "Sample text.",
