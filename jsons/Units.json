@@ -35,7 +35,7 @@
 		"unitType": "Melee",
 		"uniqueTo": "Papal Inquisition",
 		"movement": 2,
-		"strength": 25,
+		"strength": 20,
 		"cost": 65,
 		"uniques": [
 			"Human",
