@@ -110,7 +110,7 @@
     },
 	{
 		"name": "Werebeast Horde",
-		"leaderName": "WIPLeader4",
+		"leaderName": "WIPLeader5",
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "Sample text.",
@@ -122,8 +122,8 @@
 		"neutralHello": "Sample text.",
 		"hateHello": "Sample text.",
 		"tradeRequest": "Sample text.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [141, 40, 30],
+		"outerColor": [155, 185, 200],
+		"innerColor": [100, 90, 90],
 		"uniqueName": "Call of Luna",
 		"uniques": [
 			"[50]% to Flank Attack bonuses",
