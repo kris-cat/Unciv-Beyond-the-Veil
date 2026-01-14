@@ -73,6 +73,20 @@
 		"attackSound": "missile"
 	},
 	{
+		"name": "Divine Wheel",
+		"unitType": "Melee",
+		"uniqueTo": "Papal Inquisition",
+		"movement": 3,
+		"strength": 35,
+		"cost": 65,
+		"uniques": [
+			"Unbuildable",
+			"Angelic",
+			"May Paradrop to [all] tiles up to [3] tiles away"
+		]
+		"attackSound": "shot"
+	},
+	{
 		"name": "Roundtable Paramilitary",
 		"unitType": "Ranged",
 		"uniqueTo": "British Roundtable",
