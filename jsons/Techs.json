@@ -104,7 +104,7 @@
 		"techs": 
         [
             {
-                "name": "Breakthrough 2",
+                "name": "Breakthrough 3",
                 "prerequisites": ["Advancement 5","Advancement 6"],
 				"row": 3,
 				"uniques": []
