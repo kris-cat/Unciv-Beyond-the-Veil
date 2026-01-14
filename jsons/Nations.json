@@ -99,8 +99,8 @@
 		"neutralHello": "Sample text.",
 		"hateHello": "Sample text.",
 		"tradeRequest": "Sample text.",
-		"outerColor": [255, 191, 0],
-		"innerColor": [255, 255, 255],
+		"outerColor": [0, 0, 0],
+		"innerColor": [141, 40, 30],
 		"uniqueName": "The Masquerade",
 		"uniques": [
         ],
