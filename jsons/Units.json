@@ -25,7 +25,7 @@
 		"rangedStrength": 15,
 		"cost": 65,
 		"uniques": [
-			"Earn [50]% of killed [all] unit's [Cost] as [Faith]",
+			"Human",
 			"[+1] additional attacks per turn"
 		]
 		"attackSound": "shot"
@@ -38,7 +38,7 @@
 		"strength": 25,
 		"cost": 65,
 		"uniques": [
-			"Earn [50]% of killed [all] unit's [Cost] as [Faith]",
+			"Human",
 			"All adjacent units heal [+10] HP when healing",
 			"[+10] HP when healing"
 		]
@@ -52,7 +52,7 @@
 		"strength": 25,
 		"cost": 65,
 		"uniques": [
-			"Earn [50]% of killed [all] unit's [Cost] as [Faith]",
+			"Human",
 			"Can carry [3] [Missile] units"
 		]
 		"attackSound": "shot"
@@ -82,6 +82,7 @@
 		"rangedStrength": 27,
 		"cost": 50,
 		"uniques": [
+			"Human",
 			"[-30]% Strength <vs [Armoured]>"
 		]
 		"attackSound": "shot"
