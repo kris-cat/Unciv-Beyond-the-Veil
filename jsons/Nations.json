@@ -108,7 +108,8 @@
 		"innerColor": [141, 40, 30],
 		"uniqueName": "The Masquerade",
 		"uniques": [
-			"Provides [3] [Vampire Capacity]"
+			"Provides [3] [Vampire Capacity]",
+			"Instantly gain [1000] [Blood Stockpile]"
         ],
 		"cities": [
 			"Vienna","Munich","Prague","Paris"
