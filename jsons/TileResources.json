@@ -1,27 +1,37 @@
 [
     //Faction resources
-    {
-		"name": "Tier 1 Vampire Capacity",
+	{
+		"name": "Vampire Capacity",
 		"resourceType": "Strategic",
 		"uniques": [
             "Cannot be traded",
             "Doesn't generate naturally",
             "Not shown on world screen <for [non-[Blood Pyramid]] Civilizations>",
-            "Provides [1] [Tier 2 Vampire Capacity] <for every [3] [Tier 1 Vampire Capacity]>"
+            "Provides [1] [Possible Tier 1 Vampires] <for every [1] [Vampire Capacity]>"
         ]
 	},
     {
-		"name": "Tier 2 Vampire Capacity",
+		"name": "Possible Tier 1 Vampires",
 		"resourceType": "Strategic",
 		"uniques": [
             "Cannot be traded",
             "Doesn't generate naturally",
             "Not shown on world screen <for [non-[Blood Pyramid]] Civilizations>",
-            "Provides [1] [Tier 3 Vampire Capacity] <for every [3] [Tier 2 Vampire Capacity]>"
+            "Provides [1] [Possible Tier 2 Vampires] <for every [3] [Possible Tier 1 Vampires]>"
         ]
 	},
     {
-		"name": "Tier 3 Vampire Capacity",
+		"name": "Possible Tier 2 Vampires",
+		"resourceType": "Strategic",
+		"uniques": [
+            "Cannot be traded",
+            "Doesn't generate naturally",
+            "Not shown on world screen <for [non-[Blood Pyramid]] Civilizations>",
+            "Provides [1] [Possible Tier 3 Vampires] <for every [3] [Possible Tier 2 Vampires]>"
+        ]
+	},
+    {
+		"name": "Possible Tier 3 Vampires",
 		"resourceType": "Strategic",
 		"uniques": [
             "Cannot be traded",
