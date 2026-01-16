@@ -22,6 +22,7 @@
         "innerColor": [0,0,0],
 		"uniqueName": "Out Of Sight, Out Of Mind",
 		"uniques": [
+			
         ],
 		"cities": [
             "Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
@@ -51,6 +52,7 @@
 		"innerColor": [255, 255, 255],
 		"uniqueName": "Her Majesty's Finest",
 		"uniques": [
+			
         ],
 		"cities": [
 			"London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
@@ -81,7 +83,6 @@
 		"uniques": [
 			"Earn [100]% of killed [all] unit's [Strength] as [Faith] <for [Human] units>",
 			"May buy [Angelic] units with [Faith] [in all cities]",
-			"[+5 Faith]"
         ],
 		"cities": [
 			"Vatican","Avignon","Andorra","Cologne","Mainz"
@@ -107,6 +108,7 @@
 		"innerColor": [141, 40, 30],
 		"uniqueName": "The Masquerade",
 		"uniques": [
+			
         ],
 		"cities": [
 			"Vienna","Munich","Prague","Paris"
@@ -131,7 +133,7 @@
 		"innerColor": [100, 90, 90],
 		"uniqueName": "Call of Luna",
 		"uniques": [
-			"[50]% to Flank Attack bonuses",
+			"[100]% to Flank Attack bonuses",
 			"[-10]% Strength",
 			"[20]% Strength <when adjacent to a [Friendly] unit>",
         ],
