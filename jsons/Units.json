@@ -144,7 +144,7 @@
 		"uniques": [
 			"Vampiric",
 			"Heals [15] damage if it kills a unit",
-			"[This Unit] takes [25] damage <when below [-100] [Stockpiled Blood]>",
+			"[This Unit] takes [25] damage <when below [-100] [Blood Stockpile]>",
 			"Consumes [2] [Blood Stockpile]"
 		]
 		"attackSound": "shot"
@@ -159,7 +159,7 @@
 		"uniques": [
 			"Vampiric",
 			"Heals [20] damage if it kills a unit",
-			"[This Unit] takes [25] damage <when below [-100] [Stockpiled Blood]>",
+			"[This Unit] takes [25] damage <when below [-100] [Blood Stockpile]>",
 			"Consumes [3] [Blood Stockpile]"
 		]
 		"attackSound": "shot"
@@ -174,7 +174,7 @@
 		"uniques": [
 			"Vampiric",
 			"Heals [25] damage if it kills a unit",
-			"[This Unit] takes [25] damage <when below [-100] [Stockpiled Blood]>",
+			"[This Unit] takes [25] damage <when below [-100] [Blood Stockpile]>",
 			"Consumes [4] [Blood Stockpile]"
 		]
 		"attackSound": "shot"
