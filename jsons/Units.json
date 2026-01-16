@@ -143,7 +143,8 @@
 		"cost": 75,
 		"uniques": [
 			"Vampiric",
-			"Heals [15] damage if it kills a unit"
+			"Heals [15] damage if it kills a unit",
+			"[This Unit] takes [25] damage <when below [-100] [Stockpiled Blood]>"
 		]
 		"attackSound": "shot"
 	},
@@ -156,7 +157,8 @@
 		"cost": 75,
 		"uniques": [
 			"Vampiric",
-			"Heals [20] damage if it kills a unit"
+			"Heals [20] damage if it kills a unit",
+			"[This Unit] takes [25] damage <when below [-100] [Stockpiled Blood]>"
 		]
 		"attackSound": "shot"
 	},
@@ -169,7 +171,8 @@
 		"cost": 75,
 		"uniques": [
 			"Vampiric",
-			"Heals [25] damage if it kills a unit"
+			"Heals [25] damage if it kills a unit",
+			"[This Unit] takes [25] damage <when below [-100] [Stockpiled Blood]>"
 		]
 		"attackSound": "shot"
 	},
