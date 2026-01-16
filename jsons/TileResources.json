@@ -1,6 +1,16 @@
 [
     //Faction resources
 	{
+		"name": "Blood Stockpile",
+		"resourceType": "Strategic",
+		"uniques": [
+            "Cannot be traded",
+            "Doesn't generate naturally",
+            "Not shown on world screen <for [non-[Blood Pyramid]] Civilizations>",
+			"Stockpiled"
+        ]
+	},
+	{
 		"name": "Vampire Capacity",
 		"resourceType": "Strategic",
 		"uniques": [
