@@ -145,7 +145,6 @@
 			"Vampiric",
 			"Heals [15] damage if it kills a unit",
 			"[This Unit] takes [25] damage <when below [0] [Blood Stockpile]> <every [1] turns>",
-			"Consumes [2] [Blood]"
 		]
 		"attackSound": "shot"
 	},
@@ -160,7 +159,6 @@
 			"Vampiric",
 			"Heals [20] damage if it kills a unit",
 			"[This Unit] takes [25] damage <when below [0] [Blood Stockpile]> <every [1] turns>",
-			"Consumes [3] [Blood]"
 		]
 		"attackSound": "shot"
 	},
@@ -175,7 +173,6 @@
 			"Vampiric",
 			"Heals [25] damage if it kills a unit",
 			"[This Unit] takes [25] damage <when below [0] [Blood Stockpile]> <every [1] turns>",
-			"Consumes [4] [Blood]"
 		]
 		"attackSound": "shot"
 	},
