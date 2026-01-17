@@ -4,11 +4,11 @@
         "movementType": "Land"
     },
     {
-        "name": "Melee Infantry",
+        "name": "Infantry",
         "movementType": "Land"
     },
     {
-        "name": "Ranged Infantry",
+        "name": "Vampire",
         "movementType": "Land"
     }
     {
