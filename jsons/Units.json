@@ -17,7 +17,7 @@
 	},
 	{
 		"name": "Evangelist",
-		"unitType": "Ranged Infantry",
+		"unitType": "Infantry",
 		"uniqueTo": "Papal Inquisition",
 		"movement": 2,
 		"range": 1,
@@ -32,7 +32,7 @@
 	},
 	{
 		"name": "Chaplain",
-		"unitType": "Melee Infantry",
+		"unitType": "Infantry",
 		"uniqueTo": "Papal Inquisition",
 		"movement": 2,
 		"strength": 20,
@@ -46,7 +46,7 @@
 	},
 	{
 		"name": "Exorcist",
-		"unitType": "Melee Infantry",
+		"unitType": "Infantry",
 		"uniqueTo": "Papal Inquisition",
 		"movement": 2,
 		"strength": 25,
@@ -74,7 +74,7 @@
 	},
 	{
 		"name": "Divine Wheel",
-		"unitType": "Melee Infantry",
+		"unitType": "Infantry",
 		"uniqueTo": "Papal Inquisition",
 		"movement": 3,
 		"strength": 35,
@@ -89,7 +89,7 @@
 	},
 	{
 		"name": "Anglican Knight",
-		"unitType": "Melee Infantry",
+		"unitType": "Infantry",
 		"uniqueTo": "British Roundtable",
 		"movement": 2,
 		"strength": 35,
@@ -102,7 +102,7 @@
 	},
 	{
 		"name": "Royal Werewolf Gunner",
-		"unitType": "Ranged Infantry",
+		"unitType": "Infantry",
 		"uniqueTo": "British Roundtable",
 		"movement": 2,
         "range": 1,
@@ -118,7 +118,7 @@
 	},
 	{
 		"name": "Royal Vampire Cannoneer",
-		"unitType": "Ranged Infantry",
+		"unitType": "Infantry",
 		"uniqueTo": "British Roundtable",
 		"movement": 2,
         "range": 3,
@@ -136,7 +136,7 @@
 	},
 	{
 		"name": "Vampire Fledgling",
-		"unitType": "Melee Infantry",
+		"unitType": "Vampiric",
 		"uniqueTo": "Blood Pyramid",
 		"movement": 2,
 		"strength": 30,
@@ -151,7 +151,7 @@
 	},
 	{
 		"name": "Vampire Sire",
-		"unitType": "Melee Infantry",
+		"unitType": "Vampiric",
 		"uniqueTo": "Blood Pyramid",
 		"movement": 2,
 		"strength": 40,
@@ -166,7 +166,7 @@
 	},
 	{
 		"name": "Vampire Lord",
-		"unitType": "Melee Infantry",
+		"unitType": "Vampiric",
 		"uniqueTo": "Blood Pyramid",
 		"movement": 2,
 		"strength": 50,
