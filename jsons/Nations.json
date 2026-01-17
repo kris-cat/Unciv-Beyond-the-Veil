@@ -106,9 +106,15 @@
 		"tradeRequest": "Sample text.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [141, 40, 30],
-		"uniqueName": "The Masquerade",
+		"uniqueName": "Blood Pyramid Faction Features:",
 		"uniques": [
-			"Provides [3] [Vampire Capacity]"
+			"Provides [1] [Vampire Capacity] <for every [Cities]> <hidden from users>",
+			"Provides [3] [Blood Stockpile] <for every [Cities]> <hidden from users>",
+			"Comment [Masquerade: Cities can only sustain a fixed number of Vampires. Gain Vampire Capacity from buildings and every owned city.]",
+			"Comment [Bloodlines: Each Vampire is bound to their sire, and that sire to another. But all are bound to their blood. Each Vampire unit chooses a free Bloodline promotion, each with unique bonuses.]",
+			"Comment [Pyramid: With increasing Vampire Capacity, you gain access to more powerful Vampire units. All subjects need a lord, but when there's too many lords, they too become subjects.]",
+			"Comment [Feast: Gain access to increasingly more powerful Vampire units, the more Vampire Capacity you have.]",
+			"Comment [Servitude: Recruit and create armies of ghouls - mind-manipulated slaves, bound by Vampire blood.]",
         ],
 		"cities": [
 			"Vienna","Munich","Prague","Paris"
