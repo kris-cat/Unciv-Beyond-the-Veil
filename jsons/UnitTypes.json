@@ -4,11 +4,11 @@
         "movementType": "Land"
     },
     {
-        "name": "Melee",
+        "name": "Melee Infantry",
         "movementType": "Land"
     },
     {
-        "name": "Ranged",
+        "name": "Ranged Infantry",
         "movementType": "Land"
     }
     {
