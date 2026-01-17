@@ -126,7 +126,6 @@
 		"rangedStrength": 25,
 		"cost": 75,
 		"uniques": [
-			"Vampiric",
 			"[+1] Sight",
 			"Must set up to ranged attack",
 			"[+5] Strength <vs cities> <when attacking>",
@@ -142,7 +141,6 @@
 		"strength": 30,
 		"cost": 75,
 		"uniques": [
-			"Vampiric",
 			"Heals [15] damage if it kills a unit",
 			"[This Unit] takes [25] damage <when below [0] [Blood Stockpile]> <every [1] turns>",
 		]
@@ -156,7 +154,6 @@
 		"strength": 40,
 		"cost": 75,
 		"uniques": [
-			"Vampiric",
 			"Heals [20] damage if it kills a unit",
 			"[This Unit] takes [25] damage <when below [0] [Blood Stockpile]> <every [1] turns>",
 		]
@@ -170,7 +167,6 @@
 		"strength": 50,
 		"cost": 75,
 		"uniques": [
-			"Vampiric",
 			"Heals [25] damage if it kills a unit",
 			"[This Unit] takes [25] damage <when below [0] [Blood Stockpile]> <every [1] turns>",
 		]
