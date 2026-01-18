@@ -142,7 +142,6 @@
 		"cost": 75,
 		"uniques": [
 			"Heals [15] damage if it kills a unit",
-			"[This Unit] takes [25] damage <when below [0] [Blood Stockpile]> <every [1] turns>",
 		]
 		"attackSound": "shot"
 	},
@@ -151,11 +150,10 @@
 		"unitType": "Vampiric",
 		"uniqueTo": "Blood Pyramid",
 		"movement": 2,
-		"strength": 40,
+		"strength": 50,
 		"cost": 75,
 		"uniques": [
 			"Heals [20] damage if it kills a unit",
-			"[This Unit] takes [25] damage <when below [0] [Blood Stockpile]> <every [1] turns>",
 		]
 		"attackSound": "shot"
 	},
@@ -164,11 +162,10 @@
 		"unitType": "Vampiric",
 		"uniqueTo": "Blood Pyramid",
 		"movement": 2,
-		"strength": 50,
+		"strength": 70,
 		"cost": 75,
 		"uniques": [
 			"Heals [25] damage if it kills a unit",
-			"[This Unit] takes [25] damage <when below [0] [Blood Stockpile]> <every [1] turns>",
 		]
 		"attackSound": "shot"
 	},
