@@ -141,7 +141,7 @@
 		"strength": 30,
 		"cost": 75,
 		"uniques": [
-			"Consumes [1] [Vampire Population]",
+			"Consumes [1] [Available Tier 1 Vampires]",
 			"Heals [15] damage if it kills a unit",
 		]
 		"upgradesTo": "Vampire Sire",
@@ -155,7 +155,6 @@
 		"strength": 50,
 		"cost": 75,
 		"uniques": [
-			"Consumes [1] [Vampire Population]",
 			"Consumes [1] [Available Tier 2 Vampires]",
 			"Heals [20] damage if it kills a unit",
 		]
@@ -170,7 +169,6 @@
 		"strength": 70,
 		"cost": 75,
 		"uniques": [
-			"Consumes [1] [Vampire Population]",
 			"Consumes [1] [Available Tier 3 Vampires]",
 			"Heals [25] damage if it kills a unit",
 		]
