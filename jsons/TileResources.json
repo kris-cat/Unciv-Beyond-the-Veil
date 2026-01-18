@@ -9,7 +9,9 @@
             "Not shown on world screen <for [non-[Blood Pyramid]] Civilizations>",
             "Provides [1] [Available Tier 1 Vampires] <for every [1] [Vampire Population]>",
 			"Provides [1] [Available Tier 2 Vampires] <for every [3] [Vampire Population]>",
-			"Provides [1] [Available Tier 3 Vampires] <for every [9] [Vampire Population]>"
+			"Provides [-1] [Available Tier 1 Vampires] <for every [3] [Vampire Population]>",
+			"Provides [1] [Available Tier 3 Vampires] <for every [9] [Vampire Population]>",
+			"Provides [-1] [Available Tier 2 Vampires] <for every [9] [Vampire Population]>",
         ]
 	},
 	{
