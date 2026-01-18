@@ -144,6 +144,7 @@
 			"Consumes [1] [Vampire Population]",
 			"Heals [15] damage if it kills a unit",
 		]
+		"upgradesTo": "Vampire Sire",
 		"attackSound": "shot"
 	},
 	{
@@ -158,6 +159,7 @@
 			"Consumes [1] [Available Tier 2 Vampires]",
 			"Heals [20] damage if it kills a unit",
 		]
+		"upgradesTo": "Vampire Lord",
 		"attackSound": "shot"
 	},
 	{
