@@ -7,7 +7,17 @@
             "Cannot be traded",
             "Doesn't generate naturally",
             "Not shown on world screen <for [non-[Blood Pyramid]] Civilizations>",
-            "Provides [1] [Available Tier 2 Vampires] <for every [3] [Vampire Population]>"
+            "Provides [1] [Available Tier 1 Vampires] <for every [1] [Vampire Population]>"
+        ]
+	},
+	{
+		"name": "Available Tier 1 Vampires",
+		"resourceType": "Strategic",
+		"uniques": [
+            "Cannot be traded",
+            "Doesn't generate naturally",
+            "Not shown on world screen <for [non-[Blood Pyramid]] Civilizations>",
+            "Provides [1] [Available Tier 2 Vampires] <for every [3] [Available Tier 1 Vampires]>"
         ]
 	},
     {
