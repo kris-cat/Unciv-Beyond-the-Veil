@@ -1,7 +1,9 @@
 [
+	//Blood Pyramid Buildings
     {
 		"name": "Feeding Grounds",
 		"uniqueTo": "Blood Pyramid",
+		"buildingCost": 100,
 		"hurryCostModifier": 25,
         "food": 3,
         "maintenance": 1,
@@ -12,6 +14,7 @@
     {
 		"name": "Organ Trading Ring",
 		"uniqueTo": "Blood Pyramid",
+		"buildingCost": 125,
 		"hurryCostModifier": 25,
         "gold": 2,
 		"uniques": [
@@ -22,6 +25,7 @@
     {
 		"name": "Underground Tunnels",
 		"uniqueTo": "Blood Pyramid",
+		"buildingCost": 125,
 		"hurryCostModifier": 25,
         "production": 3,
         "cityStrength": 5,
@@ -34,6 +38,7 @@
     {
 		"name": "Infiltrated Night Clubs",
 		"uniqueTo": "Blood Pyramid",
+		"buildingCost": 150,
 		"hurryCostModifier": 25,
         "gold": 2,
         "happiness": 4,
@@ -44,6 +49,7 @@
     {
 		"name": "Shadow Financial District",
 		"uniqueTo": "Blood Pyramid",
+		"buildingCost": 250,
 		"hurryCostModifier": 25,
         "percentStatBonus": {"gold": 50},
 		"uniques": [
@@ -53,6 +59,7 @@
     {
 		"name": "Secret Crypts",
 		"uniqueTo": "Blood Pyramid",
+		"buildingCost": 250,
 		"hurryCostModifier": 25,
         "maintenance": 2,
 		"uniques": [
