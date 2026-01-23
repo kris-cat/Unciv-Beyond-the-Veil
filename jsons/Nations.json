@@ -50,12 +50,12 @@
 		"tradeRequest": "Sample text.",
 		"outerColor": [109, 2, 0],
 		"innerColor": [255, 255, 255],
-		"uniqueName": "Her Majesty's Finest",
+		"uniqueName": "British Roundtable Faction Features:",
 		"uniques": [
-			"Comment [Her Majesty's Finest,: ]",
-			"Comment [Anglican Order of the Lady of the Lake: ]",
-			"Comment [Van Hellsing's Army of Redeemed Supernatural: ]",
-			"Comment [British Arcane Engineering Society: ]",
+			"Comment [Her Majesty's Finest: Despite the differences, all factions of the Roundtable fight to keep the mundane reality in Great Britain. You can build Headquarters of Roundtable factions in any non-capital city. Besides providing a unique bonus and enabling production of faction-specific units, they enable construction of one-of-a-kind-unit.",
+			"Comment [Anglican Order of the Lady of the Lake: The original founders, knights of faith and servants of the Lady, they are the first wall against the paranormal. From heavily armoured swordsmen, to motorcycle riders, they are a versatile, hard-hitting force.]",
+			"Comment [Van Hellsing's Army of Supernatural: Not all supernatural want to fight against the mundane, some want to live among us in secret. We will let them. But more importantly, some are willing to fight for our cause. Recruit Vampires, Werewolves and more, fighting in Britain's name.]",
+			"Comment [British Arcane Engineering Society: The age of magic as mystic art has passed. It is now the age of engineered magic. Employ Arcane Engineers to build mind-defying weapons and inventions, fusion of rational and irrational. Tesla Coils, Massive Airships, and more at your fingertips]",
         ],
 		"cities": [
 			"London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
