@@ -82,10 +82,14 @@
 		"tradeRequest": "Sample text.",
 		"outerColor": [255, 191, 0],
 		"innerColor": [255, 255, 255],
-		"uniqueName": "In God's Name",
+		"uniqueName": "Papal Inquisition Faction Features:",
 		"uniques": [
-			"Earn [100]% of killed [all] unit's [Strength] as [Faith] <for [Human] units>",
-			"May buy [Angelic] units with [Faith] [in all cities]",
+			"Earn [100]% of killed [all] unit's [Strength] as [Faith] <for [Human] units> <hidden from users>",
+			"May buy [Angelic] units with [Faith] [in all cities] <hidden from users>",
+			"Comment [In God's Name: Employ powerful infantry, that gain faith equivelant to enemy strength.]",
+			"Comment [Working Miracles: All non-Angelic units have a chance to become a Living Saint unit upon death.]",
+			"Comment [Guardian Angels: Purchase powerful Angelic units using faith.]",
+			"Comment [The Word of the Almighty: Weaponise word of God with blessed, explosive and homing pages of the Bible.]",
         ],
 		"cities": [
 			"Vatican","Avignon","Andorra","Cologne","Mainz"
