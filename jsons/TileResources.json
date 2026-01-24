@@ -41,4 +41,29 @@
             "Not shown on world screen <for [non-[Blood Pyramid]] Civilizations>",
         ]
 	},
+	//Map Resources
+	{
+		"name": "Materiel",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"uniques": [
+			
+        ]
+	},
+	{
+		"name": "Munitions",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"uniques": [
+			
+        ]
+	},
+	{
+		"name": "Ley Lines",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"uniques": [
+			
+        ]
+	},
 ]
