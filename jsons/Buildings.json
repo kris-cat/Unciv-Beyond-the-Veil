@@ -95,6 +95,7 @@
 		"cost": 0,
 		"uniques": [
 			"Indicates the capital city",
+			"Roundtable Faction Building"
 		]
 	},
 	{
@@ -108,7 +109,8 @@
 		"cityStrength": 2.5,
 		"cost": 500,
 		"uniques": [
-			"Unbuildable <if [National Wonder] is constructed>"
+			"Roundtable Faction Building",
+			"Unavailable <if [Roundtable Faction Building] is constructed>"
 		]
 	},
 	{
@@ -122,7 +124,8 @@
 		"cityStrength": 2.5,
 		"cost": 500,
 		"uniques": [
-			"Unbuildable <if [National Wonder] is constructed>"
+			"Roundtable Faction Building",
+			"Unavailable <if [Roundtable Faction Building] is constructed>"
 		]
 	},
 	{
@@ -136,7 +139,8 @@
 		"cityStrength": 2.5,
 		"cost": 500,
 		"uniques": [
-			"Unbuildable <if [National Wonder] is constructed>"
+			"Roundtable Faction Building",
+			"Unavailable <if [Roundtable Faction Building] is constructed>"
 		]
 	},
 ]
