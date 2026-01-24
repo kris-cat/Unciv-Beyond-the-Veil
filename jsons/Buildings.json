@@ -1,5 +1,20 @@
 [
 	//Blood Pyramid Buildings
+	{
+		"name": "Blood Palace",
+		"uniqueTo": "Blood Pyramid",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2.5,
+		"cost": 0,
+		"uniques": [
+			"Indicates the capital city",
+			"Provides [1] [Vampire Population]"
+		]
+	},
     {
 		"name": "Feeding Grounds",
 		"uniqueTo": "Blood Pyramid",
@@ -66,5 +81,62 @@
             "Destroyed when the city is captured",
             "Provides [1] [Vampire Population]"
         ]
+	},
+	//British Roundtable Buildings
+	{
+		"name": "Roundtable Main Base",
+		"uniqueTo": "British Roundtable",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2.5,
+		"cost": 0,
+		"uniques": [
+			"Indicates the capital city",
+		]
+	},
+	{
+		"name": "Castle of the Anglican Order",
+		"uniqueTo": "British Roundtable",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2.5,
+		"cost": 500,
+		"uniques": [
+			"Unbuildable <if [National Wonder] is constructed>"
+		]
+	},
+	{
+		"name": "Arcane Engineering University",
+		"uniqueTo": "British Roundtable",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2.5,
+		"cost": 500,
+		"uniques": [
+			"Unbuildable <if [National Wonder] is constructed>"
+		]
+	},
+	{
+		"name": "Van Hellsing's Manor",
+		"uniqueTo": "British Roundtable",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2.5,
+		"cost": 500,
+		"uniques": [
+			"Unbuildable <if [National Wonder] is constructed>"
+		]
 	},
 ]
