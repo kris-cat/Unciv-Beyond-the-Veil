@@ -88,6 +88,18 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Roundtable Paramilitary",
+		"unitType": "Infantry",
+		"uniqueTo": "British Roundtable",
+		"movement": 2,
+		"strength": 30,
+		"cost": 40,
+		"uniques": [
+			"Human",
+		]
+		"attackSound": "shot"
+	},
+	{
 		"name": "Anglican Knight",
 		"unitType": "Infantry",
 		"uniqueTo": "British Roundtable",
