@@ -43,7 +43,7 @@
 	},
 	//Map Resources
 	{
-		"name": "Materiel",
+		"name": "Military Materiel",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"uniques": [
@@ -51,17 +51,7 @@
         ]
 		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 6},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
-	},
-	{
-		"name": "Munitions",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Grassland"],
-		"uniques": [
-			
-        ]
-		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 6},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
-	},
+	},,
 	{
 		"name": "Ley Lines",
 		"resourceType": "Strategic",
