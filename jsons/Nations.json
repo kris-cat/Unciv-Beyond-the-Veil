@@ -52,10 +52,10 @@
 		"innerColor": [255, 255, 255],
 		"uniqueName": "British Roundtable Faction Features",
 		"uniques": [
-			"Comment [Her Majesty's Finest: Despite the differences, all factions of the Roundtable fight to keep the mundane reality in Great Britain. You can build Headquarters of Roundtable factions in any non-capital city. Besides providing a unique bonus and enabling production of faction-specific units, they enable construction of one-of-a-kind-unit.]",
-			"Comment [Anglican Order of the Lady of the Lake: The original founders, knights of faith and servants of the Lady, they are the first wall against the paranormal. From heavily armoured swordsmen, to motorcycle riders, they are a versatile, hard-hitting force.]",
-			"Comment [Van Hellsing's Army of Supernatural: Not all supernatural want to fight against the mundane, some want to live among us in secret. We will let them. But more importantly, some are willing to fight for our cause. Recruit Vampires, Werewolves and more, fighting in Britain's name.]",
-			"Comment [British Arcane Engineering Society: The age of magic as mystic art has passed. It is now the age of engineered magic. Employ Arcane Engineers to build mind-defying weapons and inventions, fusion of rational and irrational. Tesla Coils, Massive Airships, and more at your fingertips.]",
+			"Comment [Britain's Finest: Build a unique sub-faction specific national wonder, with special bonuses, and ability to produce one-of-a-kind units.]",
+			"Comment [Anglican Order of the Lady Nimue: Employ versatile, hard-hitting infantry and reconaissance units.]",
+			"Comment [Van Helsing's Army of Supernatural: Use specialised, supernatural units that are royal to the Crown. From werewolves, to vampires and dragons.]",
+			"Comment [British Arcane Engineering Society: Construct machines fueled using sorcery, such as steampunk airships and tesla coils.]",
         ],
 		"cities": [
 			"London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
@@ -82,7 +82,7 @@
 		"tradeRequest": "Sample text.",
 		"outerColor": [255, 191, 0],
 		"innerColor": [255, 255, 255],
-		"uniqueName": "Papal Inquisition Faction Features:",
+		"uniqueName": "Papal Inquisition Faction Features",
 		"uniques": [
 			"Earn [100]% of killed [all] unit's [Strength] as [Faith] <for [Human] units> <hidden from users>",
 			"May buy [Angelic] units with [Faith] [in all cities] <hidden from users>",
@@ -113,7 +113,7 @@
 		"tradeRequest": "Sample text.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [141, 40, 30],
-		"uniqueName": "Blood Pyramid Faction Features:",
+		"uniqueName": "Blood Pyramid Faction Features",
 		"uniques": [
 			"Provides [1] [Vampire Population] <for every [Cities]> <hidden from users>",
 			"Comment [Rules of the Masquerade: Cities can only sustain a fixed number of Vampires. Gain Vampire Population from buildings and every owned city.]",
@@ -142,11 +142,11 @@
 		"tradeRequest": "Sample text.",
 		"outerColor": [155, 185, 200],
 		"innerColor": [100, 90, 90],
-		"uniqueName": "Call of Luna",
+		"uniqueName": "Werebeast Horde Faction Features",
 		"uniques": [
-			"[100]% to Flank Attack bonuses",
-			"[-10]% Strength",
-			"[20]% Strength <when adjacent to a [Friendly] unit>",
+			"[100]% to Flank Attack bonuses <hidden from users>",
+			"[-10]% Strength <hidden from users>",
+			"[20]% Strength <when adjacent to a [Friendly] unit> <hidden from users>",
         ],
 		"cities": [
 			"Luna's Shadow","Silver Fangs","Stargazers","Loki's Den","Arachne's Grove",
