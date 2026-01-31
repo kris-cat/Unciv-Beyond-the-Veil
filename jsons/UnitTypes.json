@@ -10,7 +10,15 @@
     {
         "name": "Vampiric",
         "movementType": "Land"
-    }
+    },
+    {
+        "name": "Mage",
+        "movementType": "Land"
+    },
+    {
+        "name": "Chaos Mage",
+        "movementType": "Land"
+    },
     {
         "name": "Fighter",
         "movementType": "Air",
