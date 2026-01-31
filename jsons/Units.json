@@ -186,4 +186,19 @@
 		]
 		"attackSound": "shot"
 	},
+	//  Independents units
+	{
+		"name": "Chaos Mage",
+		"unitType": "Chaos Magic",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"range": 2,
+		"strength": 20,
+		"rangedStrength": 40,
+		"cost": 75,
+		"uniques": [
+			
+		]
+		"attackSound": "shot"
+	},
 ]
