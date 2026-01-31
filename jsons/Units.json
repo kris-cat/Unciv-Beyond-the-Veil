@@ -186,6 +186,31 @@
 		]
 		"attackSound": "shot"
 	},
+	{
+		"name": "Ghoul Soldier",
+		"unitType": "Infantry",
+		"uniqueTo": "Blood Pyramid",
+		"movement": 2,
+		"strength": 20,
+		"cost": 40,
+		"uniques": [
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Ghoulified Rats",
+		"unitType": "Infantry",
+		"uniqueTo": "Blood Pyramid",
+		"movement": 2,
+		"strength": 20,
+		"cost": 40,
+		"uniques": [
+			"[+1] Sight",
+			"No movement cost to pillage",
+			"Ignores terrain cost"
+		]
+		"attackSound": "shot"
+	},
 	//  Independents units
 	{
 		"name": "Chaos Mage",
