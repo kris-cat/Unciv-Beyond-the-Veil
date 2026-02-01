@@ -15,6 +15,7 @@
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
+	// Papal Inquisition
 	{
 		"name": "Evangelist",
 		"unitType": "Infantry",
@@ -26,7 +27,8 @@
 		"cost": 65,
 		"uniques": [
 			"Human",
-			"[+1] additional attacks per turn"
+			"[+1] additional attacks per turn",
+			"Free [Living Saint] appears <upon being defeated> <with [5]% chance>"
 		]
 		"attackSound": "shot"
 	},
@@ -40,7 +42,8 @@
 		"uniques": [
 			"Human",
 			"All adjacent units heal [+10] HP when healing",
-			"[+10] HP when healing"
+			"[+10] HP when healing",
+			"Free [Living Saint] appears <upon being defeated> <with [5]% chance>"
 		]
 		"attackSound": "shot"
 	},
@@ -53,7 +56,8 @@
 		"cost": 65,
 		"uniques": [
 			"Human",
-			"Can carry [3] [Missile] units"
+			"Can carry [3] [Missile] units",
+			"Free [Living Saint] appears <upon being defeated> <with [5]% chance>"
 		]
 		"attackSound": "shot"
 	},
@@ -87,6 +91,22 @@
 		]
 		"attackSound": "shot"
 	},
+	{
+		"name": "Living Saint",
+		"unitType": "Infantry",
+		"uniqueTo": "Papal Inquisition",
+		"movement": 2,
+		"strength": 35,
+		"cost": 65,
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Angelic",
+			"May Paradrop to [all] tiles up to [3] tiles away"
+		]
+		"attackSound": "shot"
+	},
+	// British Roundtable
 	{
 		"name": "Roundtable Paramilitary",
 		"unitType": "Infantry",
