@@ -94,8 +94,8 @@
 		"cityStrength": 2.5,
 		"cost": 0,
 		"uniques": [
+			"Faction Building",
 			"Indicates the capital city",
-			"Roundtable Faction Building"
 		]
 	},
 	{
@@ -109,24 +109,10 @@
 		"cityStrength": 2.5,
 		"cost": 500,
 		"uniques": [
-			
-			"Unavailable <if [Roundtable Faction Building] is constructed>",
-			"Unavailable <if [Roundtable Faction Building] is constructed>",
+			"Faction Building",
+			"Unavailable <if [Faction Building] is constructed>",
 			"Gain a free [Arturian Keep] [in this city]"
 		]
-	},
-	{
-		"name": "Arturian Keep",
-		"uniqueTo": "British Roundtable",
-		"cost": 250,
-		"hurryCostModifier": 25,
-        "percentStatBonus": {"gold": 50},
-		"uniques": [
-			
-			"Unavailable <if [Roundtable Faction Building] is constructed>",
-			"Unavailable <if [Roundtable Faction Building] is constructed>",
-            "Destroyed when the city is captured" 
-        ]
 	},
 	{
 		"name": "Royal Arcane University",
@@ -139,9 +125,8 @@
 		"cityStrength": 2.5,
 		"cost": 500,
 		"uniques": [
-			
-			"Unavailable <if [Roundtable Faction Building] is constructed>",
-			"Unavailable <if [Roundtable Faction Building] is constructed>",
+			"Faction Building",
+			"Unavailable <if [Faction Building] is constructed>",
 			"Gain a free [] [in this city]"
 		]
 	},
@@ -156,9 +141,8 @@
 		"cityStrength": 2.5,
 		"cost": 500,
 		"uniques": [
-			
-			"Unavailable <if [Roundtable Faction Building] is constructed>",
-			"Unavailable <if [Roundtable Faction Building] is constructed>",
+			"Faction Building",
+			"Unavailable <if [Faction Building] is constructed>",
 			"Gain a free [] [in this city]"
 		]
 	},
