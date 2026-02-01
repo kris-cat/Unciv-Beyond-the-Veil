@@ -109,7 +109,7 @@
 		"cost": 500,
 		"uniques": [
 			"Anglican Order Faction",
-			"Unavailable <if [Roundtable Main Base] is constructed",
+			"Unavailable <if [Roundtable Main Base] is constructed>",
 			"Unavailable <if [Royal Society Faction] is constructed>",
 			"Unavailable <if [Van Helsing Faction] is constructed>",
 			"Gain a free [Arturian Keep] [in this city]",
