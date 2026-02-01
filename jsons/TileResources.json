@@ -1,5 +1,6 @@
 [
     //Faction resources
+	//Blood Pyramid
 	{
 		"name": "Vampire Population",
 		"resourceType": "Strategic",
