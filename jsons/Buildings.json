@@ -109,9 +109,9 @@
 		"cost": 500,
 		"uniques": [
 			"Anglican Order Faction",
-			"Unavailable <in this city> <if [Roundtable Main Base] is constructed>",
-			"Unavailable <in this city> <if [Royal Society Faction] is constructed>",
-			"Unavailable <in this city> <if [Van Helsing Faction] is constructed>",
+			"Unavailable <in cities without a [Roundtable Main Base]>",
+			"Unavailable <in cities without a [Royal Society Faction]>",
+			"Unavailable <in cities without a [Van Helsing Faction]>",
 			"Gain a free [Arturian Keep] [in this city]",
 			"Destroyed when the city is captured",
 		]
@@ -124,8 +124,8 @@
         "maintenance": 2,
 		"uniques": [
 			"Anglican Order Faction",
-			"Unavailable <in this city> <if [Royal Society Faction] is constructed>",
-			"Unavailable <in this city> <if [Van Helsing Faction] is constructed>",
+			"Unavailable <in cities without a [Royal Society Faction]>",
+			"Unavailable <in cities without a [Van Helsing Faction]>",
             "Destroyed when the city is captured",
         ]
 	},
@@ -141,9 +141,9 @@
 		"cost": 500,
 		"uniques": [
 			"Royal Society Faction",
-			"Unavailable <in this city> <if [Roundtable Main Base] is constructed>",
-			"Unavailable <in this city> <if [Anglican Order Faction] is constructed>",
-			"Unavailable <in this city> <if [Van Helsing Faction] is constructed>",
+			"Unavailable <in cities without a [Roundtable Main Base]>",
+			"Unavailable <in cities without a [Anglican Order Faction]>",
+			"Unavailable <in cities without a [Van Helsing Faction]>",
 			"Gain a free [Royal Engineering Corps] [in this city]",
 			"Destroyed when the city is captured",
 		]
@@ -156,8 +156,8 @@
         "maintenance": 2,
 		"uniques": [
 			"Royal Society Faction",
-			"Unavailable <in this city> <if [Anglican Order Faction] is constructed>",
-			"Unavailable <in this city> <if [Van Helsing Faction] is constructed>",
+			"Unavailable <in cities without a [Anglican Order Faction]>",
+			"Unavailable <in cities without a [Van Helsing Faction]>",
             "Destroyed when the city is captured",
         ]
 	},
@@ -173,9 +173,9 @@
 		"cost": 500,
 		"uniques": [
 			"Van Helsing Faction",
-			"Unavailable <in this city> <if [Roundtable Main Base] is constructed>",
-			"Unavailable <in this city> <if [Anglican Order Faction] is constructed>",
-			"Unavailable <in this city> <if [Royal Society Faction] is constructed>",
+			"Unavailable <in cities without a [Roundtable Main Base]>",
+			"Unavailable <in cities without a [Anglican Order Faction]>",
+			"Unavailable <in cities without a [Royal Society Faction]>",
 			"Gain a free [Supernatural Quarter] [in this city]",
 			"Destroyed when the city is captured",
 		]
@@ -188,8 +188,8 @@
         "maintenance": 2,
 		"uniques": [
 			"Van Helsing Faction",
-			"Unavailable <in this city> <if [Anglican Order Faction] is constructed>",
-			"Unavailable <in this city> <if [Royal Society Faction] is constructed>",
+			"Unavailable <in cities without a [Anglican Order Faction]>",
+			"Unavailable <in cities without a [Royal Society Faction]>",
             "Destroyed when the city is captured",
         ]
 	},
