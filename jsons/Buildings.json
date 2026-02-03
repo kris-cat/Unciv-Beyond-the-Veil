@@ -96,6 +96,11 @@
 		"uniques": [
 			"Indicates the capital city",
 		]
+		"civilopediaText": [
+			{
+				"text": "The main base of operations of the British Roundtable. Situated on private land, it encompasses a secret underground network of tunnels and bunkers, located underneath a palace built in Gothic Revival style."
+			}
+		]
 	},
 	{
 		"name": "New Tintagel Castle",
@@ -114,6 +119,11 @@
 			"Only available <in cities without a [Van Helsing Faction]>",
 			"Gain a free [Arturian Keep] [in this city]",
 			"Destroyed when the city is captured",
+		]
+		"civilopediaText": [
+			{
+				"text": "A fort, built as a replacement for the old, legendary Tintagel Castle by the members of the Anglican Order, has been modernised several times and concealed by a illusionary magic."
+			}
 		]
 	},
 	{
@@ -144,12 +154,17 @@
 			"Only available <in cities without a [Roundtable Main Base]>",
 			"Only available <in cities without a [Anglican Order Faction]>",
 			"Only available <in cities without a [Van Helsing Faction]>",
-			"Gain a free [Royal Engineering Corps] [in this city]",
+			"Gain a free [Arcane Engineering Workshop] [in this city]",
 			"Destroyed when the city is captured",
+		]
+		"civilopediaText": [
+			{
+				"text": "The most prestigious academic institution in the magi-engineering world. A campus district connected to military workshops, it serves as the centre of the British Roundtable's secret military-industrial complex."
+			}
 		]
 	},
 	{
-		"name": "Royal Engineering Corps",
+		"name": "Arcane Engineering Workshop",
 		"uniqueTo": "British Roundtable",
 		"cost": 250,
 		"hurryCostModifier": 25,
