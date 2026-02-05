@@ -126,7 +126,7 @@
 		],
     },
 	{
-		"name": "Warriors of Luna",
+		"name": "Zeta Reticulans",
 		"leaderName": "WIPLeader5",
 		"preferredVictoryType": "Domination",
 		"personality": "Average Guys",
@@ -140,18 +140,43 @@
 		"neutralHello": "Sample text.",
 		"hateHello": "Sample text.",
 		"tradeRequest": "Sample text.",
-		"outerColor": [155, 185, 200],
-		"innerColor": [100, 90, 90],
-		"uniqueName": "Warriors of Luna Faction Features",
+		"outerColor": [179, 202, 199],
+		"innerColor": [0, 0, 0],
+		"uniqueName": "Zeta Reticulans Faction Features",
 		"uniques": [
-			"[100]% to Flank Attack bonuses <hidden from users>",
-			"[-10]% Strength <hidden from users>",
-			"[10]% Strength <when adjacent to a [Friendly] unit> <hidden from users>",
-			"Comment [Apex Predators: All Werebeast units have Delirium promotion, lowering strength of adjacent enemy units.]",
-			"Comment [Pack Tactics: Flank bonuses doubled, but lose strength when not adjacent to friendly units.]",
+			"Reveals the entire map <hidden from users>",
+			"Comment [Pre-FTL Interference: The entire map is revealed from the start of the game.]",
+			"Comment [Anti-Gravity Engines: All tiles cost 1 movement for Zeta Alien units, but they receive no defensive terrain bonuses.]",
+			"Comment [Mind-Control Practices: Recruit Brainwashed Slave units. You can choose between brainwashing local Human population or importing Martians.]",
+			"Comment [Anomaly Harvesting: Converts anomalous resources into research points.]",
+			
         ],
 		"cities": [
-			"Luna's Shadow","Silver Fangs","Stargazers","Loki's Den","Arachne's Grove",
+			"Vatican","Avignon","Andorra","Cologne","Mainz"
+		],
+    },
+	{
+		"name": "Infernal Legion",
+		"leaderName": "WIPLeader5",
+		"preferredVictoryType": "Domination",
+		"personality": "Average Guys",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+        "declaringWar": "Sample text.",
+		"attacked": "Sample text.",
+		"defeated": "Sample text.",
+		"introduction": "Sample text.",
+		"neutralHello": "Sample text.",
+		"hateHello": "Sample text.",
+		"tradeRequest": "Sample text.",
+		"outerColor": [179, 202, 199],
+		"innerColor": [0, 0, 0],
+		"uniqueName": "Infernal Legion Faction Features",
+		"uniques": [
+        ],
+		"cities": [
+			"Vatican","Avignon","Andorra","Cologne","Mainz"
 		],
     },
 	{
