@@ -67,7 +67,7 @@
 		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
 	},
 	{
-		"name": "Exotic Mantle Metals",
+		"name": "Exotic Matter",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"uniques": [
