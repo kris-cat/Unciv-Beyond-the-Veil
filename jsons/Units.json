@@ -231,6 +231,48 @@
 		]
 		"attackSound": "shot"
 	},
+	// Zeta Reticulans
+	{
+		"name": "Zeta Invader",
+		"unitType": "Infantry",
+		"uniqueTo": "Zeta Reticulans",
+		"movement": 2,
+		"strength": 30,
+		"cost": 40,
+		"uniques": [
+			"All tiles cost 1 movement",
+			"No defensive terrain bonus"
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Zeta Infiltrator",
+		"unitType": "Infantry",
+		"uniqueTo": "Zeta Reticulans",
+		"movement": 2,
+		"range": 1,
+		"strength": 25,
+		"rangedStrength": 25,
+		"cost": 40,
+		"uniques": [
+			"All tiles cost 1 movement",
+			"No defensive terrain bonus",
+			"Invisible to non-adjacent units",
+			"Can see invisible [Hostile] units"
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Brainwashed Human",
+		"unitType": "Infantry",
+		"uniqueTo": "Zeta Reticulans",
+		"movement": 2,
+		"strength": 15,
+		"cost": 40,
+		"uniques": [
+		]
+		"attackSound": "shot"
+	},
 	//  Independents units
 	{
 		"name": "Chaos Mage",
