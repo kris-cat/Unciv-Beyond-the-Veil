@@ -281,7 +281,7 @@
 		"movement": 1,
 		"strength": 35,
 		"rangedStrength": 35,
-		"range": 15,
+		"range": 10,
 		"cost": 60,
 		"uniques": [
 		],
@@ -294,7 +294,7 @@
 		"movement": 1,
 		"strength": 35,
 		"rangedStrength": 35,
-		"range": 15,
+		"range": 10,
 		"cost": 60,
 		"uniques": [
 		],
