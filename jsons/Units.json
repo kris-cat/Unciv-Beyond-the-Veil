@@ -303,6 +303,7 @@
 	{
 		"name": "Zeta Tripod",
 		"unitType": "Infantry",
+		"uniqueTo": "Zeta Reticulans",
 		"movement": 3,
 		"strength": 45,
 		"interceptRange": 3,
