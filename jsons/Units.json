@@ -307,7 +307,6 @@
 		"strength": 45,
 		"interceptRange": 3,
 		"cost": 200,
-		"requiredResource": "Uranium",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Air] units>",
@@ -325,8 +324,6 @@
 		"rangedStrength": 30,
 		"range": 2,
 		"cost": 100,
-		"requiredTech": "Computers",
-		"requiredResource": "Aluminum",
 		"uniques": [
 			"All tiles cost 1 movement",
 			"No defensive terrain bonus",
@@ -343,8 +340,6 @@
 		"rangedStrength": 35,
 		"range": 1,
 		"cost": 425,
-		"requiredTech": "Computers",
-		"requiredResource": "Aluminum",
 		"uniques": [
 			"All tiles cost 1 movement",
 			"No defensive terrain bonus",
