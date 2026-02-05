@@ -170,8 +170,8 @@
 		"neutralHello": "Sample text.",
 		"hateHello": "Sample text.",
 		"tradeRequest": "Sample text.",
-		"outerColor": [179, 202, 199],
-		"innerColor": [0, 0, 0],
+		"outerColor": [141, 40, 30],
+		"innerColor": [255, 212, 40],
 		"uniqueName": "Infernal Legion Faction Features",
 		"uniques": [
         ],
