@@ -43,6 +43,9 @@
         ]
 	},
 	//Map Resources
+	//Basic Resources
+	//Luxury Resources
+	//Strategic Resources
 	{
 		"name": "Military Materiel",
 		"resourceType": "Strategic",
@@ -55,6 +58,26 @@
 	},
 	{
 		"name": "Ley Lines",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"uniques": [
+			
+        ]
+		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
+	},
+	{
+		"name": "Exotic Mantle Metals",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"uniques": [
+			
+        ]
+		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
+	},
+	{
+		"name": "Antediluvian Artifacts",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"uniques": [
