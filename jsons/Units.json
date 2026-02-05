@@ -319,6 +319,7 @@
 	{
 		"name": "Zeta Saucer",
 		"unitType": "Infantry",
+		"uniqueTo": "Zeta Reticulans",
 		"movement": 3,
 		"strength": 35,
 		"rangedStrength": 30,
@@ -335,6 +336,7 @@
 	{
 		"name": "Zeta Mothership",
 		"unitType": "Infantry",
+		"uniqueTo": "Zeta Reticulans",
 		"movement": 2,
 		"strength": 50,
 		"rangedStrength": 35,
