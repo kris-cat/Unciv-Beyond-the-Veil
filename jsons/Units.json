@@ -165,6 +165,7 @@
 		]
 		"attackSound": "shot"
 	},
+	// Blood Pyramid
 	{
 		"name": "Vampire Fledgling",
 		"unitType": "Vampiric",
@@ -273,6 +274,87 @@
 		]
 		"attackSound": "shot"
 	},
+	{
+		"name": "Scanning Probe",
+		"unitType": "Fighter",
+		"uniqueTo": "Zeta Reticulans",
+		"movement": 1,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 15,
+		"cost": 60,
+		"uniques": [
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Snatching Probe",
+		"unitType": "Bomber",
+		"uniqueTo": "Zeta Reticulans",
+		"movement": 1,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 15,
+		"cost": 60,
+		"uniques": [
+		],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Zeta Tripod",
+		"unitType": "Infantry",
+		"movement": 3,
+		"strength": 45,
+		"interceptRange": 3,
+		"cost": 200,
+		"requiredResource": "Uranium",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Air] units>",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"No defensive terrain bonus",
+		],
+		"attackSound": "gdrAttack"
+	},
+	{
+		"name": "Zeta Saucer",
+		"unitType": "Infantry",
+		"movement": 3,
+		"strength": 35,
+		"rangedStrength": 30,
+		"range": 2,
+		"cost": 100,
+		"requiredTech": "Computers",
+		"requiredResource": "Aluminum",
+		"uniques": [
+			"All tiles cost 1 movement",
+			"No defensive terrain bonus",
+			"Ignores Zone of Control",
+			"Can carry [2] [Aircraft] units"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Zeta Mothership",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 35,
+		"range": 1,
+		"cost": 425,
+		"requiredTech": "Computers",
+		"requiredResource": "Aluminum",
+		"uniques": [
+			"All tiles cost 1 movement",
+			"No defensive terrain bonus",
+			"Ignores Zone of Control",
+			"Can carry [5] [Aircraft] units",
+			"Limited to [1] per Civilization"
+		],
+		"attackSound": "machinegun"
+	},
+	
 	//  Independents units
 	{
 		"name": "Chaos Mage",
