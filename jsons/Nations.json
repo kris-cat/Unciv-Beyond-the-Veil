@@ -4,7 +4,7 @@
 		"outerColor": [255,255,255]
 	},
     {
-		"name": "American Paranormal Bureau",
+		"name": "Bureau of Paranormal Activities",
 		"leaderName": "WIPLeader1",
 		"preferredVictoryType": "Domination",
 		"personality": "Average Guys",
@@ -20,7 +20,7 @@
 		"tradeRequest": "Sample text.",
         "outerColor": [255,255,255]
         "innerColor": [0,0,0],
-		"uniqueName": "Out Of Sight, Out Of Mind",
+		"uniqueName": "Bureau of Paranormal Activities Faction Features",
 		"uniques": [
 			
         ],
