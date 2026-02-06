@@ -37,6 +37,24 @@
 			"[+100]% Culture cost of adopting new Policies <for every [1] [IPC Points]>"
         ]
 	},
+	{
+		"name": "IOF Points",
+		"resourceType": "Strategic",
+		"uniques": [
+            "Cannot be traded",
+            "Doesn't generate naturally",
+			"[+100]% Culture cost of adopting new Policies <for every [1] [IQC Points]>"
+        ]
+	},
+	{
+		"name": "PTF Points",
+		"resourceType": "Strategic",
+		"uniques": [
+            "Cannot be traded",
+            "Doesn't generate naturally",
+			"[+100]% Culture cost of adopting new Policies <for every [1] [IPC Points]>"
+        ]
+	},
 	//Blood Pyramid
 	{
 		"name": "Vampire Population",
