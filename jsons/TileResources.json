@@ -20,7 +20,7 @@
         ]
 	},
 	{
-		"name": "IW Points",
+		"name": "MW Points",
 		"resourceType": "Strategic",
 		"uniques": [
             "Cannot be traded",
