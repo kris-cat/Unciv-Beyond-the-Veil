@@ -57,6 +57,30 @@
                 "column": 3
             },
             {
+                "name": "Individual Operative Focus",
+                "uniques": [
+                    "[+100 Gold] <for [10] turns>",
+                    "Provides [1] [IOF Points] <for [10] turns>",
+                    "Remove [Increased Quality Control]",
+                    "Unavailable <with [IOF Points]>",
+                    "Unavailable <with [PTF Points]>",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Precise Targetting Focus",
+                "uniques": [
+                    "[+100 Gold] <for [10] turns>",
+                    "Provides [1] [PTF Points] <for [10] turns>",
+                    "Remove [Increased Quality Control]",
+                    "Unavailable <with [PTF Points]>",
+                    "Unavailable <with [IOF Points]>",
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
                 "name": "BPA Edicts Complete",
                 "uniques": [
                     "Unavailable",
