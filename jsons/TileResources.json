@@ -7,7 +7,7 @@
 		"uniques": [
             "Cannot be traded",
             "Doesn't generate naturally",
-			"[+25]% Culture cost of adopting new Policies <for every [1] [IQC Points]>"
+			"[+100]% Culture cost of adopting new Policies <for every [1] [IQC Points]>"
         ]
 	},
 	{
@@ -16,7 +16,7 @@
 		"uniques": [
             "Cannot be traded",
             "Doesn't generate naturally",
-			"[+25]% Culture cost of adopting new Policies <for every [1] [IPC Points]>"
+			"[+100]% Culture cost of adopting new Policies <for every [1] [IPC Points]>"
         ]
 	},
 	//Blood Pyramid
