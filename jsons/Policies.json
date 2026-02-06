@@ -25,7 +25,7 @@
                 "uniques": [
                     "[+100 Gold] <for [10] turns>",
                     "Provides [1] [IPC Points] <for [10] turns>",
-                    "Remove [Increased Quality Control]",
+                    "Remove [Increased Production Capacity]",
                     "Unavailable <with [IPC Points]>",
                     "Unavailable <with [IQC Points]>",
                 ],
@@ -37,7 +37,7 @@
                 "uniques": [
                     "[+100 Gold] <for [10] turns>",
                     "Provides [1] [MW Points] <for [10] turns>",
-                    "Remove [Increased Quality Control]",
+                    "Remove [Mobile Warfare]",
                     "Unavailable <with [MW Points]>",
                     "Unavailable <with [IDD Points]>",
                 ],
@@ -49,7 +49,7 @@
                 "uniques": [
                     "[+100 Gold] <for [10] turns>",
                     "Provides [1] [IDD Points] <for [10] turns>",
-                    "Remove [Increased Quality Control]",
+                    "Remove [In-Depth Defence]",
                     "Unavailable <with [IDD Points]>",
                     "Unavailable <with [MW Points]>",
                 ],
@@ -61,7 +61,7 @@
                 "uniques": [
                     "[+100 Gold] <for [10] turns>",
                     "Provides [1] [IOF Points] <for [10] turns>",
-                    "Remove [Increased Quality Control]",
+                    "Remove [Individual Operative Focus]",
                     "Unavailable <with [IOF Points]>",
                     "Unavailable <with [PTF Points]>",
                 ],
@@ -73,7 +73,7 @@
                 "uniques": [
                     "[+100 Gold] <for [10] turns>",
                     "Provides [1] [PTF Points] <for [10] turns>",
-                    "Remove [Increased Quality Control]",
+                    "Remove [Precise Targetting Focus]",
                     "Unavailable <with [PTF Points]>",
                     "Unavailable <with [IOF Points]>",
                 ],
