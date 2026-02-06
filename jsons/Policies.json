@@ -15,6 +15,7 @@
                     "Provides [1] [IQC Points] <for [10] turns>",
                     "Remove [Increased Quality Control]",
                     "Unavailable <with [IQC Points]>",
+                    "Unavailable <with [IPC Points]>",
                 ],
                 "row": 1,
                 "column": 1
@@ -23,7 +24,10 @@
                 "name": "Increased Production Capacity",
                 "uniques": [
                     "[+100 Gold] <for [10] turns>",
-                    "Remove [Increased Production Capacity]",
+                    "Provides [1] [IPC Points] <for [10] turns>",
+                    "Remove [Increased Quality Control]",
+                    "Unavailable <with [IPC Points]>",
+                    "Unavailable <with [IQC Points]>",
                 ],
                 "row": 2,
                 "column": 1
