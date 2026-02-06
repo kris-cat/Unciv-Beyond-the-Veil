@@ -1,6 +1,6 @@
 [
     {
-        "name": "BPA Directives",
+        "name": "BPA Doctrines",
         "era": "Preparation Level: 1",
         "priorities": {
         },
@@ -9,25 +9,25 @@
         ],
         "policies": [
             {
-                "name": "Directive: ",
+                "name": "Doctrine: ",
                 "uniques": [
-                    "",
+                    "Remove [policyFilter]",
                 ],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "Directive: ",
+                "name": "Doctrine: ",
                 "uniques": [
-                    ""
+                    "Remove [policyFilter]"
                 ],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "Directive: ",
+                "name": "Doctrine: ",
                 "uniques": [
-                    "",
+                    "Remove [policyFilter]",
                 ],
                 "row": 1,
                 "column": 5
