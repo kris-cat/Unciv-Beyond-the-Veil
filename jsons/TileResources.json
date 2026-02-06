@@ -7,7 +7,7 @@
 		"uniques": [
             "Cannot be traded",
             "Doesn't generate naturally",
-            "Not shown on world screen",
+            //"Not shown on world screen",
 			"Stockpiled",
 			"[+50 Happiness] <when above [0] [IQC Points]>",
 			"Provides [-1] [IQC Points] <when above [0] [IQC Points]>"
@@ -19,7 +19,7 @@
 		"uniques": [
             "Cannot be traded",
             "Doesn't generate naturally",
-            "Not shown on world screen",
+            //"Not shown on world screen",
 			"Stockpiled",
 			"[+50 Happiness] <when above [0] [IPC Points]>",
 			"Provides [-1] [IQC Points] <when above [0] [IPC Points]>"
