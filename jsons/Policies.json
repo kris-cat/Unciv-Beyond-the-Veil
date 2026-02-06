@@ -11,7 +11,6 @@
             {
                 "name": "Increased Quality Control",
                 "uniques": [
-                    "Instantly gain [10] [IQC Points]",
                     "[+100 Gold] <for [10] turns>",
                     "Remove [Increased Quality Control]",
                 ],
@@ -21,7 +20,6 @@
             {
                 "name": "Increased Production Capacity",
                 "uniques": [
-                    "Instantly gain [10] [IPC Points]",
                     "[+100 Gold] <for [10] turns>",
                     "Remove [Increased Production Capacity]",
                 ],
