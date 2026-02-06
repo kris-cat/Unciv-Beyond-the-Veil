@@ -7,9 +7,6 @@
 		"uniques": [
             "Cannot be traded",
             "Doesn't generate naturally",
-			"Stockpiled",
-			"[+50 Happiness] <when above [0] [IQC Points]>",
-			"Instantly gain [-1] [IQC Points] <when above [0] [IQC Points]>"
         ]
 	},
 	{
@@ -18,9 +15,6 @@
 		"uniques": [
             "Cannot be traded",
             "Doesn't generate naturally",
-			"Stockpiled",
-			"[+50 Happiness] <when above [0] [IPC Points]>",
-			"Provides [-1] [Available Tier 1 Vampires] <when above [0] [IPC Points]>"
         ]
 	},
 	//Blood Pyramid
