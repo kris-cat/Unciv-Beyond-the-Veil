@@ -1,6 +1,6 @@
 [
     {
-        "name": "BPA Doctrines",
+        "name": "BPA Edicts",
         "era": "Preparation Level: 1",
         "priorities": {
         },
@@ -9,28 +9,22 @@
         ],
         "policies": [
             {
-                "name": "Doctrine: ",
+                "name": "Increased Quality Control",
                 "uniques": [
-                    "Remove [policyFilter]",
+                    "Instantly gain [10] [IQC Points]",
+                    "Remove [Increased Quality Control]",
                 ],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "Doctrine: ",
+                "name": "Increased Production Capacity",
                 "uniques": [
-                    "Remove [policyFilter]"
+                    "Instantly gain [10] [IPC Points]",
+                    "Remove [Increased Production Capacity]",
                 ],
-                "row": 1,
-                "column": 3
-            },
-            {
-                "name": "Doctrine: ",
-                "uniques": [
-                    "Remove [policyFilter]",
-                ],
-                "row": 1,
-                "column": 5
+                "row": 2,
+                "column": 1
             },
             {
                 "name": "Blank1",
