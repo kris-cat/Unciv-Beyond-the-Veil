@@ -9,7 +9,7 @@
             "Doesn't generate naturally",
 			"Stockpiled",
 			"[+50 Happiness] <when above [0] [IQC Points]>",
-			"Provides [-1] [IQC Points] <when above [0] [IQC Points]>"
+			"Instantly gain [-1] [IQC Points] <when above [0] [IQC Points]>"
         ]
 	},
 	{
@@ -20,7 +20,7 @@
             "Doesn't generate naturally",
 			"Stockpiled",
 			"[+50 Happiness] <when above [0] [IPC Points]>",
-			"Provides [-1] [IQC Points] <when above [0] [IPC Points]>"
+			"Instantly gain [-1] [IPC Points] <when above [0] [IPC Points]>"
         ]
 	},
 	//Blood Pyramid
