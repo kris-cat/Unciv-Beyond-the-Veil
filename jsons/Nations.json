@@ -22,7 +22,8 @@
         "innerColor": [0,0,0],
 		"uniqueName": "Bureau of Paranormal Activities Faction Features",
 		"uniques": [
-			
+			"Adopt [BPA Edicts]",
+			"[+10 Culture]"
         ],
 		"cities": [
             "Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
