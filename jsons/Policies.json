@@ -12,7 +12,9 @@
                 "name": "Increased Quality Control",
                 "uniques": [
                     "[+100 Gold] <for [10] turns>",
+                    "Provides [1] [IQC Points] <for [10] turns>",
                     "Remove [Increased Quality Control]",
+                    "Unavailable <with [IQC Points]>",
                 ],
                 "row": 1,
                 "column": 1
