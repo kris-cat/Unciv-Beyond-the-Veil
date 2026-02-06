@@ -7,7 +7,8 @@
 		"uniques": [
             "Cannot be traded",
             "Doesn't generate naturally",
-			"[+100]% Culture cost of adopting new Policies <for every [1] [IQC Points]>"
+			"Not shown on world screen",
+			"Provides [1] [Active Edict] <for every [1] [IQC Points]>",
         ]
 	},
 	{
@@ -16,7 +17,8 @@
 		"uniques": [
             "Cannot be traded",
             "Doesn't generate naturally",
-			"[+100]% Culture cost of adopting new Policies <for every [1] [IPC Points]>"
+			"Not shown on world screen",
+			"Provides [1] [Active Edict] <for every [1] [IPC Points]>",
         ]
 	},
 	{
@@ -25,7 +27,8 @@
 		"uniques": [
             "Cannot be traded",
             "Doesn't generate naturally",
-			"[+100]% Culture cost of adopting new Policies <for every [1] [IQC Points]>"
+			"Not shown on world screen",
+			"Provides [1] [Active Edict] <for every [1] [MW Points]>",
         ]
 	},
 	{
@@ -34,7 +37,8 @@
 		"uniques": [
             "Cannot be traded",
             "Doesn't generate naturally",
-			"[+100]% Culture cost of adopting new Policies <for every [1] [IPC Points]>"
+			"Not shown on world screen",
+			"Provides [1] [Active Edict] <for every [1] [IDD Points]>",
         ]
 	},
 	{
@@ -43,7 +47,8 @@
 		"uniques": [
             "Cannot be traded",
             "Doesn't generate naturally",
-			"[+100]% Culture cost of adopting new Policies <for every [1] [IQC Points]>"
+			"Not shown on world screen",
+			"Provides [1] [Active Edict] <for every [1] [IOF Points]>",
         ]
 	},
 	{
@@ -52,7 +57,18 @@
 		"uniques": [
             "Cannot be traded",
             "Doesn't generate naturally",
-			"[+100]% Culture cost of adopting new Policies <for every [1] [IPC Points]>"
+			"Not shown on world screen",
+			"Provides [1] [Active Edict] <for every [1] [PTF Points]>",
+        ]
+	},
+	{
+		"name": "Active Edicts",
+		"resourceType": "Strategic",
+		"uniques": [
+            "Cannot be traded",
+            "Doesn't generate naturally",
+			"Not shown on world screen",
+			"[+100]% Culture cost of adopting new Policies <for every [1] [Active Edict]>"
         ]
 	},
 	//Blood Pyramid
