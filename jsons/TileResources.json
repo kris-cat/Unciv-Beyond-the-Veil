@@ -124,14 +124,14 @@
 	{
 		"name": "Mining District",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Hills"],
+		"terrainsCanBeFoundOn": ["Hill"],
 		"production": 2,
 		"uniques": []
 	},
 	{
 		"name": "Fae Circles",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Forests"],
+		"terrainsCanBeFoundOn": ["Forest"],
 		"culture": 1,
 		"production": 1,
 		"uniques": []
@@ -153,7 +153,7 @@
 	{
 		"name": "Ley Lines",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Forests","Hills","Urban Sprawl"],
+		"terrainsCanBeFoundOn": ["Grassland","Forest","Hill","Urban Sprawl"],
 		"culture": 2,
 		"uniques": []
 	},
