@@ -141,14 +141,21 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Urban Sprawl"],
 		"gold": 4,
-		"uniques": []
+		"uniques": ["Generated on every [50] tiles <in [Urban Sprawl] tiles>"]
 	},
 	{
 		"name": "Industrial Zone",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Urban Sprawl"],
 		"production": 2,
-		"uniques": []
+		"uniques": ["Generated on every [50] tiles <in [Urban Sprawl] tiles>"]
+	},
+	{
+		"name": "Campus Complex",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Urban Sprawl"],
+		"science": 2,
+		"uniques": ["Generated on every [50] tiles <in [Urban Sprawl] tiles>"]
 	},
 	{
 		"name": "Ley Lines",
