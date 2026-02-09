@@ -114,7 +114,66 @@
 	},
 	//Map Resources
 	//Basic Resources
+	{
+		"name": "Agricultural Land",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 2,
+		"uniques": []
+	},
+	{
+		"name": "Mining District",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hills"],
+		"production": 2,
+		"uniques": []
+	},
+	{
+		"name": "Fae Circles",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forests"],
+		"culture": 1,
+		"production": 1,
+		"uniques": []
+	},
+	{
+		"name": "Financial Center",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Urban Sprawl"],
+		"gold": 4,
+		"uniques": []
+	},
+	{
+		"name": "Industrial Zone",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Urban Sprawl"],
+		"production": 2,
+		"uniques": []
+	},
+	{
+		"name": "Ley Lines",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Forests","Hills","Urban Sprawl"],
+		"culture": 2,
+		"uniques": []
+	},
 	//Luxury Resources
+	{
+		"name": "Psychotropic Fungus",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"happiness": 2,
+		"culture": 1,
+		"uniques": []
+	},
+	{
+		"name": "Philosopher's Stone",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"gold": 3,
+		"science": 1,
+		"uniques": []
+	},
 	//Strategic Resources
 	{
 		"name": "Military Materiel",
@@ -127,17 +186,7 @@
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
-		"name": "Ley Lines",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Grassland"],
-		"uniques": [
-			
-        ]
-		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
-		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
-	},
-	{
-		"name": "Exotic Matter",
+		"name": "Agarthium",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"uniques": [
