@@ -2,10 +2,7 @@
 	{
 		"name": "Grassland",
 		"type": "Land",
-		"food": 3,
-		"production": 2,
-		"gold": 2,
-		"happiness": 2,
+		"food": 1,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": []
