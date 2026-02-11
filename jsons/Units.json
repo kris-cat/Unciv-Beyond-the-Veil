@@ -38,8 +38,7 @@
 		"cost": 70,
 		"uniques": [
 			"Human","Infantry",
-			"[+25]% Strength <vs [Armour]>",
-			"[+25]% Strength <vs [City]>",
+			"[+50]% Strength <vs [Armour]>",
 		]
 		"attackSound": "shot"
 	},
@@ -65,7 +64,7 @@
 		"strength": 40,
 		"cost": 125,
 		"uniques": [
-			"Human","Vehicle","Armour",
+			"Human","Vehicle","Armour","Can move after attacking","No defensive terrain bonus"
 		]
 		"attackSound": "shot"
 	},
