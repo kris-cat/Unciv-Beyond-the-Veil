@@ -8,7 +8,8 @@
             "Occurs at temperature between [-1] and [-0.6] and humidity between [0] and [1]",
             "Always Fertility [-1] for Map Generation",
             "Considered [Undesirable] when determining start locations",
-            "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",]
+            "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
+		]
 	},
 	{
 		"name": "Grassland",
