@@ -9,6 +9,8 @@
         "Cannot build [Settler] units <when below [-10] [Happiness]>",
         "Rebel units may spawn <when below [-20] [Happiness]>",
         "[-1] Sight <for [Embarked] units>",
+        "[-50]% unhappiness from the number of cities",
+        "[-50]% Unhappiness from [populationFilter] [cityFilter]"
     ],
     "civilopediaText": [
         {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
