@@ -17,16 +17,56 @@
 	},
 	//Bureau of Paranormal Activities
 	{
-		"name": "Anglican Knight",
+		"name": "Bureau Commando",
 		"unitType": "Infantry",
 		"uniqueTo": "Bureau of Paranormal Activities",
-		"movement": 2,
+		"movement": 3,
 		"strength": 35,
 		"cost": 70,
 		"uniques": [
-			"Human",
+			"Human","Infantry",
+			"Can move after attacking",
 		]
 		"attackSound": "shot"
 	},
-
+	{
+		"name": "Bureau Grenadier",
+		"unitType": "Infantry",
+		"uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 3,
+		"strength": 35,
+		"cost": 70,
+		"uniques": [
+			"Human","Infantry",
+			"[+25]% Strength <vs [Armour]>",
+			"[+25]% Strength <vs [City]>",
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Bureau Marksman",
+		"unitType": "Infantry",
+		"uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 3,
+		"strength": 30,
+		"range": 2,
+		"rangedStrength": 25,
+		"cost": 70,
+		"uniques": [
+			"Human","Infantry",
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Bureau Tank",
+		"unitType": "Infantry",
+		"uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 5,
+		"strength": 40,
+		"cost": 125,
+		"uniques": [
+			"Human","Vehicle","Armour",
+		]
+		"attackSound": "shot"
+	},
 ]
