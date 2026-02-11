@@ -113,4 +113,41 @@
         ]
 	},
 	//Map Resources
+	//Luxury Resources
+	{
+		"name": "Psychotropic Fungus",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Forest"],
+		"gold": 1,
+		"improvement": "Resource Claim",
+		"improvementStats": {"happiness": 2,"culture": 1},
+		"uniques": []
+	},
+	{
+		"name": "Lemurian Spices",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"science": 1,
+		"improvement": "Resource Claim",
+		"improvementStats": {"science": 1,"culture": 1,},
+		"uniques": []
+	},
+	{
+		"name": "Cosmic Weave",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"science": 1,
+		"improvement": "Resource Claim",
+		"improvementStats": {"science": 1,"production": 2},
+		"uniques": []
+	},
+	{
+		"name": "Philosopher's Stone",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"gold": 1,
+		"improvement": "Resource Claim",
+		"improvementStats": {"gold": 4},
+		"uniques": []
+	},
 ]
