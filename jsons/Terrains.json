@@ -2,7 +2,7 @@
 	{
 		"name": "Grassland",
 		"type": "Land",
-		"food": 1,
+		"food": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": []
@@ -60,7 +60,7 @@
 		"name": "Urban Sprawl",
 		"type": "TerrainFeature",
 		"production": 1,
-		"gold": 1,
+		"gold": 2,
 		"movementCost": 2,
 		"overrideStats": true,
 		"unbuildable": true,
