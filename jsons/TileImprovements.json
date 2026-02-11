@@ -8,5 +8,11 @@
         "civilopediaText": [
             {"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}
         ]
-	}
+	},
+	{
+		"name": "Resource Claim",
+		"turnsToBuild": 10,
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Urban Sprawl]","Can only be built to improve a resource"],
+		"shortcutKey": "C"
+	},
 ]
