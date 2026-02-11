@@ -150,4 +150,22 @@
 		"improvementStats": {"gold": 4},
 		"uniques": []
 	},
+	{
+		"name": "Rejuvenating Water",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Snow"],
+		"happiness": 1,
+		"improvement": "Resource Claim",
+		"improvementStats": {"happiness": 2},
+		"uniques": []
+	},
+	{
+		"name": "Rejuvenating Water",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Snow"],
+		"happiness": 1,
+		"improvement": "Resource Claim",
+		"improvementStats": {"happiness": 2},
+		"uniques": []
+	},
 ]
