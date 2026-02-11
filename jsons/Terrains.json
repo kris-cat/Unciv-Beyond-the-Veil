@@ -5,7 +5,7 @@
 		"movementCost": 1,
 		"RGB": [230, 238, 255],
 		"uniques": [
-            "Occurs at temperature between [-1] and [-0.7] and humidity between [0] and [1]",
+            "Occurs at temperature between [-1] and [-0.6] and humidity between [0] and [1]",
             "Always Fertility [-1] for Map Generation",
             "Considered [Undesirable] when determining start locations",
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",]
@@ -17,7 +17,7 @@
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": [
-			"Occurs at temperature between [-0.7] and [1] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.6] and [1] and humidity between [0] and [1]",
             "Always Fertility [+3] for Map Generation",
             "Considered [Desirable] when determining start locations",
 		]
