@@ -118,7 +118,9 @@
 		"name": "Agricultural Land",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
-		"food": 2,
+		"food": 1,
+		"improvement": "Resource Claim",
+		"improvementStats": {"food": 1},
 		"uniques": []
 	},
 	{
