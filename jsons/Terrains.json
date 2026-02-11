@@ -1,11 +1,26 @@
 [
 	{
+		"name": "Snow",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [230, 238, 255],
+		"uniques": [
+            "Occurs at temperature between [-1] and [-0.7] and humidity between [0] and [1]",
+            "Always Fertility [-1] for Map Generation",
+            "Considered [Undesirable] when determining start locations",
+            "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",]
+	},
+	{
 		"name": "Grassland",
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": []
+        "uniques": [
+			"Occurs at temperature between [-0.7] and [1] and humidity between [0] and [1]",
+            "Always Fertility [+3] for Map Generation",
+            "Considered [Desirable] when determining start locations",
+		]
     }
 	{
 		"name": "Mountain",
