@@ -30,23 +30,36 @@
 	},
 	{
 		"name": "LS Systems","prerequisites": ["Hidden Exosuit"],
-		"uniques": ["[+20]% Strength <when defending>","Unit will heal every turn, even if it performs an action"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["InfantryBC",],"column": 1,"row": 3,"innerColor": [52, 101, 164]
 	},
 	//Assault Path
 	{
 		"name": "Adrenaline Injectors",
-		"uniques": ["No damage penalty for wounded units","Only available <for units without [Augmented Glasses]>"],
+		"uniques": ["No damage penalty for wounded units","[+5] Strength <when attacking>","Only available <for units without [Augmented Glasses]>"],
 		"unitTypes": ["InfantryBC",],"column": 5,"row": 1,"innerColor": [22, 130, 83]
 	},
 	{
 		"name": "Nanoscale Vest","prerequisites": ["Adrenaline Injectors"],
-		"uniques": ["[+10] Strength <when attacking>"],
+		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["InfantryBC",],"column": 5,"row": 2,"innerColor": [22, 130, 83]
 	},
 	{
 		"name": "Rapid Fire Mode","prerequisites": ["Nanoscale Vest"],
 		"uniques": ["[+1] additional attacks per turn"],
 		"unitTypes": ["InfantryBC",],"column": 5,"row": 3,"innerColor": [22, 130, 83]
+	},
+	//Bureau Grenadier
+	//Demolitionist Path
+	{
+		"name": "Padded Suit",
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>","[+33]% Strength <vs cities> <when defending>","Only available <for units without [Frag Ammunition]>"],
+		"unitTypes": ["InfantryBG",],"column": 1,"row": 1,"innerColor": [52, 101, 164]
+	},
+	//Heavy Gunner Path
+	{
+		"name": "Frag Ammunition",
+		"uniques": ["+33]% Strength <vs [Infantry] units>","Only available <for units without [Padded Suit]>"],
+		"unitTypes": ["InfantryBG",],"column": 5,"row": 1,"innerColor": [22, 130, 83]
 	},
 ]
