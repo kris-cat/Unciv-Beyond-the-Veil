@@ -8,15 +8,15 @@
         "movementType": "Land"
     },
     {
-        "name": "Vampiric",
+        "name": "InfantryBC",
         "movementType": "Land"
     },
     {
-        "name": "Mage",
+        "name": "InfantryBG",
         "movementType": "Land"
     },
     {
-        "name": "Chaos Magic",
+        "name": "InfantryBM",
         "movementType": "Land"
     },
     {
