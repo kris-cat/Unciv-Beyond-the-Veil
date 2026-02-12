@@ -4,10 +4,6 @@
         "movementType": "Land"
     },
     {
-        "name": "Infantry",
-        "movementType": "Land"
-    },
-    {
         "name": "InfantryBC",
         "movementType": "Land"
     },
