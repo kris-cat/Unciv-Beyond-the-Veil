@@ -87,17 +87,17 @@
 	{
 		"name": "Extended Barrel",
 		"uniques": ["[+1] Sight","[+1] Range","Only available <for units without [In-Hand Stabilizer]>"],
-		"unitTypes": ["InfantryBG",],"column": 8,"row": 1,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBM",],"column": 8,"row": 1,"innerColor": [52, 101, 164]
 	},
 	{
 		"name": "Neuro-toxin Rounds", "prerequisites": ["Extended Barrel"],
 		"uniques": ["[10] Strength <when attacking> <with [33]% chance>",],
-		"unitTypes": ["InfantryBG",],"column": 8,"row": 2,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBM",],"column": 8,"row": 2,"innerColor": [52, 101, 164]
 	},
 	{
 		"name": "Organ Targetting", "prerequisites": ["Neuro-toxin Rounds"],
 		"uniques": ["[33] Strength <when attacking> <with [25]% chance>",],
-		"unitTypes": ["InfantryBG",],"column": 8,"row": 3,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBM",],"column": 8,"row": 3,"innerColor": [52, 101, 164]
 	},
 	//Gunslinger
 	{
