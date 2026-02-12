@@ -3,24 +3,24 @@
 	//Default
 	{
 		"name": "Urbanist","prerequisites": ["Jet Boots","Infared Scanning","Jump Boots","Nanoscale Vest"],
-		"uniques": [""],
+		"uniques": ["Only available <for units without [Woodsman]>","Only available <for units without [Highlander]>"],
 		"unitTypes": ["InfantryBC",],"column": 2,"row": 1,
 	},
 	{
 		"name": "Woodsman","prerequisites": ["Jet Boots","Infared Scanning","Jump Boots","Nanoscale Vest"],
-		"uniques": [""],
+		"uniques": ["Only available <for units without [Highlander]>","Only available <for units without [Urbanist]>"],
 		"unitTypes": ["InfantryBC",],"column": 3,"row": 1,
 	},
 	{
 		"name": "Highlander","prerequisites": ["Jet Boots","Infared Scanning","Jump Boots","Nanoscale Vest"],
-		"uniques": [""],
+		"uniques": ["Only available <for units without [Woodsman]>","Only available <for units without [Urbanist]>"],
 		"unitTypes": ["InfantryBC",],"column": 4,"row": 1,
 	},
 	//Bureau Commando
 	//Scout Path
 	{
 		"name": "Far-Eyed Glasses",
-		"uniques": ["[+2] Sight","Can see over obstacles","Only available <for units without [Run And Gun]>"],
+		"uniques": ["[+2] Sight","Can see over obstacles","Only available <for units without [Adrenaline Injectors]>"],
 		"unitTypes": ["InfantryBC",],"column": 1,"row": 1,"innerColor": [52, 101, 164]
 	},
 	{
@@ -41,7 +41,7 @@
 	//Assault Path
 	{
 		"name": "Adrenaline Injectors",
-		"uniques": ["No damage penalty for wounded units","[+5] Strength <when attacking>","Only available <for units without [Sentry Drone]>"],
+		"uniques": ["No damage penalty for wounded units","[+5] Strength <when attacking>","Only available <for units without [Far-Eyed Glasses]>"],
 		"unitTypes": ["InfantryBC",],"column": 5,"row": 1,"innerColor": [22, 130, 83]
 	},
 	{
