@@ -1,0 +1,16 @@
+[
+    {
+		"name": "Shock",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>",],
+		"unitTypes": ["InfantryBC","InfantryBG","InfantryBM",],
+        "column": 2,
+        "row": 1
+	},
+	{
+		"name": "Drill",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>",],
+		"unitTypes": ["InfantryBC","InfantryBG","InfantryBM",],
+        "column": 5,
+        "row": 1
+	},
+]
