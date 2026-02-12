@@ -39,7 +39,7 @@
 	//Bureau Commando
 	{
 		"name": "Vision Augmentations","prerequisites": ["Drill I","Shock I"],
-		"uniques": ["[+1] Sight","Can see invisible [Land] units","Unavailable <for units with [Run And Gun]>"],
+		"uniques": ["[+1] Sight","Can see invisible [Land] units","Only available <for units without [Run And Gun]>"],
 		"unitTypes": ["InfantryBC",],"column": 2,"row": 2,"innerColor": [255, 212, 40]
 	},
 	{
@@ -49,7 +49,7 @@
 	},
 	{
 		"name": "Adrenaline Injectors","prerequisites": ["Drill I","Shock I"],
-		"uniques": ["Withdraws before melee combat <every [5] turns>","Unavailable <for units with [Vision Augmentations]>"],
+		"uniques": ["Withdraws before melee combat <every [5] turns>","Only available <for units without [Vision Augmentations]>"],
 		"unitTypes": ["InfantryBC",],"column": 8,"row": 2,"innerColor": [255, 134, 13]
 	},
 	{
