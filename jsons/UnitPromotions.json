@@ -103,16 +103,16 @@
 	{
 		"name": "In-Hand Stabilizer",
 		"uniques": ["[+1] additional attacks per turn","Only available <for units without [Extended Barrel]>"],
-		"unitTypes": ["InfantryBM",],"column": 9,"row": 1,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBM",],"column": 9,"row": 1,"innerColor": [22, 130, 83]
 	},
 	{
 		"name": "Hip Firing Enhancement", "prerequisites": ["In-Hand Stabilizer"],
 		"uniques": ["[+10] Strength <when defending>",],
-		"unitTypes": ["InfantryBM",],"column": 9,"row": 2,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBM",],"column": 9,"row": 2,"innerColor": [22, 130, 83]
 	},
 	{
 		"name": "Burst Fire Mode", "prerequisites": ["Hip Firing Enhancement"],
 		"uniques": ["[+10] Strength <when attacking>",],
-		"unitTypes": ["InfantryBM",],"column": 9,"row": 3,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBM",],"column": 9,"row": 3,"innerColor": [22, 130, 83]
 	},
 ]
