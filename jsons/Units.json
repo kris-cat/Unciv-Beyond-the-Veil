@@ -18,7 +18,7 @@
 	//Bureau of Paranormal Activities
 	{
 		"name": "Bureau Commando",
-		"unitType": "Infantry",
+		"unitType": "InfantryBC",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 3,
 		"strength": 35,
@@ -31,7 +31,7 @@
 	},
 	{
 		"name": "Bureau Grenadier",
-		"unitType": "Infantry",
+		"unitType": "InfantryBG",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 3,
 		"strength": 35,
@@ -44,7 +44,7 @@
 	},
 	{
 		"name": "Bureau Marksman",
-		"unitType": "Infantry",
+		"unitType": "InfantryBM",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 3,
 		"strength": 30,
@@ -53,18 +53,6 @@
 		"cost": 70,
 		"uniques": [
 			"Human","Infantry",
-		]
-		"attackSound": "shot"
-	},
-	{
-		"name": "Bureau Tank",
-		"unitType": "Infantry",
-		"uniqueTo": "Bureau of Paranormal Activities",
-		"movement": 5,
-		"strength": 40,
-		"cost": 125,
-		"uniques": [
-			"Human","Vehicle","Armour","Can move after attacking","No defensive terrain bonus"
 		]
 		"attackSound": "shot"
 	},
