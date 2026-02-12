@@ -2,8 +2,8 @@
 	//BoPA Promotions
 	//Bureau Commando
 	{
-		"name": "Glass Augmentations",
-		"uniques": ["[+1] Sight","Can see invisible [Land] units","Only available <for units without [Run And Gun]>"],
+		"name": "Sentry Drone",
+		"uniques": ["[+2] Sight","Can see over obstacles","Only available <for units without [Run And Gun]>"],
 		"unitTypes": ["InfantryBC",],"column": 1,"row": 1,"innerColor": [52, 101, 164]
 	},
 	{
@@ -13,22 +13,27 @@
 	},
 	{
 		"name": "Adrenaline Injectors",
-		"uniques": ["Withdraws before melee combat <every [5] turns>","Only available <for units without [Vision Augmentations]>"],
-		"unitTypes": ["InfantryBC",],"column": 4,"row": 1,"innerColor": [22, 130, 83]
+		"uniques": ["No damage penalty for wounded units","[+5] Strength <when attacking>","Only available <for units without [Sentry Drone]>"],
+		"unitTypes": ["InfantryBC",],"column": 5,"row": 1,"innerColor": [22, 130, 83]
 	},
 	{
 		"name": "Run And Gun","prerequisites": ["Adrenaline Injectors"],
 		"uniques": [""],
-		"unitTypes": ["InfantryBC",],"column": 4,"row": 2,"innerColor": [22, 130, 83]
+		"unitTypes": ["InfantryBC",],"column": 5,"row": 2,"innerColor": [22, 130, 83]
 	},
 		{
-		"name": "Frag Grenade","prerequisites": ["Glass Augmentations","Mobility Exosuit"],
-		"uniques": ["Only available <for units without [Smoke Grenade]>"],
-		"unitTypes": ["InfantryBC",],"column": 2,"row": 2,
+		"name": "Smoke Grenade",
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["InfantryBC",],"column": 2,"row": 1,
 	},
 	{
-		"name": "Smoke Grenade","prerequisites": ["Glass Augmentations","Mobility Exosuit"],
-		"uniques": ["Only available <for units without [Frag Grenade]>"],
-		"unitTypes": ["InfantryBC",],"column": 3,"row": 2,
+		"name": "Nanoscale Vest",
+		"uniques": [""],
+		"unitTypes": ["InfantryBC",],"column": 3,"row": 1,
+	},
+	{
+		"name": "Medkit",
+		"uniques": ["Unit will heal every turn, even if it performs an action","May heal outside of friendly territory"],
+		"unitTypes": ["InfantryBC",],"column": 3,"row": 1,
 	},
 ]
