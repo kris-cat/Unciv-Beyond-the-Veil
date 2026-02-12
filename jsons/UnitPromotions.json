@@ -1,70 +1,34 @@
 [
-	//Default Melee
-    {
-		"name": "Shock I",
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["InfantryBC","InfantryBG",],"column": 3,"row": 1
-	},
-	{
-		"name": "Shock II","prerequisites": ["Shock I"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["InfantryBC","InfantryBG",],"column": 3,"row": 2
-	},
-	{
-		"name": "Drill I",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["InfantryBC","InfantryBG",],"column": 7,"row": 1
-	},
-	{
-		"name": "Drill II","prerequisites": ["Drill I"],
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["InfantryBC","InfantryBG",],"column": 7,"row": 2
-	},
-	{
-		"name": "Cover","prerequisites": ["Shock I","Drill I"],
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>",],
-		"unitTypes": ["InfantryBC","InfantryBG",],"column": 4,"row": 2
-	},
-	{
-		"name": "Ambush","prerequisites": ["Shock I","Drill I"],
-		"uniques": ["[+33]% Strength <vs [Armour] units>",],
-		"unitTypes": ["InfantryBC","InfantryBG",],"column": 6,"row": 2
-	},
-	{
-		"name": "Urbanist","prerequisites": ["Shock II","Drill II"],
-		"uniques": ["Double movement in [Urban Sprawl]","Unavailable <for units with [Woodsman]>","Unavailable <for units with [Highlander]>"],
-		"unitTypes": ["InfantryBC","InfantryBG",],"column": 4,"row": 3
-	},
-	{
-		"name": "Woodsman","prerequisites": ["Shock II","Drill II"],
-		"uniques": ["Double movement in [Forest]","Unavailable <for units with [Urbanist]>","Unavailable <for units with [Highlander]>"],
-		"unitTypes": ["InfantryBC","InfantryBG",],"column": 5,"row": 3
-	},
-	{
-		"name": "Highlander","prerequisites": ["Shock II","Drill II"],
-		"uniques": ["Double movement in [Hill]","Unavailable <for units with [Woodsman]>","Unavailable <for units with [Urbanist]>"],
-		"unitTypes": ["InfantryBC","InfantryBG",],"column": 6,"row": 3
-	},
 	//BoPA Promotions
 	//Bureau Commando
 	{
-		"name": "Vision Augmentations",
+		"name": "Glass Augmentations",
 		"uniques": ["[+1] Sight","Can see invisible [Land] units","Only available <for units without [Run And Gun]>"],
 		"unitTypes": ["InfantryBC",],"column": 1,"row": 1,"innerColor": [52, 101, 164]
 	},
 	{
-		"name": "Mobility Exosuit","prerequisites": ["Vision Augmentations"],
+		"name": "Mobility Exosuit","prerequisites": ["Glass Augmentations"],
 		"uniques": ["Ignores terrain cost"],
 		"unitTypes": ["InfantryBC",],"column": 1,"row": 2,"innerColor": [52, 101, 164]
 	},
 	{
 		"name": "Adrenaline Injectors",
 		"uniques": ["Withdraws before melee combat <every [5] turns>","Only available <for units without [Vision Augmentations]>"],
-		"unitTypes": ["InfantryBC",],"column": 9,"row": 1,"innerColor": [22, 130, 83]
+		"unitTypes": ["InfantryBC",],"column": 4,"row": 1,"innerColor": [22, 130, 83]
 	},
 	{
 		"name": "Run And Gun","prerequisites": ["Adrenaline Injectors"],
-		"uniques": ["[+1] additional attacks per turn <for [1] turns> <upon defeating a [Land] unit>"],
-		"unitTypes": ["InfantryBC",],"column": 9,"row": 2,"innerColor": [22, 130, 83]
+		"uniques": [""],
+		"unitTypes": ["InfantryBC",],"column": 4,"row": 2,"innerColor": [22, 130, 83]
+	},
+		{
+		"name": "Frag Grenade","prerequisites": ["Glass Augmentations","Mobility Exosuit"],
+		"uniques": ["Only available <for units without [Smoke Grenade]>"],
+		"unitTypes": ["InfantryBC",],"column": 2,"row": 2,
+	},
+	{
+		"name": "Smoke Grenade","prerequisites": ["Glass Augmentations","Mobility Exosuit"],
+		"uniques": ["Only available <for units without [Frag Grenade]>"],
+		"unitTypes": ["InfantryBC",],"column": 3,"row": 2,
 	},
 ]
