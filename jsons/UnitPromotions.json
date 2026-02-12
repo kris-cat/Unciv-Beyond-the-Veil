@@ -1,118 +1,103 @@
 [
 	//Default
-	{
-		"name": "Urbanist","prerequisites": ["Hidden Exosuit","Nanoscale Vest"],
-		"uniques": ["[+1] Movement <in [Urban Sprawl] tiles>","Only available <for units without [Woodsman]>","Only available <for units without [Highlander]>"],
-		"unitTypes": ["InfantryBC","InfantryBG"],"column": 1,"row": 3,
-	},
-	{
-		"name": "Woodsman","prerequisites": ["Hidden Exosuit","Nanoscale Vest"],
-		"uniques": ["[+1] Movement <in [Forest] tiles>","Only available <for units without [Highlander]>","Only available <for units without [Urbanist]>"],
-		"unitTypes": ["InfantryBC","InfantryBG"],"column": 2,"row": 3,
-	},
-	{
-		"name": "Highlander","prerequisites": ["Hidden Exosuit","Nanoscale Vest"],
-		"uniques": ["[+1] Movement <in [Hill] tiles>","Only available <for units without [Woodsman]>","Only available <for units without [Urbanist]>"],
-		"unitTypes": ["InfantryBC","InfantryBG"],"column": 3,"row": 3,
-	},
 	//BoPA Promotions
 	//Bureau Commando
 	//Scout Path
 	{
 		"name": "Augmented Glasses",
 		"uniques": ["[+2] Sight","Can see invisible [Land] units","Only available <for units without [Adrenaline Injectors]>"],
-		"unitTypes": ["InfantryBC",],"column": 4,"row": 1,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBC",],"column": 2,"row": 1,"innerColor": [52, 101, 164]
 	},
 	{
 		"name": "Hidden Exosuit","prerequisites": ["Augmented Glasses"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["InfantryBC",],"column": 4,"row": 2,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBC",],"column": 2,"row": 2,"innerColor": [52, 101, 164]
 	},
 	{
 		"name": "LS Systems","prerequisites": ["Hidden Exosuit"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["InfantryBC",],"column": 4,"row": 3,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBC",],"column": 2,"row": 3,"innerColor": [52, 101, 164]
 	},
 	//Assault Path
 	{
 		"name": "Adrenaline Injectors",
 		"uniques": ["No damage penalty for wounded units","Only available <for units without [Augmented Glasses]>"],
-		"unitTypes": ["InfantryBC",],"column": 5,"row": 1,"innerColor": [22, 130, 83]
+		"unitTypes": ["InfantryBC",],"column": 3,"row": 1,"innerColor": [22, 130, 83]
 	},
 	{
 		"name": "Nanoscale Vest","prerequisites": ["Adrenaline Injectors"],
 		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["InfantryBC",],"column": 5,"row": 2,"innerColor": [22, 130, 83]
+		"unitTypes": ["InfantryBC",],"column": 3,"row": 2,"innerColor": [22, 130, 83]
 	},
 	{
 		"name": "Rapid Fire Mode","prerequisites": ["Nanoscale Vest"],
 		"uniques": ["[+5] Strength <when attacking>","[+1] additional attacks per turn"],
-		"unitTypes": ["InfantryBC",],"column": 5,"row": 3,"innerColor": [22, 130, 83]
+		"unitTypes": ["InfantryBC",],"column": 3,"row": 3,"innerColor": [22, 130, 83]
 	},
 	//Bureau Grenadier
 	//Demolitionist Path
 	{
 		"name": "Padded Suit",
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>","[+33]% Strength <vs cities> <when defending>","Only available <for units without [Suppressive Fire]>"],
-		"unitTypes": ["InfantryBG",],"column": 6,"row": 1,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBG",],"column": 4,"row": 1,"innerColor": [52, 101, 164]
 	},
 	{
 		"name": "Heavy Ordnance", "prerequisites": ["Padded Suit"],
 		"uniques": ["[+50]% Strength <vs cities> <when attacking>",],
-		"unitTypes": ["InfantryBG",],"column": 6,"row": 2,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBG",],"column": 4,"row": 2,"innerColor": [52, 101, 164]
 	},
 	{
 		"name": "Grenade Salvo", "prerequisites": ["Heavy Ordnance"],
 		"uniques": ["[33]% Strength <when attacking>",],
-		"unitTypes": ["InfantryBG",],"column": 6,"row": 3,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBG",],"column": 4,"row": 3,"innerColor": [52, 101, 164]
 	},
 	//Heavy Gunner Path
 	{
 		"name": "Suppressive Fire",
 		"uniques": ["[+33]% Strength <vs [Infantry] units>","Only available <for units without [Padded Suit]>"],
-		"unitTypes": ["InfantryBG",],"column": 7,"row": 1,"innerColor": [22, 130, 83]
+		"unitTypes": ["InfantryBG",],"column": 5,"row": 1,"innerColor": [22, 130, 83]
 	},
 	{
 		"name": "Armour Piercing Ammo", "prerequisites": ["Suppressive Fire"],
 		"uniques": ["[+30]% Strength <vs [Armour] units>",],
-		"unitTypes": ["InfantryBG",],"column": 7,"row": 2,"innerColor": [22, 130, 83]
+		"unitTypes": ["InfantryBG",],"column": 5,"row": 2,"innerColor": [22, 130, 83]
 	},
 	{
 		"name": "Shredding Shots", "prerequisites": ["Armour Piercing Ammo"],
 		"uniques": ["[10] Strength <when attacking>",],
-		"unitTypes": ["InfantryBG",],"column": 7,"row": 3,"innerColor": [22, 130, 83]
+		"unitTypes": ["InfantryBG",],"column": 5,"row": 3,"innerColor": [22, 130, 83]
 	},
 	//Bureau Marksman
 	//Sniper
 	{
 		"name": "Extended Barrel",
 		"uniques": ["[+1] Sight","[+1] Range","Only available <for units without [In-Hand Stabilizer]>"],
-		"unitTypes": ["InfantryBM",],"column": 8,"row": 1,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBM",],"column": 6,"row": 1,"innerColor": [52, 101, 164]
 	},
 	{
 		"name": "Neuro-toxin Rounds", "prerequisites": ["Extended Barrel"],
 		"uniques": ["[10] Strength <when attacking> <with [33]% chance>",],
-		"unitTypes": ["InfantryBM",],"column": 8,"row": 2,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBM",],"column": 6,"row": 2,"innerColor": [52, 101, 164]
 	},
 	{
 		"name": "Organ Targetting", "prerequisites": ["Neuro-toxin Rounds"],
 		"uniques": ["[33] Strength <when attacking> <with [25]% chance>",],
-		"unitTypes": ["InfantryBM",],"column": 8,"row": 3,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBM",],"column": 6,"row": 3,"innerColor": [52, 101, 164]
 	},
 	//Gunslinger
 	{
 		"name": "In-Hand Stabilizer",
 		"uniques": ["[+1] additional attacks per turn","Only available <for units without [Extended Barrel]>"],
-		"unitTypes": ["InfantryBM",],"column": 9,"row": 1,"innerColor": [22, 130, 83]
+		"unitTypes": ["InfantryBM",],"column": 7,"row": 1,"innerColor": [22, 130, 83]
 	},
 	{
 		"name": "Hip Firing Enhancement", "prerequisites": ["In-Hand Stabilizer"],
 		"uniques": ["[+10] Strength <when defending>",],
-		"unitTypes": ["InfantryBM",],"column": 9,"row": 2,"innerColor": [22, 130, 83]
+		"unitTypes": ["InfantryBM",],"column": 7,"row": 2,"innerColor": [22, 130, 83]
 	},
 	{
 		"name": "Burst Fire Mode", "prerequisites": ["Hip Firing Enhancement"],
 		"uniques": ["[+10] Strength <when attacking>",],
-		"unitTypes": ["InfantryBM",],"column": 9,"row": 3,"innerColor": [22, 130, 83]
+		"unitTypes": ["InfantryBM",],"column": 7,"row": 3,"innerColor": [22, 130, 83]
 	},
 ]
