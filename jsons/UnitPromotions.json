@@ -95,7 +95,7 @@
 		"unitTypes": ["InfantryBG",],"column": 8,"row": 2,"innerColor": [52, 101, 164]
 	},
 	{
-		"name": "Organ Targetting", "prerequisites": ["High-Prediction Algorithms"],
+		"name": "Organ Targetting", "prerequisites": ["Neuro-toxin Rounds"],
 		"uniques": ["[33] Strength <vs [Human] units> <when attacking> <with [25]% chance>",],
 		"unitTypes": ["InfantryBG",],"column": 8,"row": 3,"innerColor": [52, 101, 164]
 	},
@@ -106,12 +106,12 @@
 		"unitTypes": ["InfantryBM",],"column": 9,"row": 1,"innerColor": [52, 101, 164]
 	},
 	{
-		"name": "System", "prerequisites": ["In-Hand Stabilizer"],
-		"uniques": ["[+5] Strength <when defending>",],
+		"name": "Hip Firing Enhancement", "prerequisites": ["In-Hand Stabilizer"],
+		"uniques": ["[+10] Strength <when defending>",],
 		"unitTypes": ["InfantryBM",],"column": 9,"row": 2,"innerColor": [52, 101, 164]
 	},
 	{
-		"name": "Neuro-toxin Rounds", "prerequisites": ["Heavy Ordnance"],
+		"name": "Burst Fire Mode", "prerequisites": ["Hip Firing Enhancement"],
 		"uniques": ["[+10] Strength <upon entering combat>",],
 		"unitTypes": ["InfantryBM",],"column": 9,"row": 3,"innerColor": [52, 101, 164]
 	},
