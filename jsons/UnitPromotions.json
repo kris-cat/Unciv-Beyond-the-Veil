@@ -1,39 +1,62 @@
 [
 	//BoPA Promotions
-	//Bureau Commando
+	//Default
 	{
-		"name": "Sentry Drone",
+		"name": "Urbanist","prerequisites": ["Jet Boots","Infared Scanning","Jump Boots","Nanoscale Vest"],
+		"uniques": [""],
+		"unitTypes": ["InfantryBC",],"column": 2,"row": 1,
+	},
+	{
+		"name": "Woodsman","prerequisites": ["Jet Boots","Infared Scanning","Jump Boots","Nanoscale Vest"],
+		"uniques": [""],
+		"unitTypes": ["InfantryBC",],"column": 3,"row": 1,
+	},
+	{
+		"name": "Highlander","prerequisites": ["Jet Boots","Infared Scanning","Jump Boots","Nanoscale Vest"],
+		"uniques": [""],
+		"unitTypes": ["InfantryBC",],"column": 4,"row": 1,
+	},
+	//Bureau Commando
+	//Scout Path
+	{
+		"name": "Far-Eyed Glasses",
 		"uniques": ["[+2] Sight","Can see over obstacles","Only available <for units without [Run And Gun]>"],
 		"unitTypes": ["InfantryBC",],"column": 1,"row": 1,"innerColor": [52, 101, 164]
 	},
 	{
-		"name": "Mobility Exosuit","prerequisites": ["Sentry Drone"],
+		"name": "Jet Boots","prerequisites": ["Far-Eyed Glasses"],
 		"uniques": ["Ignores terrain cost"],
 		"unitTypes": ["InfantryBC",],"column": 1,"row": 2,"innerColor": [52, 101, 164]
 	},
+	{
+		"name": "Infared Scanning","prerequisites": ["Far-Eyed Glasses"],
+		"uniques": ["Can see invisible [Land] units"],
+		"unitTypes": ["InfantryBC",],"column": 2,"row": 2,"innerColor": [52, 101, 164]
+	},
+	{
+		"name": "Hidden Exosuit","prerequisites": ["Jet Boots","Infared Scanning"],
+		"uniques": ["Withdraws before melee combat <every [5] turns> <(modified by game speed)>"],
+		"unitTypes": ["InfantryBC",],"column": 1,"row": 3,"innerColor": [52, 101, 164]
+	},
+	//Assault Path
 	{
 		"name": "Adrenaline Injectors",
 		"uniques": ["No damage penalty for wounded units","[+5] Strength <when attacking>","Only available <for units without [Sentry Drone]>"],
 		"unitTypes": ["InfantryBC",],"column": 5,"row": 1,"innerColor": [22, 130, 83]
 	},
 	{
-		"name": "Run And Gun","prerequisites": ["Adrenaline Injectors"],
+		"name": "Jump Boots","prerequisites": ["Adrenaline Injectors"],
 		"uniques": [""],
 		"unitTypes": ["InfantryBC",],"column": 5,"row": 2,"innerColor": [22, 130, 83]
 	},
-		{
-		"name": "Smoke Grenade",
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["InfantryBC",],"column": 2,"row": 1,
-	},
 	{
-		"name": "Nanoscale Vest",
+		"name": "Nanoscale Vest","prerequisites": ["Adrenaline Injectors"],
 		"uniques": [""],
-		"unitTypes": ["InfantryBC",],"column": 3,"row": 1,
+		"unitTypes": ["InfantryBC",],"column": 4,"row": 2,"innerColor": [22, 130, 83]
 	},
 	{
-		"name": "Medkit",
-		"uniques": ["Unit will heal every turn, even if it performs an action","May heal outside of friendly territory"],
-		"unitTypes": ["InfantryBC",],"column": 4,"row": 1,
+		"name": "Rapid Fire Mode","prerequisites": ["Jump Boots","Nanoscale Vest"],
+		"uniques": [""],
+		"unitTypes": ["InfantryBC",],"column": 5,"row": 3,"innerColor": [22, 130, 83]
 	},
 ]
