@@ -22,7 +22,7 @@
         "innerColor": [0,0,0],
 		"uniqueName": "Bureau of Paranormal Activities Faction Features",
 		"uniques": [
-			"Adopt [BPA Edicts]","New [all] units start with [100] XP [in all cities]",
+			"Adopt [BPA Edicts]","New [all] units start with [200] XP [in all cities]",
 			"[+10 Culture]"
         ],
 		"cities": [
