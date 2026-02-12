@@ -40,21 +40,21 @@
 	{
 		"name": "Vision Augmentations","prerequisites": ["Drill I","Shock I"],
 		"uniques": ["[+1] Sight","Can see invisible [Land] units","Only available <for units without [Run And Gun]>"],
-		"unitTypes": ["InfantryBC",],"column": 2,"row": 2,"innerColor": [255, 212, 40]
+		"unitTypes": ["InfantryBC",],"column": 2,"row": 2,"innerColor": [52, 101, 164]
 	},
 	{
 		"name": "Mobility Exosuit","prerequisites": ["Vision Augmentations"],
 		"uniques": ["Ignores terrain cost"],
-		"unitTypes": ["InfantryBC",],"column": 2,"row": 3,"innerColor": [255, 212, 40]
+		"unitTypes": ["InfantryBC",],"column": 2,"row": 3,"innerColor": [52, 101, 164]
 	},
 	{
 		"name": "Adrenaline Injectors","prerequisites": ["Drill I","Shock I"],
 		"uniques": ["Withdraws before melee combat <every [5] turns>","Only available <for units without [Vision Augmentations]>"],
-		"unitTypes": ["InfantryBC",],"column": 8,"row": 2,"innerColor": [255, 134, 13]
+		"unitTypes": ["InfantryBC",],"column": 8,"row": 2,"innerColor": [22, 130, 83]
 	},
 	{
 		"name": "Run And Gun","prerequisites": ["Adrenaline Injectors"],
 		"uniques": ["[+1] additional attacks per turn <for [1] turns> <upon defeating a [Land] unit>"],
-		"unitTypes": ["InfantryBC",],"column": 8,"row": 3,"innerColor": [255, 134, 13]
+		"unitTypes": ["InfantryBC",],"column": 8,"row": 3,"innerColor": [22, 130, 83]
 	},
 ]
