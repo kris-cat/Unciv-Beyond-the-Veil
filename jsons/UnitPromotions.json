@@ -103,16 +103,16 @@
 	{
 		"name": "In-Hand Stabilizer",
 		"uniques": ["[+1] additional attacks per turn","Only available <for units without [Extended Barrel]>"],
-		"unitTypes": ["InfantryBG",],"column": 8,"row": 1,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBM",],"column": 9,"row": 1,"innerColor": [52, 101, 164]
 	},
 	{
 		"name": "System", "prerequisites": ["In-Hand Stabilizer"],
 		"uniques": ["[+5] Strength <when defending>",],
-		"unitTypes": ["InfantryBG",],"column": 8,"row": 2,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBM",],"column": 9,"row": 2,"innerColor": [52, 101, 164]
 	},
 	{
 		"name": "Neuro-toxin Rounds", "prerequisites": ["Heavy Ordnance"],
 		"uniques": ["[+10] Strength <upon entering combat>",],
-		"unitTypes": ["InfantryBG",],"column": 8,"row": 3,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBM",],"column": 9,"row": 3,"innerColor": [52, 101, 164]
 	},
 ]
