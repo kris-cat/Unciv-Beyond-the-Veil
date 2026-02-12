@@ -4,34 +4,34 @@
 	{
 		"name": "Urbanist","prerequisites": ["Hidden Exosuit","Nanoscale Vest"],
 		"uniques": ["[+1] Movement <in [Urban Sprawl] tiles>","Only available <for units without [Woodsman]>","Only available <for units without [Highlander]>"],
-		"unitTypes": ["InfantryBC",],"column": 2,"row": 3,
+		"unitTypes": ["InfantryBC",],"column": 1,"row": 3,
 	},
 	{
 		"name": "Woodsman","prerequisites": ["Hidden Exosuit","Nanoscale Vest"],
 		"uniques": ["[+1] Movement <in [Forest] tiles>","Only available <for units without [Highlander]>","Only available <for units without [Urbanist]>"],
-		"unitTypes": ["InfantryBC",],"column": 3,"row": 3,
+		"unitTypes": ["InfantryBC",],"column": 2,"row": 3,
 	},
 	{
 		"name": "Highlander","prerequisites": ["Hidden Exosuit","Nanoscale Vest"],
 		"uniques": ["[+1] Movement <in [Hill] tiles>","Only available <for units without [Woodsman]>","Only available <for units without [Urbanist]>"],
-		"unitTypes": ["InfantryBC",],"column": 4,"row": 3,
+		"unitTypes": ["InfantryBC",],"column": 3,"row": 3,
 	},
 	//Bureau Commando
 	//Scout Path
 	{
 		"name": "Augmented Glasses",
 		"uniques": ["[+2] Sight","Can see invisible [Land] units","Only available <for units without [Adrenaline Injectors]>"],
-		"unitTypes": ["InfantryBC",],"column": 1,"row": 1,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBC",],"column": 4,"row": 1,"innerColor": [52, 101, 164]
 	},
 	{
 		"name": "Hidden Exosuit","prerequisites": ["Augmented Glasses"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["InfantryBC",],"column": 1,"row": 2,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBC",],"column": 4,"row": 2,"innerColor": [52, 101, 164]
 	},
 	{
 		"name": "LS Systems","prerequisites": ["Hidden Exosuit"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["InfantryBC",],"column": 1,"row": 3,"innerColor": [52, 101, 164]
+		"unitTypes": ["InfantryBC",],"column": 4,"row": 3,"innerColor": [52, 101, 164]
 	},
 	//Assault Path
 	{
@@ -53,13 +53,33 @@
 	//Demolitionist Path
 	{
 		"name": "Padded Suit",
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>","[+33]% Strength <vs cities> <when defending>","Only available <for units without [Frag Ammunition]>"],
-		"unitTypes": ["InfantryBG",],"column": 1,"row": 1,"innerColor": [52, 101, 164]
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>","[+33]% Strength <vs cities> <when defending>","Only available <for units without [Suppressive Fire]>"],
+		"unitTypes": ["InfantryBG",],"column": 6,"row": 1,"innerColor": [52, 101, 164]
+	},
+	{
+		"name": "Heavy Ordnance", "prerequisites": ["Padded Suit"],
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>",],
+		"unitTypes": ["InfantryBG",],"column": 6,"row": 2,"innerColor": [52, 101, 164]
+	},
+	{
+		"name": "Grenade Salvo", "prerequisites": ["Padded Suit"],
+		"uniques": ["[33]% Strength <when attacking>",],
+		"unitTypes": ["InfantryBG",],"column": 6,"row": 3,"innerColor": [52, 101, 164]
 	},
 	//Heavy Gunner Path
 	{
-		"name": "Frag Ammunition",
+		"name": "Suppressive Fire",
 		"uniques": ["+33]% Strength <vs [Infantry] units>","Only available <for units without [Padded Suit]>"],
-		"unitTypes": ["InfantryBG",],"column": 5,"row": 1,"innerColor": [22, 130, 83]
+		"unitTypes": ["InfantryBG",],"column": 7,"row": 1,"innerColor": [22, 130, 83]
+	},
+	{
+		"name": "Armour Piercing Ammo", "prerequisites": ["Suppressive Fire"],
+		"uniques": ["+30]% Strength <vs [Armour] units>",],
+		"unitTypes": ["InfantryBG",],"column": 7,"row": 2,"innerColor": [22, 130, 83]
+	},
+	{
+		"name": "Shredding Shots", "prerequisites": ["Armour Piercing Ammo"],
+		"uniques": ["[10] Strength <with [25]% chance>",],
+		"unitTypes": ["InfantryBG",],"column": 7,"row": 3,"innerColor": [22, 130, 83]
 	},
 ]
