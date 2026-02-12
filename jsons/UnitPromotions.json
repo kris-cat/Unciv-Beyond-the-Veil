@@ -19,13 +19,13 @@
 	//Bureau Commando
 	//Scout Path
 	{
-		"name": "Far-Eyed Glasses",
+		"name": "Augmented Glasses",
 		"uniques": ["[+2] Sight","Can see invisible [Land] units","Only available <for units without [Adrenaline Injectors]>"],
 		"unitTypes": ["InfantryBC",],"column": 1,"row": 1,"innerColor": [52, 101, 164]
 	},
 	{
-		"name": "Hidden Exosuit","prerequisites": ["Far-Eyed Glasses"],
-		"uniques": ["Ignores terrain cost","[+1] Movement"],
+		"name": "Hidden Exosuit","prerequisites": ["Augmented Glasses"],
+		"uniques": ["[+1] Movement"],
 		"unitTypes": ["InfantryBC",],"column": 1,"row": 2,"innerColor": [52, 101, 164]
 	},
 	{
@@ -36,12 +36,12 @@
 	//Assault Path
 	{
 		"name": "Adrenaline Injectors",
-		"uniques": ["No damage penalty for wounded units","[+5] Strength <when attacking>","Only available <for units without [Far-Eyed Glasses]>"],
+		"uniques": ["No damage penalty for wounded units","Only available <for units without [Augmented Glasses]>"],
 		"unitTypes": ["InfantryBC",],"column": 5,"row": 1,"innerColor": [22, 130, 83]
 	},
 	{
 		"name": "Nanoscale Vest","prerequisites": ["Adrenaline Injectors"],
-		"uniques": [""],
+		"uniques": ["[+10] Strength <when attacking>"],
 		"unitTypes": ["InfantryBC",],"column": 5,"row": 2,"innerColor": [22, 130, 83]
 	},
 	{
