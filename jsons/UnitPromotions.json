@@ -38,17 +38,17 @@
 	{
 		"name": "Adrenaline Injectors",
 		"uniques": ["No damage penalty for wounded units","Only available <for units without [Augmented Glasses]>"],
-		"unitTypes": ["InfantryBC",],"column": 3,"row": 1,"innerColor": [22, 130, 83]
+		"unitTypes": ["InfantryBC",],"column": 2,"row": 4,"innerColor": [22, 130, 83]
 	},
 	{
 		"name": "Nanoscale Vest","prerequisites": ["Adrenaline Injectors"],
 		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["InfantryBC",],"column": 3,"row": 2,"innerColor": [22, 130, 83]
+		"unitTypes": ["InfantryBC",],"column": 2,"row": 5,"innerColor": [22, 130, 83]
 	},
 	{
 		"name": "Rapid Fire Mode","prerequisites": ["Nanoscale Vest"],
 		"uniques": ["[+5] Strength <when attacking>","[+1] additional attacks per turn"],
-		"unitTypes": ["InfantryBC",],"column": 3,"row": 3,"innerColor": [22, 130, 83]
+		"unitTypes": ["InfantryBC",],"column": 2,"row": 6,"innerColor": [22, 130, 83]
 	},
 	//Bureau Grenadier
 	//Demolitionist Path
@@ -87,7 +87,7 @@
 	//Sniper
 	{
 		"name": "Extended Barrel",
-		"uniques": ["[+1] Sight","[+1] Range","Only available <for units without [In-Hand Stabilizer]>"],
+		"uniques": ["[+1] Sight","[+1] Range","Only available <for units without [Burst Fire Mode]>"],
 		"unitTypes": ["InfantryBM",],"column": 6,"row": 1,"innerColor": [52, 101, 164]
 	},
 	{
@@ -102,18 +102,18 @@
 	},
 	//Gunslinger
 	{
-		"name": "In-Hand Stabilizer",
-		"uniques": ["[+1] additional attacks per turn","Only available <for units without [Extended Barrel]>"],
+		"name": "Burst Fire Mode",
+		"uniques": ["[+1] additional attacks per turn","[-1] Range","Only available <for units without [Extended Barrel]>"],
 		"unitTypes": ["InfantryBM",],"column": 7,"row": 1,"innerColor": [22, 130, 83]
 	},
 	{
-		"name": "Hip Firing Enhancement", "prerequisites": ["In-Hand Stabilizer"],
-		"uniques": ["[+10] Strength <when defending>",],
+		"name": "Exploding Rounds", "prerequisites": ["Burst Fire Mode"],
+		"uniques": ["[+10] Strength <when attacking>",],
 		"unitTypes": ["InfantryBM",],"column": 7,"row": 2,"innerColor": [22, 130, 83]
 	},
 	{
-		"name": "Burst Fire Mode", "prerequisites": ["Hip Firing Enhancement"],
-		"uniques": ["[+10] Strength <when attacking>",],
+		"name": "Hip Firing Enhancement", "prerequisites": ["Exploding Rounds"],
+		"uniques": ["[+10] Strength <when defending>",],
 		"unitTypes": ["InfantryBM",],"column": 7,"row": 3,"innerColor": [22, 130, 83]
 	},
 ]
