@@ -2,17 +2,17 @@
 	//BoPA Promotions
 	//Default
 	{
-		"name": "Urbanist","prerequisites": ["Jet Boots","Infared Scanning","Jump Boots","Nanoscale Vest"],
+		"name": "Urbanist","prerequisites": ["Hidden Exosuit","Nanoscale Vest"],
 		"uniques": ["Only available <for units without [Woodsman]>","Only available <for units without [Highlander]>"],
 		"unitTypes": ["InfantryBC",],"column": 2,"row": 1,
 	},
 	{
-		"name": "Woodsman","prerequisites": ["Jet Boots","Infared Scanning","Jump Boots","Nanoscale Vest"],
+		"name": "Woodsman","prerequisites": ["Hidden Exosuit","Nanoscale Vest"],
 		"uniques": ["Only available <for units without [Highlander]>","Only available <for units without [Urbanist]>"],
 		"unitTypes": ["InfantryBC",],"column": 3,"row": 1,
 	},
 	{
-		"name": "Highlander","prerequisites": ["Jet Boots","Infared Scanning","Jump Boots","Nanoscale Vest"],
+		"name": "Highlander","prerequisites": ["Hidden Exosuit","Nanoscale Vest"],
 		"uniques": ["Only available <for units without [Woodsman]>","Only available <for units without [Urbanist]>"],
 		"unitTypes": ["InfantryBC",],"column": 4,"row": 1,
 	},
@@ -20,22 +20,17 @@
 	//Scout Path
 	{
 		"name": "Far-Eyed Glasses",
-		"uniques": ["[+2] Sight","Can see over obstacles","Only available <for units without [Adrenaline Injectors]>"],
+		"uniques": ["[+2] Sight","Can see invisible [Land] units","Only available <for units without [Adrenaline Injectors]>"],
 		"unitTypes": ["InfantryBC",],"column": 1,"row": 1,"innerColor": [52, 101, 164]
 	},
 	{
-		"name": "Jet Boots","prerequisites": ["Far-Eyed Glasses"],
-		"uniques": ["Ignores terrain cost"],
+		"name": "Hidden Exosuit","prerequisites": ["Far-Eyed Glasses"],
+		"uniques": ["Ignores terrain cost","[+1] Movement"],
 		"unitTypes": ["InfantryBC",],"column": 1,"row": 2,"innerColor": [52, 101, 164]
 	},
 	{
-		"name": "Infared Scanning","prerequisites": ["Far-Eyed Glasses"],
-		"uniques": ["Can see invisible [Land] units"],
-		"unitTypes": ["InfantryBC",],"column": 2,"row": 2,"innerColor": [52, 101, 164]
-	},
-	{
-		"name": "Hidden Exosuit","prerequisites": ["Jet Boots","Infared Scanning"],
-		"uniques": ["Withdraws before melee combat <every [5] turns> <(modified by game speed)>"],
+		"name": "LS Systems","prerequisites": ["Hidden Exosuit"],
+		"uniques": ["[+20]% Strength <when defending>","Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["InfantryBC",],"column": 1,"row": 3,"innerColor": [52, 101, 164]
 	},
 	//Assault Path
@@ -45,18 +40,13 @@
 		"unitTypes": ["InfantryBC",],"column": 5,"row": 1,"innerColor": [22, 130, 83]
 	},
 	{
-		"name": "Jump Boots","prerequisites": ["Adrenaline Injectors"],
+		"name": "Nanoscale Vest","prerequisites": ["Adrenaline Injectors"],
 		"uniques": [""],
 		"unitTypes": ["InfantryBC",],"column": 5,"row": 2,"innerColor": [22, 130, 83]
 	},
 	{
-		"name": "Nanoscale Vest","prerequisites": ["Adrenaline Injectors"],
-		"uniques": [""],
-		"unitTypes": ["InfantryBC",],"column": 4,"row": 2,"innerColor": [22, 130, 83]
-	},
-	{
-		"name": "Rapid Fire Mode","prerequisites": ["Jump Boots","Nanoscale Vest"],
-		"uniques": [""],
+		"name": "Rapid Fire Mode","prerequisites": ["Nanoscale Vest"],
+		"uniques": ["[+1] additional attacks per turn"],
 		"unitTypes": ["InfantryBC",],"column": 5,"row": 3,"innerColor": [22, 130, 83]
 	},
 ]
