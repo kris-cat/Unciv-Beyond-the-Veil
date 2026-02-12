@@ -3,18 +3,18 @@
 	//Default
 	{
 		"name": "Urbanist","prerequisites": ["Hidden Exosuit","Nanoscale Vest"],
-		"uniques": ["Only available <for units without [Woodsman]>","Only available <for units without [Highlander]>"],
-		"unitTypes": ["InfantryBC",],"column": 2,"row": 1,
+		"uniques": ["[+1] Movement <in [Urban Sprawl] tiles>","Only available <for units without [Woodsman]>","Only available <for units without [Highlander]>"],
+		"unitTypes": ["InfantryBC",],"column": 2,"row": 3,
 	},
 	{
 		"name": "Woodsman","prerequisites": ["Hidden Exosuit","Nanoscale Vest"],
-		"uniques": ["Only available <for units without [Highlander]>","Only available <for units without [Urbanist]>"],
-		"unitTypes": ["InfantryBC",],"column": 3,"row": 1,
+		"uniques": ["[+1] Movement <in [Forest] tiles>","Only available <for units without [Highlander]>","Only available <for units without [Urbanist]>"],
+		"unitTypes": ["InfantryBC",],"column": 3,"row": 3,
 	},
 	{
 		"name": "Highlander","prerequisites": ["Hidden Exosuit","Nanoscale Vest"],
-		"uniques": ["Only available <for units without [Woodsman]>","Only available <for units without [Urbanist]>"],
-		"unitTypes": ["InfantryBC",],"column": 4,"row": 1,
+		"uniques": ["[+1] Movement <in [Hill] tiles>","Only available <for units without [Woodsman]>","Only available <for units without [Urbanist]>"],
+		"unitTypes": ["InfantryBC",],"column": 4,"row": 3,
 	},
 	//Bureau Commando
 	//Scout Path
