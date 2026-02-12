@@ -1,5 +1,14 @@
 [
 	//Default
+	{
+		"name": "Heal Instantly",
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["UGVH","InfantryBC","InfantryBG","InfantryBM"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234],
+        "row": 0,
+        "column": 0
+    },
 	//BoPA Promotions
 	//Infantry
 	{
