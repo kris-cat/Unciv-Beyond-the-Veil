@@ -36,7 +36,7 @@
 	//Assault Path
 	{
 		"name": "Adrenaline Injectors",
-		"uniques": ["No damage penalty for wounded units","[+5] Strength <when attacking>","Only available <for units without [Augmented Glasses]>"],
+		"uniques": ["No damage penalty for wounded units","Only available <for units without [Augmented Glasses]>"],
 		"unitTypes": ["InfantryBC",],"column": 5,"row": 1,"innerColor": [22, 130, 83]
 	},
 	{
@@ -46,7 +46,7 @@
 	},
 	{
 		"name": "Rapid Fire Mode","prerequisites": ["Nanoscale Vest"],
-		"uniques": ["[+1] additional attacks per turn"],
+		"uniques": ["[+5] Strength <when attacking>","[+1] additional attacks per turn"],
 		"unitTypes": ["InfantryBC",],"column": 5,"row": 3,"innerColor": [22, 130, 83]
 	},
 	//Bureau Grenadier
@@ -79,7 +79,40 @@
 	},
 	{
 		"name": "Shredding Shots", "prerequisites": ["Armour Piercing Ammo"],
-		"uniques": ["[10] Strength <with [25]% chance>",],
+		"uniques": ["[10] Strength <when attacking>",],
 		"unitTypes": ["InfantryBG",],"column": 7,"row": 3,"innerColor": [22, 130, 83]
+	},
+	//Bureau Marksman
+	//Sniper
+	{
+		"name": "Extended Barrel",
+		"uniques": ["[+1] Sight","[+1] Range","Only available <for units without [In-Hand Stabilizer]>"],
+		"unitTypes": ["InfantryBG",],"column": 8,"row": 1,"innerColor": [52, 101, 164]
+	},
+	{
+		"name": "Neuro-toxin Rounds", "prerequisites": ["Extended Barrel"],
+		"uniques": ["[33]% Strength <when attacking>",],
+		"unitTypes": ["InfantryBG",],"column": 8,"row": 2,"innerColor": [52, 101, 164]
+	},
+	{
+		"name": "Organ Targetting", "prerequisites": ["High-Prediction Algorithms"],
+		"uniques": ["[33] Strength <vs [Human] units> <when attacking> <with [25]% chance>",",],
+		"unitTypes": ["InfantryBG",],"column": 8,"row": 3,"innerColor": [52, 101, 164]
+	},
+	//Gunslinger
+	{
+		"name": "In-Hand Stabilizer",
+		"uniques": ["[+1] additional attacks per turn","Only available <for units without [Extended Barrel]>"],
+		"unitTypes": ["InfantryBG",],"column": 8,"row": 1,"innerColor": [52, 101, 164]
+	},
+	{
+		"name": "System", "prerequisites": ["In-Hand Stabilizer"],
+		"uniques": ["[+5] Strength <when defending>",],
+		"unitTypes": ["InfantryBG",],"column": 8,"row": 2,"innerColor": [52, 101, 164]
+	},
+	{
+		"name": "Neuro-toxin Rounds", "prerequisites": ["Heavy Ordnance"],
+		"uniques": ["[+10] Strength <upon entering combat>",],
+		"unitTypes": ["InfantryBG",],"column": 8,"row": 3,"innerColor": [52, 101, 164]
 	},
 ]
