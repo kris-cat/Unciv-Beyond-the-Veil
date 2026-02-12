@@ -50,7 +50,7 @@
 	{
 		"name": "Adrenaline Injectors","prerequisites": ["Drill I","Shock I"],
 		"uniques": ["Assault Class Promotion","Withdraws before melee combat <every [5] turns>","Unavailable <for units with [Scout Class Promotion]>"],
-		"unitTypes": ["InfantryBC",],"column": 8,"row": 2,"innerColor": [255, 134, 13]+
+		"unitTypes": ["InfantryBC",],"column": 8,"row": 2,"innerColor": [255, 134, 13]
 	},
 	{
 		"name": "Run And Gun","prerequisites": ["Adrenaline Injectors"],
