@@ -7,7 +7,7 @@
 		"unitTypes": ["InfantryBC",],"column": 1,"row": 1,"innerColor": [52, 101, 164]
 	},
 	{
-		"name": "Mobility Exosuit","prerequisites": ["Glass Augmentations"],
+		"name": "Mobility Exosuit","prerequisites": ["Sentry Drone"],
 		"uniques": ["Ignores terrain cost"],
 		"unitTypes": ["InfantryBC",],"column": 1,"row": 2,"innerColor": [52, 101, 164]
 	},
@@ -34,6 +34,6 @@
 	{
 		"name": "Medkit",
 		"uniques": ["Unit will heal every turn, even if it performs an action","May heal outside of friendly territory"],
-		"unitTypes": ["InfantryBC",],"column": 3,"row": 1,
+		"unitTypes": ["InfantryBC",],"column": 4,"row": 1,
 	},
 ]
