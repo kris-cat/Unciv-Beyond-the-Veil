@@ -1,4 +1,5 @@
 [
+	//Default Melee
     {
 		"name": "Shock I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
@@ -21,17 +22,39 @@
 	},
 	{
 		"name": "Urbanist","prerequisites": ["Shock II","Drill II"],
-		"uniques": ["Double movement in [Urban Sprawl]","[+15]% Strength <when fighting in [Urban Sprawl] tiles>"],
-		"unitTypes": ["InfantryBC","InfantryBG",],"column": 4,"row": 3
+		"uniques": ["Terrain Specialisation Promotion","Double movement in [Urban Sprawl]","[+15]% Strength <when fighting in [Urban Sprawl] tiles>","Unavailable <for units with [Terrain Specialisation Promotion]>"],
+		"unitTypes": ["InfantryBC","InfantryBG",],"column": 4,"row": 2
 	},
 	{
 		"name": "Woodsman","prerequisites": ["Shock II","Drill II"],
-		"uniques": ["Double movement in [Forest]","[+15]% Strength <when fighting in [Forest] tiles>"],
-		"unitTypes": ["InfantryBC","InfantryBG",],"column": 5,"row": 3
+		"uniques": ["Terrain Specialisation Promotion","Double movement in [Forest]","[+15]% Strength <when fighting in [Forest] tiles>","Unavailable <for units with [Terrain Specialisation Promotion]>"],
+		"unitTypes": ["InfantryBC","InfantryBG",],"column": 5,"row": 2
 	},
 	{
 		"name": "Highlander","prerequisites": ["Shock II","Drill II"],
-		"uniques": ["Double movement in [Hill]","[+15]% Strength <when fighting in [Hill] tiles>"],
-		"unitTypes": ["InfantryBC","InfantryBG",],"column": 6,"row": 3
+		"uniques": ["Terrain Specialisation Promotion","Double movement in [Hill]","[+15]% Strength <when fighting in [Hill] tiles>","Unavailable <for units with [Terrain Specialisation Promotion]>"],
+		"unitTypes": ["InfantryBC","InfantryBG",],"column": 6,"row": 2
+	},
+	//BoPA Promotions
+	//Bureau Commando
+	{
+		"name": "Vision Augmentations","prerequisites": ["Drill I","Shock I"],
+		"uniques": ["Scout Class Promotion","[+1] Sight","Can see invisible [Land] units","Unavailable <for units with [Assault Class Promotion]>"],
+		"unitTypes": ["InfantryBC",],"column": 2,"row": 2,"innerColor": [255, 212, 40]
+	},
+	{
+		"name": "Mobility Exosuit","prerequisites": ["Vision Augmentations"],
+		"uniques": ["Scout Class Promotion","Ignores terrain cost"],
+		"unitTypes": ["InfantryBC",],"column": 2,"row": 3,"innerColor": [255, 212, 40]
+	},
+	{
+		"name": "Adrenaline Injectors","prerequisites": ["Drill I","Shock I"],
+		"uniques": ["Assault Class Promotion","Withdraws before melee combat <every [5] turns>","Unavailable <for units with [Scout Class Promotion]>"],
+		"unitTypes": ["InfantryBC",],"column": 8,"row": 2,"innerColor": [255, 134, 13]+
+	},
+	{
+		"name": "Run And Gun","prerequisites": ["Adrenaline Injectors"],
+		"uniques": ["Assault Class Promotion","[+1] additional attacks per turn <for [1] turns> <upon defeating a [Land] unit>"],
+		"unitTypes": ["InfantryBC",],"column": 8,"row": 3,"innerColor": [255, 134, 13]
 	},
 ]
