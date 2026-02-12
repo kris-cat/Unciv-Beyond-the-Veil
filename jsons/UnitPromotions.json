@@ -1,6 +1,22 @@
 [
 	//Default
 	//BoPA Promotions
+	//Infantry
+	{
+		"name": "Neuralyzer",
+		"uniques": ["[-5]% Strength bonus for [Hostile] units within [1] tiles",],
+		"unitTypes": ["InfantryBC","InfantryBG","InfantryBM",],"column": 1,"row": 1,
+	},
+	{
+		"name": "Wristwatch Computer",
+		"uniques": ["[50]% XP gained from combat",],
+		"unitTypes": ["InfantryBC","InfantryBG","InfantryBM",],"column": 1,"row": 2,
+	},
+	{
+		"name": "Personal B-Bot",
+		"uniques": ["May heal outside of friendly territory","[+5] HP when healing <in [Foreign Land] tiles>",],
+		"unitTypes": ["InfantryBC","InfantryBG","InfantryBM",],"column": 1,"row": 3,
+	},
 	//Bureau Commando
 	//Scout Path
 	{
