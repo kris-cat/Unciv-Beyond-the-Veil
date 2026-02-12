@@ -91,12 +91,12 @@
 	},
 	{
 		"name": "Neuro-toxin Rounds", "prerequisites": ["Extended Barrel"],
-		"uniques": ["[33]% Strength <when attacking>",],
+		"uniques": ["[10] Strength <when attacking> <with [33]% chance>",,],
 		"unitTypes": ["InfantryBG",],"column": 8,"row": 2,"innerColor": [52, 101, 164]
 	},
 	{
 		"name": "Organ Targetting", "prerequisites": ["Neuro-toxin Rounds"],
-		"uniques": ["[33] Strength <vs [Human] units> <when attacking> <with [25]% chance>",],
+		"uniques": ["[33] Strength <when attacking> <with [25]% chance>",],
 		"unitTypes": ["InfantryBG",],"column": 8,"row": 3,"innerColor": [52, 101, 164]
 	},
 	//Gunslinger
@@ -112,7 +112,7 @@
 	},
 	{
 		"name": "Burst Fire Mode", "prerequisites": ["Hip Firing Enhancement"],
-		"uniques": ["[+10] Strength <upon entering combat>",],
+		"uniques": ["[+10] Strength <when attacking>",],
 		"unitTypes": ["InfantryBM",],"column": 9,"row": 3,"innerColor": [52, 101, 164]
 	},
 ]
