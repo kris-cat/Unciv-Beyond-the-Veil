@@ -17,6 +17,15 @@
 	},
 	//Bureau of Paranormal Activities
 	{
+		"name": "UGV 'Handy'",
+		"unitType": "UGVH",
+		"movement": 2,
+		"strength": 15,
+		"cost": 70
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Bureau Commando",
 		"unitType": "InfantryBC",
 		"uniqueTo": "Bureau of Paranormal Activities",
