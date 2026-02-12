@@ -33,17 +33,17 @@
 	{
 		"name": "Urbanist","prerequisites": ["Shock III","Drill III"],
 		"uniques": ["Double movement in [Urban Sprawl]","[+15]% Strength <when fighting in [Urban Sprawl] tiles>","Unavailable <for units with [Woodsman]>","Unavailable <for units with [Highlander]>"],
-		"unitTypes": ["InfantryBC","InfantryBG",],"column": 4,"row": 2
+		"unitTypes": ["InfantryBC","InfantryBG",],"column": 4,"row": 3
 	},
 	{
 		"name": "Woodsman","prerequisites": ["Shock III","Drill III"],
 		"uniques": ["Double movement in [Forest]","[+15]% Strength <when fighting in [Forest] tiles>","Unavailable <for units with [Urbanist]>","Unavailable <for units with [Highlander]>"],
-		"unitTypes": ["InfantryBC","InfantryBG",],"column": 5,"row": 2
+		"unitTypes": ["InfantryBC","InfantryBG",],"column": 5,"row": 3
 	},
 	{
 		"name": "Highlander","prerequisites": ["Shock III","Drill III"],
 		"uniques": ["Double movement in [Hill]","[+15]% Strength <when fighting in [Hill] tiles>","Unavailable <for units with [Woodsman]>","Unavailable <for units with [Urbanist]>"],
-		"unitTypes": ["InfantryBC","InfantryBG",],"column": 6,"row": 2
+		"unitTypes": ["InfantryBC","InfantryBG",],"column": 6,"row": 3
 	},
 	//BoPA Promotions
 	//Bureau Commando
