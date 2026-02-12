@@ -4,6 +4,10 @@
         "movementType": "Land"
     },
     {
+        "name": "UGVH",
+        "movementType": "Land"
+    },
+    {
         "name": "InfantryBC",
         "movementType": "Land"
     },
