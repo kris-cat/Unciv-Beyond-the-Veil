@@ -96,7 +96,7 @@
 	},
 	{
 		"name": "Organ Targetting", "prerequisites": ["High-Prediction Algorithms"],
-		"uniques": ["[33] Strength <vs [Human] units> <when attacking> <with [25]% chance>",",],
+		"uniques": ["[33] Strength <vs [Human] units> <when attacking> <with [25]% chance>",],
 		"unitTypes": ["InfantryBG",],"column": 8,"row": 3,"innerColor": [52, 101, 164]
 	},
 	//Gunslinger
