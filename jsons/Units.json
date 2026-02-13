@@ -19,6 +19,7 @@
 	{
 		"name": "UGV 'Handy'",
 		"unitType": "UGVH",
+		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 2,
 		"strength": 15,
 		"cost": 70
@@ -71,6 +72,7 @@
 	{
 		"name": "Helicopter Gunship",
 		"unitType": "HeliBH",
+		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 6,
 		"strength": 60,
 		"cost": 425,
