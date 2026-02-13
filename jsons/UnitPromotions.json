@@ -21,11 +21,6 @@
 		"uniques": ["[50]% XP gained from combat",],
 		"unitTypes": ["InfantryBC","InfantryBG","InfantryBM",],"column": 1,"row": 2,
 	},
-	{
-		"name": "Personal B-Bot",
-		"uniques": ["May heal outside of friendly territory","[+5] HP when healing <in [Foreign Land] tiles>",],
-		"unitTypes": ["InfantryBC","InfantryBG","InfantryBM",],"column": 1,"row": 3,
-	},
 	//Bureau Commando
 	//Scout Path
 	{
