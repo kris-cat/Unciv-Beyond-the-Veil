@@ -70,7 +70,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Modern Armor",
+		"name": "Monocycle",
 		"unitType": "ArmourAB",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 5,
@@ -83,7 +83,7 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Modern Armor",
+		"name": "Abrams Tank",
 		"unitType": "ArmourAB",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 5,
@@ -96,7 +96,7 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Helicopter Gunship",
+		"name": "Black Hawk Helicopter",
 		"unitType": "HeliBH",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 5,
@@ -109,5 +109,33 @@
 			"[+50]% Strength <vs [Armour] units>",
 		],
 		"attackSound": "machinegun"
+	},
+	{
+		"name": "Raptor",
+		"unitType": "FighterRP",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 175,
+		"uniques": [
+			"Mechanical","Aircraft","Fighter",
+			"[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Lancer",
+		"unitType": "BomberLN",
+		"movement": 1,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 10,
+		"cost": 175,
+		"uniques": [
+			"Mechanical","Aircraft","Bomber",
+		],
+		"attackSound": "bombing"
 	},
 ]
