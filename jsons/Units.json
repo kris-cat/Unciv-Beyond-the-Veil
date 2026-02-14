@@ -74,6 +74,19 @@
 		"unitType": "ArmourAB",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 5,
+		"strength": 35,
+		"cost": 225,
+		"uniques": [
+			"Mechanical","Vehicle","Armour",
+			"[+2] Sight", "Ignores terrain cost", "No defensive terrain bonus",
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Modern Armor",
+		"unitType": "ArmourAB",
+		"uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 5,
 		"strength": 45,
 		"cost": 225,
 		"uniques": [
@@ -86,14 +99,14 @@
 		"name": "Helicopter Gunship",
 		"unitType": "HeliBH",
 		"uniqueTo": "Bureau of Paranormal Activities",
-		"movement": 6,
+		"movement": 5,
 		"strength": 40,
 		"cost": 225,
 		"uniques": [
 			"Mechanical","Vehicle","Helicopter",
-			"No defensive terrain bonus", "Can move after attacking",
+			"Can move after attacking", "No defensive terrain bonus",
 			"All tiles cost 1 movement", "Ignores Zone of Control",
-			"Can carry [2] [InfantryBC] units",
+			"[+50]% Strength <vs [Armour] units>",
 		],
 		"attackSound": "machinegun"
 	},
