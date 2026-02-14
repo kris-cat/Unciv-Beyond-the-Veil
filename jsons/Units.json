@@ -71,13 +71,13 @@
 	},
 	{
 		"name": "Monocycle",
-		"unitType": "ArmourAB",
+		"unitType": "LightMC",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 5,
 		"strength": 35,
 		"cost": 225,
 		"uniques": [
-			"Mechanical","Vehicle","Armour",
+			"Mechanical","Vehicle","Light",
 			"[+2] Sight", "Ignores terrain cost", "No defensive terrain bonus",
 		],
 		"attackSound": "machinegun"
