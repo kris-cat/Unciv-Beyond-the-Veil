@@ -6,98 +6,112 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Tiles/Desert
   rotate: false
-  xy: 4, 112
+  xy: 4, 152
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Forest
+  rotate: false
+  xy: 4, 112
+  size: 32, 32
+  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland
   rotate: false
-  xy: 4, 76
+  xy: 44, 116
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/GrasslandForest
+  rotate: false
+  xy: 84, 113
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Hill
   rotate: false
-  xy: 44, 108
+  xy: 44, 76
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mountain
   rotate: false
-  xy: 84, 140
+  xy: 84, 69
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Snow
   rotate: false
-  xy: 4, 40
+  xy: 4, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Urban Sprawl
   rotate: false
-  xy: 4, 4
+  xy: 4, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Abrams Tank
   rotate: false
-  xy: 4, 220
+  xy: 4, 224
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Black Hawk Helicopter
   rotate: false
-  xy: 4, 184
+  xy: 44, 224
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bureau Commando
   rotate: false
-  xy: 44, 220
+  xy: 84, 224
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bureau Grenadier
   rotate: false
-  xy: 4, 148
+  xy: 4, 188
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bureau Marksman
   rotate: false
-  xy: 44, 184
+  xy: 44, 188
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chaplain
   rotate: false
-  xy: 84, 220
+  xy: 84, 188
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Evangelist
   rotate: false
-  xy: 44, 148
+  xy: 44, 152
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Exorcist
   rotate: false
-  xy: 84, 184
+  xy: 84, 152
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -111,14 +125,14 @@ TileSets/FantasyHex/Units/Zeta Disintegrator
   index: -1
 TileSets/FantasyHex/Units/Zeta Invader
   rotate: false
-  xy: 44, 4
+  xy: 84, 33
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Zeta infiltrator
   rotate: false
-  xy: 84, 40
+  xy: 4, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
