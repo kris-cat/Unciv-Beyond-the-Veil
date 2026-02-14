@@ -24,6 +24,10 @@
         "movementType": "Land"
     },
     {
+        "name": "ArmourAB",
+        "movementType": "Land"
+    },
+    {
         "name": "Fighter",
         "movementType": "Air",
         "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
