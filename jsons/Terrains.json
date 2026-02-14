@@ -6,6 +6,8 @@
 		"RGB": [230, 238, 255],
 		"uniques": [
             "Occurs at temperature between [-1] and [-0.6] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.8]",
+			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.6]",
             "Always Fertility [-1] for Map Generation",
             "Considered [Undesirable] when determining start locations",
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
@@ -18,9 +20,41 @@
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": [
-			"Occurs at temperature between [-0.6] and [1] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.8] and [1]",
+			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0.6] and [1]",
+			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.1] and [0.1] and humidity between [0.2] and [1]",
+			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [1]",
+			"Occurs at temperature between [0.2] and [0.4] and humidity between [0.4] and [1]",
+			"Occurs at temperature between [0.2] and [0.4] and humidity between [0.4] and [1]",
+			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [1]",
+			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.7] and [1]",
+			"Occurs at temperature between [0.6] and [0.7] and humidity between [0.4] and [1]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [1]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [1]",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0] and [1]",
             "Always Fertility [+3] for Map Generation",
             "Considered [Desirable] when determining start locations",
+		]
+    },
+	{
+		"name": "Desert",
+		"type": "Land",
+		"food": 0,
+		"movementCost": 1,
+        "RGB": [0, 163, 0],
+        "uniques": [
+			"Occurs at temperature between [-0.1] and [0.1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.1] and [0.2] and humidity between [0] and [0.3]",
+			"Occurs at temperature between [0.2] and [0.4] and humidity between [0] and [0.4]",
+			"Occurs at temperature between [0.4] and [0.5] and humidity between [0] and [0.5]",
+			"Occurs at temperature between [0.5] and [0.6] and humidity between [0] and [0.7]",
+			"Occurs at temperature between [0.6] and [0.7] and humidity between [0] and [0.4]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0] and [0.3]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0] and [0.2]",
+            "Always Fertility [-1] for Map Generation",
+             "Considered [Undesirable] when determining start locations",
+			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
 		]
     }
 	{
