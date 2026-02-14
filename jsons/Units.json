@@ -93,7 +93,7 @@
 			"Mechanical","Vehicle","Helicopter",
 			"No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control",
-			"Can carry [2] [Infantry] units",
+			"Can carry [2] [InfantryBC] units",
 		],
 		"attackSound": "machinegun"
 	},
