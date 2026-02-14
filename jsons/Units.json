@@ -24,7 +24,7 @@
 		"strength": 15,
 		"cost": 70
 		"uniques": [
-			"Mechanical","Worker",
+			"Mechanical","Robot","Worker",
 			"Can build [Land] improvements on tiles", "Automation is a primary action"
 		],
 		"attackSound": "shot"
@@ -37,7 +37,7 @@
 		"strength": 35,
 		"cost": 70,
 		"uniques": [
-			"Human","Infantry",
+			"Organic","Human","Infantry",
 			"Can move after attacking",
 		]
 		"attackSound": "shot"
@@ -50,7 +50,7 @@
 		"strength": 35,
 		"cost": 70,
 		"uniques": [
-			"Human","Infantry",
+			"Organic","Human","Infantry",
 			"[+50]% Strength <vs [Armour]>",
 		]
 		"attackSound": "shot"
@@ -65,21 +65,35 @@
 		"rangedStrength": 25,
 		"cost": 70,
 		"uniques": [
-			"Human","Infantry",
+			"Organic","Human","Infantry",
 		]
 		"attackSound": "shot"
+	},
+	{
+		"name": "Modern Armor",
+		"unitType": "ArmourAB",
+		"uniqueTo": "Bureau of Paranormal Activities",
+		"movement": 5,
+		"strength": 45,
+		"cost": 225,
+		"uniques": [
+			"Mechanical","Vehicle","Armour",
+			"Can move after attacking", "No defensive terrain bonus",
+		],
+		"attackSound": "machinegun"
 	},
 	{
 		"name": "Helicopter Gunship",
 		"unitType": "HeliBH",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 6,
-		"strength": 60,
-		"cost": 425,
+		"strength": 40,
+		"cost": 225,
 		"uniques": [
-			"Vehicle","Helicopter",
-			"[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities",
+			"Mechanical","Vehicle","Helicopter",
+			"No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control",
+			"Can carry [2] [Infantry] units",
 		],
 		"attackSound": "machinegun"
 	},
