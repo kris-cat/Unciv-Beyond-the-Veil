@@ -20,6 +20,10 @@
         "movementType": "Land"
     },
     {
+        "name": "LightMN",
+        "movementType": "Land"
+    },
+    {
         "name": "HeliBH",
         "movementType": "Land"
     },
@@ -28,18 +32,13 @@
         "movementType": "Land"
     },
     {
-        "name": "Fighter",
+        "name": "FighterRP",
         "movementType": "Air",
         "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
     },
     {
-        "name": "Bomber",
+        "name": "BomberLN",
         "movementType": "Air",
         "uniques": ["Aircraft"]
-    },
-    {
-        "name": "Missile",
-        "movementType": "Air",
-        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
     },
 ]
