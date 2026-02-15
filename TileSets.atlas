@@ -55,9 +55,9 @@ TileSets/FantasyHex/Tiles/Snow
   index: -1
 TileSets/FantasyHex/Tiles/Urban Sprawl
   rotate: false
-  xy: 4, 40
-  size: 32, 28
-  orig: 32, 28
+  xy: 4, 32
+  size: 32, 36
+  orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Abrams Tank
@@ -132,7 +132,7 @@ TileSets/FantasyHex/Units/Zeta Invader
   index: -1
 TileSets/FantasyHex/Units/Zeta infiltrator
   rotate: false
-  xy: 4, 4
+  xy: 44, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
