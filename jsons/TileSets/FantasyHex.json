@@ -18,6 +18,12 @@
         "Tundra+Forest": ["Tundra","TundraForest"],
         "Tundra+Hill+Forest": ["Tundra","Hill","TundraForest"],
 
+		//Special Urban Sprawl
+		"Desert+Urban Sprawl": ["Desert","DesertUrban Sprawl"],
+		"Desert+Hill+Urban Sprawl": ["Desert","Hill","DesertUrban Sprawl"],
+		"Snow+Urban Sprawl": ["Snow","SnowUrban Sprawl"],
+		"Snow+Hill+Urban Sprawl": ["Snow","Hill","SnowUrban Sprawl"],
+		
         //Snow improvements for Tundra and Snow
             //TODO hill and forest variants + new images for Landmark, etc.
         "Tundra+Barbarian encampment": ["Tundra","Barbarian encampment-Snow"],
