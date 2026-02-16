@@ -130,7 +130,6 @@
 		"occursOn": ["Grassland","Desert","Snow","Hill"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
-			"Has an elevation of [1] for visibility calculations",
 			"Blocks line-of-sight from tiles at same elevation",
 			"A Region is formed with at least [30]% [Urban Sprawl] tiles, with priority [5]",
 			"Base Terrain on this tile is not counted for Region determination",
