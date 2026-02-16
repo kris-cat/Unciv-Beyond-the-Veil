@@ -1,173 +1,194 @@
 
 TileSets.png
-size: 1024, 64
+size: 256, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Tiles/Desert
   rotate: false
-  xy: 244, 12
+  xy: 4, 116
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Desert1
+  rotate: false
+  xy: 44, 152
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/DesertUrban Sprawl
   rotate: false
-  xy: 284, 4
+  xy: 84, 180
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/DesertUrban Sprawl1
   rotate: false
-  xy: 324, 4
+  xy: 124, 216
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Forest
   rotate: false
-  xy: 444, 8
+  xy: 164, 220
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland
   rotate: false
-  xy: 484, 12
+  xy: 4, 44
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland1
+  rotate: false
+  xy: 44, 80
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/GrasslandForest
   rotate: false
-  xy: 524, 9
+  xy: 204, 221
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Hill
   rotate: false
-  xy: 564, 8
+  xy: 4, 4
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mountain
   rotate: false
-  xy: 604, 4
+  xy: 44, 36
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Snow
   rotate: false
-  xy: 644, 12
+  xy: 164, 184
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Snow1
+  rotate: false
+  xy: 204, 185
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/SnowUrban Sprawl
   rotate: false
-  xy: 684, 4
+  xy: 84, 108
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/SnowUrban Sprawl1
   rotate: false
-  xy: 724, 4
+  xy: 124, 108
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Urban Sprawl
   rotate: false
-  xy: 764, 4
+  xy: 164, 140
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Urban Sprawl1
   rotate: false
-  xy: 804, 4
+  xy: 204, 140
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Abrams Tank
   rotate: false
-  xy: 4, 12
+  xy: 4, 224
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Black Hawk Helicopter
   rotate: false
-  xy: 44, 12
+  xy: 4, 188
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bureau Commando
   rotate: false
-  xy: 84, 12
+  xy: 44, 224
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bureau Grenadier
   rotate: false
-  xy: 124, 12
+  xy: 4, 152
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bureau Marksman
   rotate: false
-  xy: 164, 12
+  xy: 44, 188
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chaplain
   rotate: false
-  xy: 204, 12
+  xy: 84, 224
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Evangelist
   rotate: false
-  xy: 364, 12
+  xy: 4, 80
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Exorcist
   rotate: false
-  xy: 404, 12
+  xy: 44, 116
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Zeta Disintegrator
   rotate: false
-  xy: 844, 12
+  xy: 124, 72
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Zeta Invader
   rotate: false
-  xy: 884, 12
+  xy: 204, 104
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Zeta infiltrator
   rotate: false
-  xy: 924, 12
+  xy: 124, 36
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
