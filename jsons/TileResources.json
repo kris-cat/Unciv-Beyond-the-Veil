@@ -274,6 +274,6 @@
 		]
 		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
-		"civilopediaText": [{ "text": "Commonly called 'Unaffordium' due to its rarity and cost, this blue metal is found near arctic zones. It has a peculiar psychic property - when actively perceived and used by someone, it can take on virtually any material property needed, to fulfill its desired function. Extremely coveted due to its near universal application."}]
+		"civilopediaText": [{ "text": "Filled with power by physical beings, incorporeal entities, philosophical concepts or ideological causes, these ritualistic items are filled with power of pure faith and will. The energy within can be channeled, harvested, and reused. Incredibly valuable and with nearly limitless applications."}]
 	},
 ]
