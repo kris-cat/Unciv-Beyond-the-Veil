@@ -255,9 +255,24 @@
 		"uniques": [
 			"Generated with weight [10] <in [Snow] Regions>",
 			"Generated with weight [35] <in [Hill] Regions>",
+			"Doesn't generate naturally <in [non-[Snow]] tiles>",
 		]
 		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
 		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
+		"civilopediaText": [{ "text": "Commonly called 'Unaffordium' due to its rarity and cost, this blue metal is found near arctic zones. It has a peculiar psychic property - when actively perceived and used by someone, it can take on virtually any material property needed, to fulfill its desired function. Extremely coveted due to its near universal application."}]
+	},
+	{
+		"name": "Blessed Relics",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Grassland,","Snow","Desert","Hill","Forest","Urban Sprawl"],
+		"production": 1,
+		"improvement": "Resource Claim",
+		"improvementStats": {"production": 3},
+		"uniques": [
+			"Minor deposits generated with weight [10] <in [Urban Sprawl] tiles>",
+		]
+		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
 		"civilopediaText": [{ "text": "Commonly called 'Unaffordium' due to its rarity and cost, this blue metal is found near arctic zones. It has a peculiar psychic property - when actively perceived and used by someone, it can take on virtually any material property needed, to fulfill its desired function. Extremely coveted due to its near universal application."}]
 	},
 ]
