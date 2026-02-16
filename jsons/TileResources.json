@@ -268,12 +268,25 @@
 		"terrainsCanBeFoundOn": ["Grassland","Snow","Desert","Hill","Forest","Urban Sprawl"],
 		"culture": 1,
 		"improvement": "Resource Claim",
-		"improvementStats": {"gold": 5},
+		"improvementStats": {"production": 2, "culture": 1},
 		"uniques": [
 			"Minor deposits generated with weight [10] <in [Urban Sprawl] tiles>",
 		]
 		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
 		"civilopediaText": [{ "text": "Filled with power by physical beings, incorporeal entities, philosophical concepts or ideological causes, these ritualistic items are filled with power of pure faith and will. The energy within can be channeled, harvested, and reused. Incredibly valuable and with nearly limitless applications."}]
+	},
+	{
+		"name": "Antediluvian Artefacts",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Grassland","Snow","Desert","Hill","Forest","Urban Sprawl"],
+		"science": 1,
+		"improvement": "Resource Claim",
+		"improvementStats": {"culture": 2, "science": 1},
+		"uniques": [
+		]
+		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
+		"civilopediaText": [{ "text": "Ancient artifacts, which date to no known period in history. Unnatural in design, often reality-defying and mind-boggling, more than most supernatural known to Earth. They're seemingly not from this plane of reality. Despite their resistance to being comprehended, they can still be used in either research or the battlefield."}]
 	},
 ]
