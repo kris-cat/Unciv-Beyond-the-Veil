@@ -3,7 +3,7 @@
 		"name": "Snow",
 		"type": "Land",
 		"movementCost": 1,
-		"RGB": [230, 238, 255],
+		"RGB": [97, 124, 168],
 		"uniques": [
             "Occurs at temperature between [-1] and [-0.6] and humidity between [0] and [1]",
 			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.8]",
@@ -18,7 +18,7 @@
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
-        "RGB": [0, 163, 0],
+        "RGB": [53, 81, 84],
         "uniques": [
 			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.8] and [1]",
 			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0.6] and [1]",
@@ -42,7 +42,7 @@
 		"type": "Land",
 		"food": 0,
 		"movementCost": 1,
-        "RGB": [0, 163, 0],
+        "RGB": [160, 109, 120],
         "uniques": [
 			"Occurs at temperature between [-0.1] and [0.1] and humidity between [0] and [0.2]",
 			"Occurs at temperature between [0.1] and [0.2] and humidity between [0] and [0.3]",
