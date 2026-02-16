@@ -265,9 +265,9 @@
 		"name": "Blessed Relics",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Grassland,","Snow","Desert","Hill","Forest","Urban Sprawl"],
-		"production": 1,
+		"culture": 1,
 		"improvement": "Resource Claim",
-		"improvementStats": {"production": 3},
+		"improvementStats": {"gold": 5},
 		"uniques": [
 			"Minor deposits generated with weight [10] <in [Urban Sprawl] tiles>",
 		]
