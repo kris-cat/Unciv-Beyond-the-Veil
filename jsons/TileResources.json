@@ -143,7 +143,7 @@
 	{
 		"name": "Philosopher's Stone",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Greenland","Hill"],
+		"terrainsCanBeFoundOn": ["Grassland","Hill"],
 		"gold": 1,
 		"improvement": "Resource Claim",
 		"improvementStats": {"gold": 4},
@@ -155,7 +155,7 @@
 	{
 		"name": "Lemurian Spices",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Hills"],
+		"terrainsCanBeFoundOn": ["Desert","Hill"],
 		"culture": 1,
 		"improvement": "Resource Claim",
 		"improvementStats": {"science": 1,"culture": 1,},
