@@ -20,7 +20,7 @@
 
         //Special Urban Sprawl
         "Snow+Urban Sprawl": ["Snow","SnowUrban Sprawl"],
-        "Snow+Urban Sprawl": ["Snow","Hill","SnowUrban Sprawl"],
+        "Snow+Hill+Urban Sprawl": ["Snow","Hill","SnowUrban Sprawl"],
         "Desert+Urban Sprawl": ["Desert","DesertUrban Sprawl"],
         "Desert+Hill+Urban Sprawl": ["Desert","Hill","DesertUrban Sprawl"],
         //Snow improvements for Tundra and Snow
