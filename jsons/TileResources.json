@@ -121,43 +121,70 @@
 		"gold": 1,
 		"improvement": "Resource Claim",
 		"improvementStats": {"happiness": 2,"culture": 1},
-		"uniques": []
+		"uniques": [
+			"Generated with weight [5] <in [Grassland] Regions>",
+			"Generated with weight [15] <in [Forest] Regions>",
+		]
 	},
 	{
 		"name": "Lemurian Spices",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland"],
+		"terrainsCanBeFoundOn": ["Desert"],
 		"science": 1,
 		"improvement": "Resource Claim",
 		"improvementStats": {"science": 1,"culture": 1,},
-		"uniques": []
+		"uniques": [
+			"Generated with weight [30] <in [Desert] Regions>",
+		]
 	},
 	{
 		"name": "Cosmic Weave",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland"],
+		"terrainsCanBeFoundOn": ["Grassland","Snow","Desert"],
 		"science": 1,
 		"improvement": "Resource Claim",
 		"improvementStats": {"science": 1,"production": 2},
-		"uniques": []
+		"uniques": [
+			"Generated with weight [5] <in [Grassland] Regions>",
+			"Generated with weight [5] <in [Desert] Regions>",
+			"Generated with weight [30] <in [Snow] Regions>",
+		]
+	},
+	{
+		"name": "Electrum",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"production": 1,
+		"improvement": "Resource Claim",
+		"improvementStats": {"gold": 2, "production": 1},
+		"uniques": [
+			"Generated with weight [10] <in [Desert] Regions>",
+			"Generated with weight [5] <in [Hill] Regions>",
+		]
 	},
 	{
 		"name": "Philosopher's Stone",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland"],
+		"terrainsCanBeFoundOn": ["Hill"],
 		"gold": 1,
 		"improvement": "Resource Claim",
 		"improvementStats": {"gold": 4},
-		"uniques": []
+		"uniques": [
+			"Generated with weight [10] <in [Hill] Regions>",
+		]
 	},
 	{
 		"name": "Rejuvenating Water",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Snow"],
+		"terrainsCanBeFoundOn": ["Grassland","Snow","Desert"],
 		"happiness": 1,
 		"improvement": "Resource Claim",
 		"improvementStats": {"happiness": 2},
-		"uniques": []
+		"uniques": [
+			"Generated with weight [5] <in [Grassland] Regions>",
+			"Generated with weight [30] <in [Desert] Regions>",
+			"Generated with weight [5] <in [Snow] Regions>",
+		]
 	},
 	{
 		"name": "Rejuvenating Water",
