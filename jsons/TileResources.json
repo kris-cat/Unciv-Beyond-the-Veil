@@ -203,7 +203,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Desert","Snow","Hill","Forest","Urban Sprawl"],
 		"science": 1,
 		"improvement": "Resource Claim",
-		"improvementStats": {"sciencd": 2,},
+		"improvementStats": {"science": 2,},
 		"uniques": [
 			"Generated with weight [5] <in [Grassland] Regions>",
 			"Generated with weight [5] <in [Desert] Regions>",
