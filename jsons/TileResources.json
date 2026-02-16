@@ -117,43 +117,20 @@
 	{
 		"name": "Psychotropic Fungus",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Forest"],
+		"terrainsCanBeFoundOn": ["Forest"],
 		"gold": 1,
 		"improvement": "Resource Claim",
-		"improvementStats": {"happiness": 2,"culture": 1},
+		"improvementStats": {"happiness": 2},
 		"uniques": [
 			"Generated with weight [5] <in [Grassland] Regions>",
 			"Generated with weight [15] <in [Forest] Regions>",
 		]
+		"civilopediaText": [{ "text": "Commonly known as magic mushrooms, these are powerful hallucinogen fungi. Known to have been used by shamans in the past, they are helpful in conducting many magical and psychic rituals. Alternatively, they can be used to experience a really bad drug trip." }]
 	},
 	{
-		"name": "Lemurian Spices",
+		"name": "Orichalcum",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert"],
-		"science": 1,
-		"improvement": "Resource Claim",
-		"improvementStats": {"science": 1,"culture": 1,},
-		"uniques": [
-			"Generated with weight [30] <in [Desert] Regions>",
-		]
-	},
-	{
-		"name": "Cosmic Weave",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Desert","Snow","Hill","Forest","Urban Sprawl"],
-		"science": 1,
-		"improvement": "Resource Claim",
-		"improvementStats": {"science": 1,"production": 2},
-		"uniques": [
-			"Generated with weight [5] <in [Grassland] Regions>",
-			"Generated with weight [5] <in [Desert] Regions>",
-			"Generated with weight [30] <in [Snow] Regions>",
-		]
-	},
-	{
-		"name": "Electrum",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill"],
+		"terrainsCanBeFoundOn": ["Desert","Hill"],
 		"production": 1,
 		"improvement": "Resource Claim",
 		"improvementStats": {"gold": 2, "production": 1},
@@ -161,41 +138,45 @@
 			"Generated with weight [10] <in [Desert] Regions>",
 			"Generated with weight [5] <in [Hill] Regions>",
 		]
+		"civilopediaText": [{ "text": "Luxury metal and remnants of the ancient continent of Atlantis. Said to be light given form, it is quite flexible and conductive, but fragile. Often used for protective charms and accessories." }]
 	},
 	{
 		"name": "Philosopher's Stone",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill"],
+		"terrainsCanBeFoundOn": ["Greenland","Hill"],
 		"gold": 1,
 		"improvement": "Resource Claim",
 		"improvementStats": {"gold": 4},
 		"uniques": [
 			"Generated with weight [10] <in [Hill] Regions>",
 		]
+		"civilopediaText": [{ "text": "An extremely rare alchemical element. Capable of turning base metals into silver and gold. Fought over relentlessly by alchemists in the Great Philosopher War, it is one of the most coveted materials in the world." }]
 	},
 	{
-		"name": "Rejuvenating Water",
+		"name": "Lemurian Spices",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Snow","Desert"],
-		"happiness": 1,
+		"terrainsCanBeFoundOn": ["Desert","Hills"],
+		"culture": 1,
 		"improvement": "Resource Claim",
-		"improvementStats": {"happiness": 2},
+		"improvementStats": {"science": 1,"culture": 1,},
+		"uniques": [
+			"Generated with weight [30] <in [Desert] Regions>",
+		]
+		"civilopediaText": [{ "text": "Crystaline powder made by the critically endangared Lemurian Sandworm. Besides being a hallucinogen, this organic material has incredible mind-expanding properties. It's been used by a select few of ruling elites across history." }]
+	},
+	{
+		"name": "Cosmic Weave",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Desert","Snow","Hill","Forest","Urban Sprawl"],
+		"culture": 1,
+		"improvement": "Resource Claim",
+		"improvementStats": {"culture": 2},
 		"uniques": [
 			"Generated with weight [5] <in [Grassland] Regions>",
-			"Generated with weight [30] <in [Desert] Regions>",
-			"Generated with weight [5] <in [Snow] Regions>",
+			"Generated with weight [5] <in [Desert] Regions>",
+			"Generated with weight [30] <in [Snow] Regions>",
 		]
-	},
-	{
-		"name": "Ectoplasm Agglomeration",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Urban Sprawl"],
-		"science": 1,
-		"improvement": "Resource Claim",
-		"improvementStats": {"production": 2, "gold": 1,},
-		"uniques": [
-			"Generated with weight [5] <in [Urban Sprawl] Regions>",
-		]
+		"civilopediaText": [{ "text": "Believed to be the threads of fate itself, these strings pierce the planet Earth in random locations, and extend out into the Cosmos. Interacting with them reveals near future, and in rare circumstances, can even allow manipulation of it." }]
 	},
 	{
 		"name": "Subspace Anomaly",
@@ -210,5 +191,20 @@
 			"Generated with weight [5] <in [Snow] Regions>",
 			"Generated with weight [10] <in [Hybrid] Regions>",
 		]
+		"civilopediaText": [{ "text": "Distortion in the space-time continuum. Poorly understood, these anomalies can cause a variety of effect. They have been an object of intense study for millenia, by mages, alchemists, arcane-engineers and scientists alike." }]
+	},
+	{
+		"name": "Rejuvenating Water",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Snow","Desert"],
+		"happiness": 1,
+		"improvement": "Resource Claim",
+		"improvementStats": {"happiness": 2},
+		"uniques": [
+			"Generated with weight [5] <in [Grassland] Regions>",
+			"Generated with weight [30] <in [Desert] Regions>",
+			"Generated with weight [5] <in [Snow] Regions>",
+		]
+		"civilopediaText": [{ "text": "Mythical Elixir Vitae, these natural springs carry water that is able to cure all diseases, and grant eternal youth. However, repeated usage of it will very quickly make you dependent on it, to the point that without it, you will wither into dust in just a single day. Because of this, it is heavily kept secret and regulated." }]
 	},
 ]
