@@ -128,6 +128,18 @@
 		"civilopediaText": [{ "text": "Commonly known as magic mushrooms, these are powerful hallucinogen fungi. Known to have been used by shamans in the past, they are helpful in conducting many magical and psychic rituals. Alternatively, they can be used to experience a really bad drug trip." }]
 	},
 	{
+		"name": "Xirang",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest"],
+		"food": 1,
+		"improvement": "Resource Claim",
+		"improvementStats": {"food": 1, "gold": 2},
+		"uniques": [
+			"Generated with weight [15] <in [Grassland] Regions>",
+		]
+		"civilopediaText": [{ "text": "Self-replicating soil, originally discovered in China during the Great Flood event. While it's fertility quickly deteriorates, it can be as easily replaced. Has many agricultural and infrastractural use cases." }]
+	},
+	{
 		"name": "Orichalcum",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Hill"],
@@ -165,6 +177,19 @@
 		"civilopediaText": [{ "text": "Crystaline powder made by the critically endangared Lemurian Sandworm. Besides being a hallucinogen, this organic material has incredible mind-expanding properties. It's been used by a select few of ruling elites across history." }]
 	},
 	{
+		"name": "Illydium",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"production": 1,
+		"improvement": "Resource Claim",
+		"improvementStats": {"gold": 2},
+		"uniques": [
+			"Generated with weight [10] <in [Desert] Regions>",
+			"Generated with weight [10] <in [Hill] Regions>",
+		]
+		"civilopediaText": [{ "text": "Extremely volatile chemical compound. Native to the planet Mars, it has been brought to Earth during Martian-Cretaceous war, via orbital bombardment. Too unstable for reliable military use, often blows up in the face of users at inopportune moments. It is instead often used as a main ingredient in... shaving cream?" }]
+	},
+	{
 		"name": "Cosmic Weave",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Desert","Snow","Hill","Forest","Urban Sprawl"],
@@ -184,7 +209,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Desert","Snow","Hill","Forest","Urban Sprawl"],
 		"science": 1,
 		"improvement": "Resource Claim",
-		"improvementStats": {"science": 2,},
+		"improvementStats": {"science": 2},
 		"uniques": [
 			"Generated with weight [5] <in [Grassland] Regions>",
 			"Generated with weight [5] <in [Desert] Regions>",
@@ -206,5 +231,33 @@
 			"Generated with weight [5] <in [Snow] Regions>",
 		]
 		"civilopediaText": [{ "text": "Mythical Elixir Vitae, these natural springs carry water that is able to cure all diseases, and grant eternal youth. However, repeated usage of it will very quickly make you dependent on it, to the point that without it, you will wither into dust in just a single day. Because of this, it is heavily kept secret and regulated." }]
+	},
+	{
+		"name": "Concentrated Ectoplasm",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Urban Sprawl"],
+		"science": 1,
+		"improvement": "Resource Claim",
+		"improvementStats": {"gold": 3},
+		"uniques": [
+			"Generated with weight [10] <in [Ubran Sprawl] Regions>",
+		]
+		"civilopediaText": [{ "text": "A mass of ectoplasm, a potent magical substance commonly found in ghosts. Often clumps together and forms large, underground mounds under urban cemeteries. Often leaks out into nearby environments, causing hallucinations and drawing in ghosts. It's used in cloaking technologies and in sleep products." }]
+	},
+	//Strategic resources
+	{
+		"name": "Unobtainium",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Snow","Hill"],
+		"production": 1,
+		"improvement": "Resource Claim",
+		"improvementStats": {"production": 3},
+		"uniques": [
+			"Generated with weight [10] <in [Snow] Regions>",
+			"Generated with weight [35] <in [Hill] Regions>",
+		]
+		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
+		"civilopediaText": [{ "text": "Commonly called 'Unaffordium' due to its rarity and cost, this blue metal is found near arctic zones. It has a peculiar psychic property - when actively perceived and used by someone, it can take on virtually any material property needed, to fulfill its desired function. Extremely coveted due to its near universal application."}]
 	},
 ]
