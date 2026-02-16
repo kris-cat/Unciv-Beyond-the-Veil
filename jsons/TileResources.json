@@ -264,7 +264,7 @@
 	{
 		"name": "Blessed Relics",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Grassland,","Snow","Desert","Hill","Forest","Urban Sprawl"],
+		"terrainsCanBeFoundOn": ["Grassland","Snow","Desert","Hill","Forest","Urban Sprawl"],
 		"culture": 1,
 		"improvement": "Resource Claim",
 		"improvementStats": {"gold": 5},
