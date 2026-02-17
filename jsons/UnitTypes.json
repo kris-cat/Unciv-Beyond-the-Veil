@@ -63,4 +63,12 @@
         "name": "ZetaTB",
         "movementType": "Land"
     },
+    {
+        "name": "ZetaSP",
+        "movementType": "Air",
+    },
+    {
+        "name": "ZetaQM",
+        "movementType": "Air",
+    },
 ]
