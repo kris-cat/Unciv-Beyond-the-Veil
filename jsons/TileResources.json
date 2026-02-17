@@ -177,7 +177,7 @@
 		"civilopediaText": [{ "text": "Crystaline powder made by the critically endangared Lemurian Sandworm. Besides being a hallucinogen, this organic material has incredible mind-expanding properties. It's been used by a select few of ruling elites across history." }]
 	},
 	{
-		"name": "Illydium",
+		"name": "Illudium",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill"],
 		"production": 1,
