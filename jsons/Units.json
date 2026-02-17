@@ -226,7 +226,7 @@
 		"uniques": [
 			"Mechanical","Vehicle","Airship",
 			"All tiles cost 1 movement","No defensive terrain bonus","Ignores Zone of Control","Can see over obstacles",
-			"Can carry [4] [Quantum Missile] units"
+			"Can carry [3] [Quantum Missile] units"
 		],
 		"attackSound": "machinegun"
 	},
