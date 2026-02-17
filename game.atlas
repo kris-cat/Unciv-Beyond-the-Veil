@@ -27,14 +27,14 @@ NationIcons/Bureau of Paranormal Activities
   index: -1
 NationIcons/Papal Inquisition
   rotate: false
-  xy: 760, 4
+  xy: 868, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Zeta Reticulans
   rotate: false
-  xy: 976, 4
+  xy: 1300, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -53,9 +53,30 @@ ResourceIcons/Blessed Relics
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Orichalcum
+  rotate: false
+  xy: 760, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Psychotropic Fungus
+  rotate: false
+  xy: 976, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Unobtainium
   rotate: false
-  xy: 868, 4
+  xy: 1084, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Xirang
+  rotate: false
+  xy: 1192, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
