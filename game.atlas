@@ -34,7 +34,7 @@ NationIcons/Papal Inquisition
   index: -1
 NationIcons/Zeta Reticulans
   rotate: false
-  xy: 1300, 4
+  xy: 1516, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -60,23 +60,37 @@ ResourceIcons/Orichalcum
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Psychotropic Fungus
+ResourceIcons/Philosopher's Stone
   rotate: false
   xy: 976, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Unobtainium
+ResourceIcons/Psychotropic Fungus
   rotate: false
   xy: 1084, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Xirang
+ResourceIcons/Rejuvenating Water
   rotate: false
   xy: 1192, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Unobtainium
+  rotate: false
+  xy: 1300, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Xirang
+  rotate: false
+  xy: 1408, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
