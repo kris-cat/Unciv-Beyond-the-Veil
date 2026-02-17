@@ -5,6 +5,7 @@
 		"name": "IQC Points",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Will not be displayed in Civilopedia",
 			"Not shown on world screen",
             "Cannot be traded",
             "Doesn't generate naturally",
@@ -16,6 +17,7 @@
 		"name": "IPC Points",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Will not be displayed in Civilopedia",
 			"Not shown on world screen",
             "Cannot be traded",
             "Doesn't generate naturally",
@@ -27,6 +29,7 @@
 		"name": "MW Points",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Will not be displayed in Civilopedia",
 			"Not shown on world screen",
             "Cannot be traded",
             "Doesn't generate naturally",
@@ -38,6 +41,7 @@
 		"name": "IDD Points",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Will not be displayed in Civilopedia",
 			"Not shown on world screen",
             "Cannot be traded",
             "Doesn't generate naturally",
@@ -49,6 +53,7 @@
 		"name": "IOF Points",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Will not be displayed in Civilopedia",
 			"Not shown on world screen",
             "Cannot be traded",
             "Doesn't generate naturally",
@@ -60,6 +65,7 @@
 		"name": "PTF Points",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Will not be displayed in Civilopedia",
 			"Not shown on world screen",
             "Cannot be traded",
             "Doesn't generate naturally",
