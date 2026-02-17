@@ -145,6 +145,7 @@
 		"innerColor": [0, 0, 0],
 		"uniqueName": "Zeta Reticulans Faction Features",
 		"uniques": [
+			"Adopt [BPA Edicts] <hidden from users>",
 			"Reveals the entire map <hidden from users>",
 			"Comment [Pre-FTL Interference: The entire map is revealed from the start of the game.]",
 			"Comment [Anti-Gravity Engines: All tiles cost 1 movement for Zeta Alien units, but they receive no defensive terrain bonuses.]",
