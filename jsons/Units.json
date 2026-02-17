@@ -33,7 +33,7 @@
 		"name": "Bureau Commando",
 		"unitType": "InfantryBC",
 		"uniqueTo": "Bureau of Paranormal Activities",
-		"movement": 3,
+		"movement": 2,
 		"strength": 35,
 		"cost": 70,
 		"uniques": [
@@ -46,7 +46,7 @@
 		"name": "Bureau Grenadier",
 		"unitType": "InfantryBG",
 		"uniqueTo": "Bureau of Paranormal Activities",
-		"movement": 3,
+		"movement": 2,
 		"strength": 35,
 		"cost": 70,
 		"uniques": [
@@ -59,7 +59,7 @@
 		"name": "Bureau Marksman",
 		"unitType": "InfantryBM",
 		"uniqueTo": "Bureau of Paranormal Activities",
-		"movement": 3,
+		"movement": 2,
 		"strength": 30,
 		"range": 2,
 		"rangedStrength": 25,
@@ -140,5 +140,93 @@
 			"Mechanical","Aircraft","Bomber",
 		],
 		"attackSound": "bombing"
+	},
+	//Zeta Reticulans
+	{
+		"name": "Zeta Invader",
+		"unitType": "ZetaIV",
+		"uniqueTo": "Zeta Reticulans",
+		"movement": 2,
+		"strength": 33,
+		"cost": 70
+		"uniques": [
+			"Organic","Alien","Infantry",
+			"All tiles cost 1 movement","No defensive terrain bonus",
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Zeta Infiltrator",
+		"unitType": "ZetaIN",
+		"uniqueTo": "Zeta Reticulans",
+		"movement": 2,
+		"strength": 25,
+		"rangedStrength": 27,
+		"range": 1,
+		"cost": 70
+		"uniques": [
+			"Organic","Alien","Infantry",
+			"All tiles cost 1 movement","No defensive terrain bonus",
+			"Invisible to non-adjacent units","Can move after attacking"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Zeta Disintegrator",
+		"unitType": "ZetaDI",
+		"uniqueTo": "Zeta Reticulans",
+		"movement": 2,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 2,
+		"cost": 70
+		"uniques": [
+			"Organic","Alien","Infantry",
+			"All tiles cost 1 movement","No defensive terrain bonus",
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Zeta Saucer",
+		"unitType": "ZetaSC",
+		"uniqueTo": "Zeta Reticulans",
+		"movement": 4,
+		"strength": 40,
+		"interceptRange": 2,
+		"cost": 200,
+		"uniques": [
+			"Mechanical","Vehicle","Airship",
+			"All tiles cost 1 movement","No defensive terrain bonus","Ignores Zone of Control","Can see over obstacles",
+			"[100]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Aircraft] units>","[+100]% Strength <vs [Helicopter] units>","[+100]% Strength <vs [Airship] units>",
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Zeta Triangle",
+		"unitType": "ZetaTR",
+		"uniqueTo": "Zeta Reticulans",
+		"movement": 4,
+		"strength": 40,
+		"cost": 200,
+		"uniques": [
+			"Mechanical","Vehicle","Airship",
+			"All tiles cost 1 movement","No defensive terrain bonus","Ignores Zone of Control","Can see over obstacles",
+			"Can carry [2] [Aircraft] units"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Zeta Tube",
+		"unitType": "ZetaTB",
+		"uniqueTo": "Zeta Reticulans",
+		"movement": 4,
+		"strength": 40,
+		"cost": 200,
+		"uniques": [
+			"Mechanical","Vehicle","Airship",
+			"All tiles cost 1 movement","No defensive terrain bonus","Ignores Zone of Control","Can see over obstacles",
+		],
+		"attackSound": "machinegun"
 	},
 ]
