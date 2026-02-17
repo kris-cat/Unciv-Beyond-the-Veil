@@ -226,7 +226,39 @@
 		"uniques": [
 			"Mechanical","Vehicle","Airship",
 			"All tiles cost 1 movement","No defensive terrain bonus","Ignores Zone of Control","Can see over obstacles",
+			"Can carry [4] [Quantum Missile] units"
 		],
 		"attackSound": "machinegun"
+	},
+	{
+		"name": "Snatching Probe",
+		"unitType": "ZetaSP",
+		"uniqueTo": "Zeta Reticulans",
+		"movement": 1,
+		"strength": 27,
+		"rangedStrength": 27,
+		"range": 6,
+		"interceptRange": 6,
+		"cost": 90,
+		"uniques": [
+			"Mechanical","Aircraft","Fighter",
+			"Can see over obstacles", "Can perform Air Sweep",
+			"[75]% chance to intercept air attacks", "[+75]% Strength <vs [Bomber] units>", "[+75]% Strength <vs [Helicopter] units>"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Quantum Missile",
+		"unitType": "ZetaQM",
+		"uniqueTo": "Zeta Reticulans",
+		"movement": 1,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 4,
+		"cost": 150,
+		"uniques": [
+			"[-100]% maintenance costs","Self-destructs when attacking", "Cannot be intercepted"
+		],
+		"attackSound": "missile"
 	},
 ]
