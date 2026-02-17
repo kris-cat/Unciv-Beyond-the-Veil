@@ -94,30 +94,40 @@
             {
                 "name": "Step 1",
                 "uniques": [
+                    "Unavailable <when below [500] [Advanced Research]>",
+                    "Instantly gain [-500] [Advanced Research]",
                 ],
                 "row": 1,"column": 1
             },
             {
                 "name": "Step 2",
                 "uniques": [
+                    "Unavailable <when below [500] [Advanced Research]>",
+                    "Instantly gain [-500] [Advanced Research]",
                 ],
                 "row": 1,"column": 3
             },
             {
                 "name": "Step 3",
                 "uniques": [
+                    "Unavailable <when below [500] [Advanced Research]>",
+                    "Instantly gain [-500] [Advanced Research]",
                 ],
                 "row": 1,"column": 5
             },
             {
                 "name": "Step 4",
                 "uniques": [
+                    "Unavailable <when below [500] [Advanced Research]>",
+                    "Instantly gain [-500] [Advanced Research]",
                 ],
                 "row": 1,"column": 7
             },
             {
                 "name": "Step 5",
                 "uniques": [
+                    "Unavailable <when below [500] [Advanced Research]>",
+                    "Instantly gain [-500] [Advanced Research]",
                 ],
                 "row": 1,"column": 9
             },
