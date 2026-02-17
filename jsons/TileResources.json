@@ -77,6 +77,17 @@
 			"[+100]% Culture cost of adopting new Policies <for every [1] [Active Edicts]>",
         ]
 	},
+	//Zeta Reticulans
+	{
+		"name": "Advanced Research",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+            "Cannot be traded",
+            "Doesn't generate naturally",
+            "Not shown on world screen <for [non-[Zeta Reticulans]] Civilizations>",
+        ]
+	},
 	//Blood Pyramid
 	{
 		"name": "Vampire Population",
