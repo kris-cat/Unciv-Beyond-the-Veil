@@ -37,7 +37,7 @@
         "row": 5
 	},
 	{
-		"name": "Pursuit","prerequisites": ["Shock","Drill","Accuracy","Barrage"],
+		"name": "Morale","prerequisites": ["Shock","Drill","Accuracy","Barrage"],
 		"uniques": ["[+15]% Strength <when defending>"],
 		"unitTypes": ["ZetaIV"],
         "column": 1,
