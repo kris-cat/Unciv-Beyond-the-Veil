@@ -92,44 +92,100 @@
         ],
         "policies": [
             {
-                "name": "Step 1",
+                "name": "Integrated Cybernetics",
                 "uniques": [
-                    "Unavailable <when below [500] [Advanced Research]>",
-                    "Instantly gain [-500] [Advanced Research]",
+                    "Unavailable <when below [100] [Advanced Research]>",
+                    "Instantly gain [-100] [Advanced Research]",
                 ],
                 "row": 1,"column": 1
             },
             {
-                "name": "Step 2",
+                "name": "Virtual Combat Training",
+                "uniques": [
+                    "Unavailable <when below [200] [Advanced Research]>",
+                    "Instantly gain [-200] [Advanced Research]",
+                ],
+                "requires": ["Integrated Cybernetics"],"row": 2,"column": 1
+            },
+            {
+                "name": "Gene Banks",
                 "uniques": [
                     "Unavailable <when below [500] [Advanced Research]>",
                     "Instantly gain [-500] [Advanced Research]",
+                ],
+                "requires": ["Virtual Combat Training"],"row": 3,"column": 1
+            },
+            {
+                "name": "Iterative Pilot Training",
+                "uniques": [
+                    "Unavailable <when below [100] [Advanced Research]>",
+                    "Instantly gain [-100] [Advanced Research]",
                 ],
                 "row": 1,"column": 3
             },
             {
-                "name": "Step 3",
+                "name": "Synchronised Firing Patterns",
+                "uniques": [
+                    "Unavailable <when below [200] [Advanced Research]>",
+                    "Instantly gain [-200] [Advanced Research]",
+                ],
+                "requires": ["Iterative Pilot Training"],"row": 2,"column": 3
+            },
+            {
+                "name": "Synapse Interceptors",
                 "uniques": [
                     "Unavailable <when below [500] [Advanced Research]>",
                     "Instantly gain [-500] [Advanced Research]",
+                ],
+                "requires": ["Synchronised Firing Patterns"],"row": 3,"column": 3
+            },
+            {
+                "name": "Advanced Extraction Patterns",
+                "uniques": [
+                    "Unavailable <when below [100] [Advanced Research]>",
+                    "Instantly gain [-100] [Advanced Research]",
                 ],
                 "row": 1,"column": 5
             },
             {
-                "name": "Step 4",
+                "name": "Self Assembling Components",
+                "uniques": [
+                    "Unavailable <when below [200] [Advanced Research]>",
+                    "Instantly gain [-200] [Advanced Research]",
+                ],
+                "requires": ["Advanced Extraction Patterns"],"row": 2,"column": 5
+            },
+            {
+                "name": "Matter Compression",
                 "uniques": [
                     "Unavailable <when below [500] [Advanced Research]>",
                     "Instantly gain [-500] [Advanced Research]",
+                ],
+                "requires": ["Self Assembling Components"],"row": 3,"column": 5
+            },
+            {
+                "name": "Neural Implants",
+                "uniques": [
+                    "Unavailable <when below [100] [Advanced Research]>",
+                    "Instantly gain [-100] [Advanced Research]",
                 ],
                 "row": 1,"column": 7
             },
             {
-                "name": "Step 5",
+                "name": "Tracking Algorithms",
+                "uniques": [
+                    "Unavailable <when below [200] [Advanced Research]>",
+                    "Instantly gain [-200] [Advanced Research]",
+                ],
+                "requires": ["Neural Implants"],"row": 2,"column": 7
+            },
+            {
+                "name": "Thought Enforcement",
                 "uniques": [
                     "Unavailable <when below [500] [Advanced Research]>",
                     "Instantly gain [-500] [Advanced Research]",
                 ],
-                "row": 1,"column": 9
+                "requires": ["Tracking Algorithms"],"row": 3,"column": 7
             },
             {
                 "name": "Singularity Complete",
