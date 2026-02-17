@@ -96,12 +96,12 @@
 	},
 	{
 		"name": "Neuro-toxin Rounds", "prerequisites": ["Extended Barrel"],
-		"uniques": ["[10] Strength <when attacking> <with [33]% chance>",],
+		"uniques": ["[10] Strength <when attacking> <vs [Organic] units>",],
 		"unitTypes": ["InfantryBM",],"column": 2,"row": 14,"innerColor": [52, 101, 164]
 	},
 	{
 		"name": "Organ Targetting", "prerequisites": ["Neuro-toxin Rounds"],
-		"uniques": ["[33] Strength <when attacking> <with [25]% chance>",],
+		"uniques": ["[33] Strength <when attacking> <vs [Organic] units> <with [25]% chance>",],
 		"unitTypes": ["InfantryBM",],"column": 2,"row": 15,"innerColor": [52, 101, 164]
 	},
 	//Gunslinger
