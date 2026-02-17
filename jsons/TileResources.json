@@ -5,6 +5,7 @@
 		"name": "IQC Points",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen",
             "Cannot be traded",
             "Doesn't generate naturally",
 			"Not shown on world screen",
@@ -15,6 +16,7 @@
 		"name": "IPC Points",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen",
             "Cannot be traded",
             "Doesn't generate naturally",
 			"Not shown on world screen",
@@ -25,6 +27,7 @@
 		"name": "MW Points",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen",
             "Cannot be traded",
             "Doesn't generate naturally",
 			"Not shown on world screen",
@@ -35,6 +38,7 @@
 		"name": "IDD Points",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen",
             "Cannot be traded",
             "Doesn't generate naturally",
 			"Not shown on world screen",
@@ -45,6 +49,7 @@
 		"name": "IOF Points",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen",
             "Cannot be traded",
             "Doesn't generate naturally",
 			"Not shown on world screen",
@@ -55,6 +60,7 @@
 		"name": "PTF Points",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen",
             "Cannot be traded",
             "Doesn't generate naturally",
 			"Not shown on world screen",
@@ -65,9 +71,10 @@
 		"name": "Active Edicts",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen <for [non-[Bureau of Paranormal Activities]] Civilizations>",
             "Cannot be traded",
             "Doesn't generate naturally",
-			"[+100]% Culture cost of adopting new Policies <for every [1] [Active Edicts]>"
+			"[+100]% Culture cost of adopting new Policies <for every [1] [Active Edicts]>",
         ]
 	},
 	//Blood Pyramid
