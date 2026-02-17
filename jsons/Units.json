@@ -113,6 +113,7 @@
 	{
 		"name": "Raptor",
 		"unitType": "FighterRP",
+		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 1,
 		"strength": 25,
 		"rangedStrength": 25,
@@ -121,7 +122,7 @@
 		"cost": 175,
 		"uniques": [
 			"Mechanical","Aircraft","Fighter",
-			"[+4] Sight", "Can see over obstacles", "Can perform Air Sweep",
+			"Can see over obstacles", "Can perform Air Sweep",
 			"[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"
 		],
 		"attackSound": "machinegun"
@@ -129,6 +130,7 @@
 	{
 		"name": "Lancer",
 		"unitType": "BomberLN",
+		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 1,
 		"strength": 30,
 		"rangedStrength": 30,
