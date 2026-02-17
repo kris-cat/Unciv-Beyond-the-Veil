@@ -159,6 +159,7 @@
 		"improvement": "Resource Claim",
 		"improvementStats": {"food": 1, "gold": 2},
 		"uniques": [
+			"Anomalous Resource",
 			"Generated with weight [15] <in [Grassland] Regions>",
 		]
 		"civilopediaText": [{ "text": "Self-replicating soil, originally discovered in China during the Great Flood event. While it's fertility quickly deteriorates, it can be as easily replaced. Has many agricultural and infrastractural use cases." }]
@@ -184,6 +185,7 @@
 		"improvement": "Resource Claim",
 		"improvementStats": {"gold": 4},
 		"uniques": [
+			"Anomalous Resource",
 			"Generated with weight [10] <in [Hill] Regions>",
 		]
 		"civilopediaText": [{ "text": "An extremely rare alchemical element. Capable of turning base metals into silver and gold. Fought over relentlessly by alchemists in the Great Philosopher War, it is one of the most coveted materials in the world." }]
@@ -221,6 +223,7 @@
 		"improvement": "Resource Claim",
 		"improvementStats": {"culture": 2},
 		"uniques": [
+			"Anomalous Resource",
 			"Generated with weight [5] <in [Grassland] Regions>",
 			"Generated with weight [5] <in [Desert] Regions>",
 			"Generated with weight [30] <in [Snow] Regions>",
@@ -235,6 +238,7 @@
 		"improvement": "Resource Claim",
 		"improvementStats": {"science": 2},
 		"uniques": [
+			"Anomalous Resource",
 			"Generated with weight [5] <in [Grassland] Regions>",
 			"Generated with weight [5] <in [Desert] Regions>",
 			"Generated with weight [5] <in [Snow] Regions>",
@@ -264,6 +268,7 @@
 		"improvement": "Resource Claim",
 		"improvementStats": {"gold": 3},
 		"uniques": [
+			"Anomalous Resource",
 			"Generated with weight [10] <in [Urban Sprawl] Regions>",
 		]
 		"civilopediaText": [{ "text": "A mass of ectoplasm, a potent magical substance commonly found in ghosts. Often clumps together and forms large, underground mounds under urban cemeteries. Often leaks out into nearby environments, causing hallucinations and drawing in ghosts. It's used in cloaking technologies and in sleep products." }]
@@ -277,6 +282,7 @@
 		"improvement": "Resource Claim",
 		"improvementStats": {"production": 3},
 		"uniques": [
+			"Anomalous Resource",
 			"Generated with weight [35] <in [Snow] Regions>",
 			"Generated with weight [75] <in [Hill] Regions>",
 			"Minor deposits generated with weight [10] <in [Hill] tiles>",
@@ -294,6 +300,7 @@
 		"improvement": "Resource Claim",
 		"improvementStats": {"production": 2, "culture": 1},
 		"uniques": [
+			"Anomalous Resource",
 			"Minor deposits generated with weight [10] <in [Urban Sprawl] tiles>",
 		]
 		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
@@ -308,6 +315,7 @@
 		"improvement": "Resource Claim",
 		"improvementStats": {"culture": 2, "science": 1},
 		"uniques": [
+			"Anomalous Resource",
 		]
 		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
 		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
