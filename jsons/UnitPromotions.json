@@ -1,25 +1,87 @@
 [
 	//Default
+	//Tier One
 	{
-		"name": "Heal Instantly",
-		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["UGVH","InfantryBC","InfantryBG","InfantryBM"],
-		"innerColor": [195,53,43],
-		"outerColor": [253,236,234],
-        "row": 0,
-        "column": 0
+		"name": "Shock",
+		"uniques": ["[+30]% Strength <when fighting in [Open terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
+		"unitTypes": ["ZetaIV"],
+        "column": 1,
+        "row": 1
+	},
+	{
+		"name": "Drill",
+		"uniques": ["[+30]% Strength <when fighting in [Rough terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
+		"unitTypes": ["ZetaIV"],
+        "column": 1,
+        "row": 2
+	},
+	{
+		"name": "Accuracy",
+		"uniques": ["[+30]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
+		"unitTypes": ["ZetaIV"],
+        "column": 1,
+        "row": 3
     },
+	{
+		"name": "Barrage",
+		"uniques": ["[+30]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
+		"unitTypes": ["ZetaIV"],
+        "column": 1,
+        "row": 4
+	},
+	{
+		"name": "Pursuit","prerequisites": ["Shock","Drill","Accuracy","Barrage"],
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": ["ZetaIV"],
+        "column": 1,
+        "row": 5
+	},
+	{
+		"name": "Pursuit","prerequisites": ["Shock","Drill","Accuracy","Barrage"],
+		"uniques": ["[+15]% Strength <when defending>"],
+		"unitTypes": ["ZetaIV"],
+        "column": 1,
+        "row": 6
+	},
+	{
+		"name": "Cover","prerequisites": ["Shock","Drill","Accuracy","Barrage"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>",],
+		"unitTypes": ["ZetaIV"],
+        "column": 1,
+        "row": 7
+	},
+	{
+		"name": "March","prerequisites": ["Shock","Drill","Accuracy","Barrage"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["ZetaIV"],
+        "column": 1,
+        "row": 8
+	},
+	{
+		"name": "Ambush","prerequisites": ["Shock","Drill","Accuracy","Barrage"],
+		"uniques": ["[+30]% Strength <vs [Armour] units>"],
+		"unitTypes": ["ZetaIV"],
+        "column": 1,
+        "row": 9
+	},
+	{
+		"name": "Charge","prerequisites": ["Shock","Drill","Accuracy","Barrage"],
+		"uniques": ["[+30]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["ZetaIV"],
+        "column": 1,
+        "row": 10
+	},
+	//Tier Two
+	
 	//BoPA Promotions
 	//Infantry
 	{
 		"name": "Neuralyzer",
 		"uniques": ["[-5]% Strength bonus for [Hostile] units within [1] tiles",],
-		"unitTypes": ["InfantryBC","InfantryBG","InfantryBM",],"column": 1,"row": 1,
 	},
 	{
 		"name": "Wristwatch Computer",
 		"uniques": ["[50]% XP gained from combat",],
-		"unitTypes": ["InfantryBC","InfantryBG","InfantryBM",],"column": 1,"row": 2,
 	},
 	//Bureau Commando
 	//Scout Path
