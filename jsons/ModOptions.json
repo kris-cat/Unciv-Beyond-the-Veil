@@ -1,6 +1,6 @@
 {
     "isBaseRuleset":true,
     "constants": {
-        "cityAirUnitCapacity":4,
+        "cityAirUnitCapacity":3,
 	}
 }
