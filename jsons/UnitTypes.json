@@ -52,6 +52,10 @@
         "movementType": "Land"
     },
     {
+        "name": "ZetaTD",
+        "movementType": "Land"
+    },
+    {
         "name": "ZetaSC",
         "movementType": "Land"
     },
