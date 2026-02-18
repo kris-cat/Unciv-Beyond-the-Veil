@@ -1,65 +1,72 @@
 [
 	//Default
-	//Tier One
+	//Promotion Visual Fixer
 	{
-		"name": "Shock",
-		"uniques": ["[+30]% Strength <when fighting in [Open terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
+		"name": "Default Promotion",
+		"uniques": [ "[999]% weight to this choice for AI decisions","Comment [Does nothing but fix visual bugs]"],
 		"unitTypes": ["ZetaIV"],
         "column": 1,"row": 1
 	},
+	//Tier One
 	{
-		"name": "Drill",
+		"name": "Shock","prerequisites": ["Default Promotion"],
+		"uniques": ["[+30]% Strength <when fighting in [Open terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
+		"unitTypes": ["ZetaIV"],
+        "column": 1,"row": 2
+	},
+	{
+		"name": "Drill","prerequisites": ["Default Promotion"],
 		"uniques": ["[+30]% Strength <when fighting in [Rough terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
 		"unitTypes": ["ZetaIV"],
-        "column": 2,"row": 1
+        "column": 2,"row": 2
 	},
 	{
-		"name": "Accuracy",
+		"name": "Accuracy","prerequisites": ["Default Promotion"],
 		"uniques": ["[+30]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
 		"unitTypes": ["ZetaIV"],
-        "column": 3,"row": 1
+        "column": 3,"row": 2
     },
 	{
-		"name": "Barrage",
+		"name": "Barrage","prerequisites": ["Default Promotion"],
 		"uniques": ["[+30]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
 		"unitTypes": ["ZetaIV"],
-        "column": 4,"row": 1
+        "column": 4,"row": 2
 	},
 	{
-		"name": "Bombardment",
+		"name": "Bombardment","prerequisites": ["Default Promotion"],
 		"uniques": ["[+30]% Strength <vs [Land] units>", "[-90]% weight to this choice for AI decisions"],
 		"unitTypes": ["ZetaIV"],
-        "column": 5,"row": 1
+        "column": 5,"row": 2
     },
 	{
-		"name": "Targeting",
+		"name": "Targeting","prerequisites": ["Default Promotion"],
 		"uniques": ["[+30]% Strength <vs [Water] units>", "[-90]% weight to this choice for AI decisions"],
 		"unitTypes": ["ZetaIV"],
-        "column": 6,"row": 1
+        "column": 6,"row": 2
 	},
 	{
-		"name": "Siege",
+		"name": "Siege","prerequisites": ["Default Promotion"],
 		"uniques": ["[+30]% Strength <vs cities>", "[-90]% weight to this choice for AI decisions"],
 		"unitTypes": ["ZetaIV"],
-        "column": 7,"row": 1
+        "column": 7,"row": 2
 	},
 	{
-		"name": "Pursuit",
+		"name": "Pursuit","prerequisites": ["Default Promotion"],
 		"uniques": ["[+15]% Strength <when attacking>", "[-90]% weight to this choice for AI decisions"],
 		"unitTypes": ["ZetaIV"],
-        "column": 8,"row": 1
+        "column": 8,"row": 2
     },
 	{
-		"name": "Morale",
+		"name": "Morale","prerequisites": ["Default Promotion"],
 		"uniques": ["[+15]% Strength <when defending>", "[-90]% weight to this choice for AI decisions"],
 		"unitTypes": ["ZetaIV"],
-        "column": 9,"row": 1
+        "column": 9,"row": 2
 	},
 	{
-		"name": "Armour Plating",
+		"name": "Armour Plating","prerequisites": ["Default Promotion"],
 		"uniques": ["[+10]% Strength", "[-90]% weight to this choice for AI decisions"],
 		"unitTypes": ["ZetaIV"],
-        "column": 10,"row": 1
+        "column": 10,"row": 2
 	},
 	//Tier Two
 	{
@@ -67,105 +74,105 @@
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["[+30]% Strength <vs [Mounted] units>"],
 		"unitTypes": ["ZetaIV"],
-        "column": 1,"row": 2
+        "column": 1,"row": 3
     },
 	{
 		"name": "Ambush",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["[+30]% Strength <vs [Armour] units>"],
 		"unitTypes": ["ZetaIV"],
-        "column": 2,"row": 2
+        "column": 2,"row": 3
     },
 	{
 		"name": "Suppression",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["[+30]% Strength <vs [Infantry] units>"],
 		"unitTypes": ["ZetaIV"],
-        "column": 3,"row": 2
+        "column": 3,"row": 3
     },
 	{
 		"name": "Pummelling",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["[+30]% Strength <vs [Mage] units>","[+30]% Strength <vs [Psychic] units>"],
 		"unitTypes": ["ZetaIV"],
-        "column": 4,"row": 2
+        "column": 4,"row": 3
     },
 	{
 		"name": "Air Targeting",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["[+30]% Strength <vs [Helicopter] units>","[+30]% Strength <vs [Airship] units>"],
 		"unitTypes": ["ZetaIV"],
-        "column": 5,"row": 2
+        "column": 5,"row": 3
     },
 	{
 		"name": "Charge",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["[+30]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["ZetaIV"],
-        "column": 6,"row": 2
+        "column": 6,"row": 3
     },
 	{
 		"name": "Cover",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["ZetaIV"],
-        "column": 7,"row": 2
+        "column": 7,"row": 3
 	},
 	{
 		"name": "Interception",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["[+33]% Damage when intercepting"],
 		"unitTypes": ["ZetaIV"],
-        "column": 8,"row": 2
+        "column": 8,"row": 3
 	},
 	{
 		"name": "Dogfighting",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["[+33]% Damage when intercepting"],
 		"unitTypes": ["ZetaIV"],
-        "column": 9,"row": 2
+        "column": 9,"row": 3
 	},
 	{
 		"name": "Extended Range",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["[+1] Range"],
 		"unitTypes": ["ZetaIV"],
-        "column": 10,"row": 2
+        "column": 10,"row": 3
 	},
 	{
 		"name": "Indirect Fire",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
 		"unitTypes": ["ZetaIV"],
-        "column": 11,"row": 2
+        "column": 11,"row": 3
 	},
 	{
 		"name": "Medic",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["All adjacent units heal [+10] HP when healing"],
 		"unitTypes": ["ZetaIV"],
-        "column": 12,"row": 2
+        "column": 12,"row": 3
 	},
 	{
 		"name": "March",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["ZetaIV"],
-        "column": 13,"row": 2
+        "column": 13,"row": 3
 	},
 	{
 		"name": "Air Repair",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["ZetaIV"],
-        "column": 14,"row": 2
+        "column": 14,"row": 3
 	},
 	{
 		"name": "Mobility",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["[+1] Movement"],
 		"unitTypes": ["ZetaIV"],
-        "column": 15,"row": 2
+        "column": 15,"row": 3
 	},
 	//Tier Three
 	{
@@ -173,90 +180,90 @@
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["[1] additional attacks per turn",],
 		"unitTypes": ["ZetaIV"],
-        "column": 1,"row": 3
+        "column": 1,"row": 4
 	},
 	{
 		"name": "Logistics",
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["Can move after attacking"],
 		"unitTypes": ["ZetaIV"],
-        "column": 2,"row": 3
+        "column": 2,"row": 4
 	},
 	{
 		"name": "Flanking",
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["Ignores Zone of Control"],
 		"unitTypes": ["ZetaIV"],
-        "column": 3,"row": 3
+        "column": 3,"row": 4
 	},
 	{
 		"name": "Wayfarer",
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["Ignores terrain cost"],
 		"unitTypes": ["ZetaIV"],
-        "column": 4,"row": 3
+        "column": 4,"row": 4
 	},
 	{
 		"name": "Survivalism",
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["[+10] HP when healing <in [Foreign Land] tiles>"],
 		"unitTypes": ["ZetaIV"],
-        "column": 5,"row": 3
+        "column": 5,"row": 4
 	},
 	{
 		"name": "Besiege",
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["ZetaIV"],
-        "column": 6,"row": 3
+        "column": 6,"row": 4
 	},
 	{
 		"name": "Volley",
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["ZetaIV"],
-        "column": 7,"row": 3
+        "column": 7,"row": 4
 	},
 	{
 		"name": "Sortie",
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["[1] extra interceptions may be made per turn"],
 		"unitTypes": ["ZetaIV"],
-        "column": 8,"row": 3
+        "column": 8,"row": 4
 	},
 	{
 		"name": "Evasion",
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["Damage taken from interception reduced by [50]%"],
 		"unitTypes": ["ZetaIV"],
-        "column": 9,"row": 3
+        "column": 9,"row": 4
 	},
 	{
 		"name": "Operational Range",
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["[+2] Range"],
 		"unitTypes": ["ZetaIV"],
-        "column": 10,"row": 3
+        "column": 10,"row": 4
 	},
 	{
 		"name": "Urbanist",
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["Only available <for units without [Woodsman]>","Only available <for units without [Highlander]>","Double movement in [Urban Sprawl]"],
 		"unitTypes": ["ZetaIV"],
-        "column": 11,"row": 3
+        "column": 11,"row": 4
 	},
 	{
 		"name": "Woodsman",
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["Only available <for units without [Urbanist]>","Only available <for units without [Highlander]>","Double movement in [Forest]"],
 		"unitTypes": ["ZetaIV"],
-        "column": 12,"row": 3
+        "column": 12,"row": 4
 	},
 	{
 		"name": "Highlander",
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["Only available <for units without [Woodsman]>","Only available <for units without [Urbanist]>","Double movement in [Hill]"],
 		"unitTypes": ["ZetaIV"],
-        "column": 13,"row": 3
+        "column": 13,"row": 4
 	},
 ]
