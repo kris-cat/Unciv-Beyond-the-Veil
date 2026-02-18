@@ -11,7 +11,13 @@
         "[-1] Sight <for [Embarked] units>",
         "[-50]% unhappiness from the number of cities",
         "[-50]% Unhappiness from [Population] [in all cities]",
-        "[All] units gain the [Default Promotion] promotion"
+        "[All] units gain the [Default Promotion] promotion",
+        //Specialisation Slots
+        "Provides [1] [Specialisation Slot] <in [all] cities>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [5] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [10] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [16] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [23] [Population]>",
     ],
     "unitUniques": [
         "[+1] Movement <for [Infantry] units> <when adjacent to a [Transport] unit>"
