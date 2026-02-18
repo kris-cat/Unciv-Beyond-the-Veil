@@ -27,14 +27,14 @@ NationIcons/Bureau of Paranormal Activities
   index: -1
 NationIcons/Papal Inquisition
   rotate: false
-  xy: 684, 144
+  xy: 684, 36
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Zeta Reticulans
   rotate: false
-  xy: 1008, 144
+  xy: 1116, 36
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -62,42 +62,49 @@ ResourceIcons/Blessed Relics
   index: -1
 ResourceIcons/Orichalcum
   rotate: false
-  xy: 576, 36
+  xy: 684, 144
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Philosopher's Stone
   rotate: false
-  xy: 684, 36
+  xy: 792, 144
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Psychotropic Fungus
   rotate: false
-  xy: 792, 144
+  xy: 792, 36
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Rejuvenating Water
   rotate: false
-  xy: 792, 36
+  xy: 900, 144
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Specialisation Slot
+  rotate: false
+  xy: 900, 36
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Unobtainium
   rotate: false
-  xy: 900, 144
+  xy: 1008, 36
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Xirang
   rotate: false
-  xy: 900, 36
+  xy: 1116, 144
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -112,6 +119,20 @@ UnitIcons/Abrams Tank
 UnitIcons/Black Hawk Helicopter
   rotate: false
   xy: 360, 36
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Government Man1
+  rotate: false
+  xy: 576, 36
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Stryker
+  rotate: false
+  xy: 1008, 144
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
