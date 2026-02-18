@@ -275,4 +275,36 @@
 		],
 		"attackSound": "missile"
 	},
+	//Ecclessia Catholica
+	{
+		"name": "Evangelist",
+		"unitType": "Infantry",
+		"uniqueTo": "Papal Inquisition",
+		"movement": 2,
+		"range": 1,
+		"strength": 30,
+		"rangedStrength": 15,
+		"cost": 65,
+		"uniques": [
+			"Human",
+			"[+1] additional attacks per turn",
+			"Free [Living Saint] appears <upon being defeated> <with [5]% chance>"
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Exorcist",
+		"unitType": "Infantry",
+		"uniqueTo": "Papal Inquisition",
+		"movement": 2,
+		"strength": 25,
+		"cost": 65,
+		"uniques": [
+			"Human",
+			"Can carry [3] [Missile] units",
+			"Free [Living Saint] appears <upon being defeated> <with [5]% chance>"
+		]
+		"attackSound": "shot"
+	},
+
 ]
