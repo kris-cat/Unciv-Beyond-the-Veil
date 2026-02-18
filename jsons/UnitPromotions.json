@@ -266,4 +266,13 @@
 		"unitTypes": ["ZetaIV"],
         "column": 13,"row": 4
 	},
+	//Bureau of Paranormal Activities Promotions
+	{
+		"name": "Neuralyzer",
+		"uniques": ["[-5]% Strength bonus for [Hostile] units within [1] tiles",]
+	},
+	{
+		"name": "Wristwatch",
+		"uniques": ["[50]% XP gained from combat",]
+	},
 ]
