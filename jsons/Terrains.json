@@ -2,6 +2,7 @@
 	{
 		"name": "Snow",
 		"type": "Land",
+		"food": 1,
 		"movementCost": 1,
 		"RGB": [97, 124, 168],
 		"uniques": [
@@ -47,7 +48,7 @@
 	{
 		"name": "Desert",
 		"type": "Land",
-		"food": 0,
+		"production": 1,
 		"movementCost": 1,
         "RGB": [160, 109, 120],
         "uniques": [
