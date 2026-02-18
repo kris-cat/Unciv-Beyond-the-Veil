@@ -123,7 +123,7 @@ UnitIcons/Black Hawk Helicopter
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Government Man1
+UnitIcons/Government Man
   rotate: false
   xy: 576, 36
   size: 100, 100
