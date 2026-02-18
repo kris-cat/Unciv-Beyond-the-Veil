@@ -6,6 +6,7 @@
     {
 		"name": "Bureau of Paranormal Activities",
 		"leaderName": "WIPLeader1",
+		"startBias": ["Urban Sprawl"],
 		"preferredVictoryType": "Domination",
 		"personality": "Average Guys",
 
@@ -34,6 +35,39 @@
 			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"
         ]
 	},
+	{
+		"name": "Zeta Reticulans",
+		"leaderName": "WIPLeader5",
+		"startBias": ["Urban Sprawl"],
+		"preferredVictoryType": "Domination",
+		"personality": "Average Guys",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+        "declaringWar": "Sample text.",
+		"attacked": "Sample text.",
+		"defeated": "Sample text.",
+		"introduction": "Sample text.",
+		"neutralHello": "Sample text.",
+		"hateHello": "Sample text.",
+		"tradeRequest": "Sample text.",
+		"outerColor": [179, 202, 199],
+		"innerColor": [0, 0, 0],
+		"uniqueName": "Zeta Reticulans Faction Features",
+		"uniques": [
+			"Adopt [Singularity] <hidden from users>",
+			"Provides [1] [Advanced Research] <for every [[Anomalous Resource] Per Turn]>",
+			"Reveals the entire map <hidden from users>",
+			"Comment [Pre-FTL Interference: The entire map is revealed from the start of the game.]",
+			"Comment [Anti-Gravity Engines: All tiles cost 1 movement for Zeta Alien units, but they receive no defensive terrain bonuses.]",
+			"Comment [Mind-Control Practices: Recruit Brainwashed Slave units. You can choose between brainwashing local Human population or importing Martians.]",
+			"Comment [Anomaly Harvesting: Converts anomalous resources into research points.]",
+			
+        ],
+		"cities": [
+			"Vatican","Avignon","Andorra","Cologne","Mainz"
+		],
+    },
 	{
 		"name": "British Roundtable",
 		"leaderName": "WIPLeader2",
@@ -100,6 +134,7 @@
 	{
 		"name": "Blood Pyramid",
 		"leaderName": "WIPLeader4",
+		"startBias": ["Avoid [Desert]"],
 		"preferredVictoryType": "Domination",
 		"personality": "Average Guys",
 
@@ -124,38 +159,6 @@
         ],
 		"cities": [
 			"Vienna","Munich","Prague","Paris"
-		],
-    },
-	{
-		"name": "Zeta Reticulans",
-		"leaderName": "WIPLeader5",
-		"preferredVictoryType": "Domination",
-		"personality": "Average Guys",
-
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text.",
-        "declaringWar": "Sample text.",
-		"attacked": "Sample text.",
-		"defeated": "Sample text.",
-		"introduction": "Sample text.",
-		"neutralHello": "Sample text.",
-		"hateHello": "Sample text.",
-		"tradeRequest": "Sample text.",
-		"outerColor": [179, 202, 199],
-		"innerColor": [0, 0, 0],
-		"uniqueName": "Zeta Reticulans Faction Features",
-		"uniques": [
-			"Adopt [Singularity] <hidden from users>",
-			"Provides [1] [Advanced Research] <for every [[Anomalous Resource] Per Turn]>",
-			"Reveals the entire map <hidden from users>",
-			"Comment [Pre-FTL Interference: The entire map is revealed from the start of the game.]",
-			"Comment [Anti-Gravity Engines: All tiles cost 1 movement for Zeta Alien units, but they receive no defensive terrain bonuses.]",
-			"Comment [Mind-Control Practices: Recruit Brainwashed Slave units. You can choose between brainwashing local Human population or importing Martians.]",
-			"Comment [Anomaly Harvesting: Converts anomalous resources into research points.]",
-			
-        ],
-		"cities": [
-			"Vatican","Avignon","Andorra","Cologne","Mainz"
 		],
     },
 	{
