@@ -90,7 +90,7 @@
 		"strength": 35,
 		"cost": 225,
 		"uniques": [
-			"Mechanical","Vehicle","Light",
+			"Mechanical","Vehicle","Transport",
 			"[+1] Movement <for [Infantry] units> <when adjacent to a [Stryker] unit>"
 		],
 		"attackSound": "machinegun"
