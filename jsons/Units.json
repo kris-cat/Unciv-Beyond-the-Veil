@@ -25,6 +25,7 @@
 		"uniques": [
 			"Founds a new city <by consuming this unit>",
 			"Unbuildable",
+		]
 		"hurryCostModifier": 20
 	},
 	{
