@@ -17,6 +17,17 @@
 	},
 	//Bureau of Paranormal Activities
 	{
+		"name": "Government Man",
+		"unitType": "UGVH",
+		"uniqueTo": "Bureau of Paranormal Activities"
+		"movement": 2,
+		"cost": 100,
+		"uniques": [
+			"Founds a new city <by consuming this unit>",
+			"Unbuildable",
+		"hurryCostModifier": 20
+	},
+	{
 		"name": "UGV 'Handy'",
 		"unitType": "UGVH",
 		"uniqueTo": "Bureau of Paranormal Activities",
