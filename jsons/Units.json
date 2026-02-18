@@ -86,12 +86,12 @@
 		"name": "Stryker",
 		"unitType": "LightMC",
 		"uniqueTo": "Bureau of Paranormal Activities",
-		"movement": 5,
+		"movement": 3,
 		"strength": 35,
 		"cost": 225,
 		"uniques": [
 			"Mechanical","Vehicle","Light",
-			"[+1] Movement <for [Infantry] units> <in tiles adjacent to [your] tiles>",
+			"[+1] Movement <for [Infantry] units> <when adjacent to a [Stryker] unit>"
 		],
 		"attackSound": "machinegun"
 	},
