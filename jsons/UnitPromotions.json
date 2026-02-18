@@ -11,25 +11,25 @@
 	{
 		"name": "Shock","prerequisites": ["Default Promotion"],
 		"uniques": ["[+30]% Strength <when fighting in [Open terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["ZetaIV"],
+		"unitTypes": ["InfantryBC","InfantryBG",],
         "column": 1,"row": 2
 	},
 	{
 		"name": "Drill","prerequisites": ["Default Promotion"],
 		"uniques": ["[+30]% Strength <when fighting in [Rough terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["ZetaIV"],
+		"unitTypes": ["InfantryBC","InfantryBG",],
         "column": 2,"row": 2
 	},
 	{
 		"name": "Accuracy","prerequisites": ["Default Promotion"],
 		"uniques": ["[+30]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["ZetaIV"],
+		"unitTypes": ["InfantryBM",],
         "column": 3,"row": 2
     },
 	{
 		"name": "Barrage","prerequisites": ["Default Promotion"],
 		"uniques": ["[+30]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["ZetaIV"],
+		"unitTypes": ["InfantryBM",],
         "column": 4,"row": 2
 	},
 	{
@@ -47,13 +47,13 @@
 	{
 		"name": "Siege","prerequisites": ["Default Promotion"],
 		"uniques": ["[+30]% Strength <vs cities>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["ZetaIV"],
+		"unitTypes": ["InfantryBG",],
         "column": 7,"row": 2
 	},
 	{
 		"name": "Pursuit","prerequisites": ["Default Promotion"],
 		"uniques": ["[+15]% Strength <when attacking>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["ZetaIV"],
+		"unitTypes": ["InfantryBC",],
         "column": 8,"row": 2
     },
 	{
@@ -80,14 +80,14 @@
 		"name": "Ambush",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["[+30]% Strength <vs [Armour] units>"],
-		"unitTypes": ["ZetaIV"],
+		"unitTypes": ["InfantryBG",],
         "column": 2,"row": 3
     },
 	{
 		"name": "Suppression",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["[+30]% Strength <vs [Infantry] units>"],
-		"unitTypes": ["ZetaIV"],
+		"unitTypes": ["InfantryBG",],
         "column": 3,"row": 3
     },
 	{
@@ -108,14 +108,14 @@
 		"name": "Charge",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["[+30]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["ZetaIV"],
+		"unitTypes": ["InfantryBC",],
         "column": 6,"row": 3
     },
 	{
 		"name": "Cover",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["ZetaIV"],
+		"unitTypes": ["InfantryBC","InfantryBG",],
         "column": 7,"row": 3
 	},
 	{
@@ -157,7 +157,7 @@
 		"name": "March",
 		"prerequisites": ["Shock","Drill","Accuracy","Barrage","Bombardment","Targeting","Siege","Pursuit","Morale","Armour Plating",],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["ZetaIV"],
+		"unitTypes": ["InfantryBC",],
         "column": 13,"row": 3
 	},
 	{
@@ -179,21 +179,21 @@
 		"name": "Blitz",
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["[1] additional attacks per turn",],
-		"unitTypes": ["ZetaIV"],
+		"unitTypes": ["InfantryBC","InfantryBG",],
         "column": 1,"row": 4
 	},
 	{
 		"name": "Logistics",
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["Can move after attacking"],
-		"unitTypes": ["ZetaIV"],
+		"unitTypes": ["InfantryBG",],
         "column": 2,"row": 4
 	},
 	{
 		"name": "Flanking",
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["Ignores Zone of Control"],
-		"unitTypes": ["ZetaIV"],
+		"unitTypes": ["InfantryBC",],
         "column": 3,"row": 4
 	},
 	{
@@ -207,14 +207,14 @@
 		"name": "Survivalism",
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["[+10] HP when healing <in [Foreign Land] tiles>"],
-		"unitTypes": ["ZetaIV"],
+		"unitTypes": ["InfantryBC",],
         "column": 5,"row": 4
 	},
 	{
 		"name": "Besiege",
 		"prerequisites": ["Formation","Ambush","Suppression","Pummelling","Air Targeting","Charge","Cover","Interception","Dogfighting","Extended Range","Indirect Fire","Medic","March","Air Repair","Mobility"],
 		"uniques": ["[+33]% Strength <vs cities>"],
-		"unitTypes": ["ZetaIV"],
+		"unitTypes": ["InfantryBG",],
         "column": 6,"row": 4
 	},
 	{
