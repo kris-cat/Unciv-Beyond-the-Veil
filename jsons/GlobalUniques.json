@@ -13,6 +13,9 @@
         "[-50]% Unhappiness from [Population] [in all cities]",
         "[All] units gain the [Default Promotion] promotion"
     ],
+    "unitUniques": [
+        "[+1] Movement <for [Infantry] units> <when adjacent to a [Transport] unit>"
+    ]
     "civilopediaText": [
         {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
     ]
