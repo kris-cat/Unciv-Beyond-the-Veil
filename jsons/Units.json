@@ -187,6 +187,20 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Zeta Tripod",
+		"unitType": "ZetaTD",
+		"uniqueTo": "Zeta Reticulans",
+		"movement": 3,
+		"strength": 45,
+		"cost": 200,
+		"uniques": [
+			"Mechanical","Vehicle","Mecha",
+			"Can move after attacking",
+			"Can carry [2] [Aircraft] units"
+		],
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Zeta Saucer",
 		"unitType": "ZetaSC",
 		"uniqueTo": "Zeta Reticulans",
