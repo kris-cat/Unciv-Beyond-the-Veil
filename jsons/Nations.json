@@ -24,6 +24,7 @@
 		"uniqueName": "Bureau of Paranormal Activities Faction Features",
 		"uniques": [
 			"Adopt [BPA Edicts]","New [all] units start with [200] XP [in all cities]",
+			"[Infantry] units gain the [Neuralyzer] promotion","[Infantry] units gain the [Wristwatch] promotion",
 			"[+10 Culture]"
         ],
 		"cities": [
