@@ -63,7 +63,7 @@
 		"cost": 70,
 		"uniques": [
 			"Organic","Human","Infantry",
-			"[+50]% Strength <vs [Armour]>",
+			"[50]% Strength <vs cities>",
 		]
 		"attackSound": "shot"
 	},
