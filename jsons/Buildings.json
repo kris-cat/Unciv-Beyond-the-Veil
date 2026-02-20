@@ -1,8 +1,7 @@
 [
-	//Blood Pyramid Buildings
 	{
-		"name": "Blood Palace",
-		"uniqueTo": "Blood Pyramid",
+		"name": "BPA Headquarters",
+		"uniqueTo": "Bureau of Paranormal Activities",
 		"isNationalWonder": true,
 		"production": 3,
 		"science": 3,
@@ -12,200 +11,88 @@
 		"cost": 0,
 		"uniques": [
 			"Indicates the capital city",
-			"Provides [1] [Vampire Population]"
+			"Provides [1] [Leadership Point]"
 		]
 	},
-    {
-		"name": "Feeding Grounds",
-		"uniqueTo": "Blood Pyramid",
+	{
+		"name": "Bureau Training Facilities",
+		"uniqueTo": "Bureau of Paranormal Activities",
 		"cost": 100,
 		"hurryCostModifier": 25,
-        "food": 3,
+		"culture": 2,
+		"production": 2,
+        "maintenance": 2,
+		"uniques": [
+			"Consumes [1] [Specialisation Slot]",
+			"New [Infantry] units start with [15] XP [in this city]",
+			"[+15]% Production when constructing [Infantry] units [in this city]",
+            "Destroyed when the city is captured" 
+        ]
+	},
+	{
+		"name": "Agent Living Quarters",
+		"uniqueTo": "Bureau of Paranormal Activities","requiredBuilding": "Bureau Training Facilities",
+		"cost": 100,
+		"hurryCostModifier": 25,
+		"happiness": 5,
         "maintenance": 1,
 		"uniques": [
             "Destroyed when the city is captured" 
         ]
 	},
-    {
-		"name": "Organ Trading Ring",
-		"uniqueTo": "Blood Pyramid",
-		"cost": 125,
+	{
+		"name": "Virtual Simulation Chamber",
+		"uniqueTo": "Bureau of Paranormal Activities","requiredBuilding": "Bureau Training Facilities",
+		"cost": 100,
 		"hurryCostModifier": 25,
-        "gold": 2,
-		"uniques": [
-            "Destroyed when the city is captured",
-            "[+1 Food] per [1] population [in this city]"
-        ]
-	},
-    {
-		"name": "Underground Tunnels",
-		"uniqueTo": "Blood Pyramid",
-		"cost": 125,
-		"hurryCostModifier": 25,
-        "production": 3,
-        "cityStrength": 5,
-		"cityHealth": 50,
-        "maintenance": 2,
+		"production": 3,
+        "maintenance": 1,
 		"uniques": [
             "Destroyed when the city is captured" 
         ]
 	},
-    {
-		"name": "Infiltrated Night Clubs",
-		"uniqueTo": "Blood Pyramid",
-		"cost": 150,
+	{
+		"name": "Supernatural Residential Zone",
+		"uniqueTo": "Bureau of Paranormal Activities",
+		"cost": 100,
+		"gold": 3,
+		"production": 2,
 		"hurryCostModifier": 25,
-        "gold": 2,
-        "happiness": 4,
+		"uniques": [
+			"Consumes [1] [Specialisation Slot]",
+            "Destroyed when the city is captured" 
+        ]
+	},
+	{
+		"name": "Alien Patent Office",
+		"uniqueTo": "Bureau of Paranormal Activities","requiredBuilding": "Bureau Training Facilities",
+		"cost": 100,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Science] per [3] population [in this city]",
+			"[+1 Gold] from every [{Science} {Building}]",
+            "Destroyed when the city is captured" 
+        ]
+	},
+	{
+		"name": "Undercover Postal Office",
+		"uniqueTo": "Bureau of Paranormal Activities","requiredBuilding": "Bureau Training Facilities",
+		"cost": 100,
+		"percentStatBonus": {"gold": 25},
+		"hurryCostModifier": 25,
 		"uniques": [
             "Destroyed when the city is captured" 
         ]
 	},
-    {
-		"name": "Shadow Financial District",
-		"uniqueTo": "Blood Pyramid",
-		"cost": 250,
+	{
+		"name": "Bureau Military Workshop",
+		"uniqueTo": "Bureau of Paranormal Activities",
+		"cost": 100,
+		"production": 4,
 		"hurryCostModifier": 25,
-        "percentStatBonus": {"gold": 50},
 		"uniques": [
+			"Consumes [1] [Specialisation Slot]",
             "Destroyed when the city is captured" 
-        ]
-	},
-    {
-		"name": "Secret Crypts",
-		"uniqueTo": "Blood Pyramid",
-		"cost": 250,
-		"hurryCostModifier": 25,
-        "maintenance": 2,
-		"uniques": [
-            "Destroyed when the city is captured",
-            "Provides [1] [Vampire Population]"
-        ]
-	},
-	//British Roundtable Buildings
-	{
-		"name": "Roundtable Main Base",
-		"uniqueTo": "British Roundtable",
-		"isNationalWonder": true,
-		"production": 3,
-		"science": 3,
-		"gold": 3,
-		"culture": 1,
-		"cityStrength": 2.5,
-		"cost": 0,
-		"uniques": [
-			"Indicates the capital city",
-		]
-		"civilopediaText": [
-			{
-				"text": "The main base of operations of the British Roundtable. Situated on private land, it encompasses a secret underground network of tunnels and bunkers, located underneath a palace built in Gothic Revival style."
-			}
-		]
-	},
-	{
-		"name": "New Tintagel Castle",
-		"uniqueTo": "British Roundtable",
-		"isNationalWonder": true,
-		"production": 3,
-		"science": 3,
-		"gold": 3,
-		"culture": 1,
-		"cityStrength": 2.5,
-		"cost": 500,
-		"uniques": [
-			"Anglican Order Faction",
-			"Only available <in cities without a [Roundtable Main Base]>",
-			"Only available <in cities without a [Royal Society Faction]>",
-			"Only available <in cities without a [Van Helsing Faction]>",
-			"Gain a free [Arturian Keep] [in this city]",
-			"Destroyed when the city is captured",
-		]
-		"civilopediaText": [
-			{
-				"text": "A fort, built as a replacement for the old, legendary Tintagel Castle by the members of the Anglican Order, has been modernised several times and concealed by a illusionary magic."
-			}
-		]
-	},
-	{
-		"name": "Arturian Keep",
-		"uniqueTo": "British Roundtable",
-		"cost": 250,
-		"hurryCostModifier": 25,
-        "maintenance": 2,
-		"uniques": [
-			"Anglican Order Faction",
-			"Only available <in cities without a [Royal Society Faction]>",
-			"Only available <in cities without a [Van Helsing Faction]>",
-            "Destroyed when the city is captured",
-        ]
-	},
-	{
-		"name": "Royal Arcane University",
-		"uniqueTo": "British Roundtable",
-		"isNationalWonder": true,
-		"production": 3,
-		"science": 3,
-		"gold": 3,
-		"culture": 1,
-		"cityStrength": 2.5,
-		"cost": 500,
-		"uniques": [
-			"Royal Society Faction",
-			"Only available <in cities without a [Roundtable Main Base]>",
-			"Only available <in cities without a [Anglican Order Faction]>",
-			"Only available <in cities without a [Van Helsing Faction]>",
-			"Gain a free [Arcane Engineering Workshop] [in this city]",
-			"Destroyed when the city is captured",
-		]
-		"civilopediaText": [
-			{
-				"text": "The most prestigious academic institution in the magi-engineering world. A campus district connected to military workshops, it serves as the centre of the British Roundtable's secret military-industrial complex."
-			}
-		]
-	},
-	{
-		"name": "Arcane Engineering Workshop",
-		"uniqueTo": "British Roundtable",
-		"cost": 250,
-		"hurryCostModifier": 25,
-        "maintenance": 2,
-		"uniques": [
-			"Royal Society Faction",
-			"Only available <in cities without a [Anglican Order Faction]>",
-			"Only available <in cities without a [Van Helsing Faction]>",
-            "Destroyed when the city is captured",
-        ]
-	},
-	{
-		"name": "Van Helsing Residence",
-		"uniqueTo": "British Roundtable",
-		"isNationalWonder": true,
-		"production": 3,
-		"science": 3,
-		"gold": 3,
-		"culture": 1,
-		"cityStrength": 2.5,
-		"cost": 500,
-		"uniques": [
-			"Van Helsing Faction",
-			"Only available <in cities without a [Roundtable Main Base]>",
-			"Only available <in cities without a [Anglican Order Faction]>",
-			"Only available <in cities without a [Royal Society Faction]>",
-			"Gain a free [Supernatural Quarter] [in this city]",
-			"Destroyed when the city is captured",
-		]
-	},
-	{
-		"name": "Supernatural Quarter",
-		"uniqueTo": "British Roundtable",
-		"cost": 250,
-		"hurryCostModifier": 25,
-        "maintenance": 2,
-		"uniques": [
-			"Van Helsing Faction",
-			"Only available <in cities without a [Anglican Order Faction]>",
-			"Only available <in cities without a [Royal Society Faction]>",
-            "Destroyed when the city is captured",
         ]
 	},
 ]
