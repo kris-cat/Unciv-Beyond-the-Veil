@@ -5,7 +5,7 @@
 		"name": "Specialisation Slot", "resourceType": "Strategic",
 		"uniques": [
 			"Doesn't generate naturally", "Cannot be traded", "City-level resource",
-			"Excluded from map editor", "Not shown on world screen"
+			"Excluded from map editor", 
 		]
 	},
     //Faction resources
