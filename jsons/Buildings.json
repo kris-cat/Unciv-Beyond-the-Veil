@@ -20,7 +20,7 @@
 		"cost": 100,
 		"hurryCostModifier": 25,
 		"culture": 2,
-		"production": 2,
+		"production": 1,
         "maintenance": 2,
 		"uniques": [
 			"Consumes [1] [Specialisation Slot]",
@@ -34,8 +34,8 @@
 		"uniqueTo": "Bureau of Paranormal Activities","requiredBuilding": "Bureau Training Facilities",
 		"cost": 100,
 		"hurryCostModifier": 25,
-		"happiness": 5,
-		"food": 2,
+		"happiness": 4,
+		"food": 1,
         "maintenance": 1,
 		"uniques": [
             "Destroyed when the city is captured" 
@@ -57,7 +57,7 @@
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"cost": 100,
 		"gold": 3,
-		"science": 2,
+		"science": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Consumes [1] [Specialisation Slot]",
@@ -89,7 +89,30 @@
 		"name": "Bureau Military Workshop",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"cost": 100,
-		"production": 4,
+		"production": 3,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Consumes [1] [Specialisation Slot]",
+            "Destroyed when the city is captured" 
+        ]
+	},
+	{
+		"name": "Bureau Craft Hangar",
+		"uniqueTo": "Bureau of Paranormal Activities",
+		"cost": 100,
+		"production": 2,
+		"gold": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Consumes [1] [Specialisation Slot]",
+            "Destroyed when the city is captured" 
+        ]
+	},
+	{
+		"name": "Experimental Technologies Laboratories",
+		"uniqueTo": "Bureau of Paranormal Activities",
+		"cost": 100,
+		"science": 3,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Consumes [1] [Specialisation Slot]",
