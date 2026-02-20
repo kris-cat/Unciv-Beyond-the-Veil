@@ -86,11 +86,12 @@
 		"unitType": "LightMC",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 5,
-		"strength": 35,
+		"strength": 37,
 		"cost": 225,
 		"uniques": [
 			"Mechanical","Vehicle","Light",
 			"[+2] Sight", "Ignores terrain cost", "No defensive terrain bonus",
+			"Only available <if [Experimental Technologies Laboratories] is constructed>"
 		],
 		"attackSound": "machinegun"
 	},
