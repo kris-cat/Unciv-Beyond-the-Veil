@@ -46,7 +46,7 @@
 		"unitType": "InfantryBC",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 2,
-		"strength": 35,
+		"strength": 33,
 		"cost": 70,
 		"uniques": [
 			"Organic","Human","Infantry",
@@ -59,7 +59,7 @@
 		"unitType": "InfantryBG",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 2,
-		"strength": 35,
+		"strength": 33,
 		"cost": 70,
 		"uniques": [
 			"Organic","Human","Infantry",
@@ -72,9 +72,9 @@
 		"unitType": "InfantryBM",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 2,
-		"strength": 30,
+		"strength": 25,
 		"range": 2,
-		"rangedStrength": 25,
+		"rangedStrength": 30,
 		"cost": 70,
 		"uniques": [
 			"Organic","Human","Infantry",
