@@ -1,5 +1,5 @@
 [
-    {
+	{
         "columnNumber": 0,
 		"era": "Preparation Level: 1",
 		"techCost": 50,
@@ -8,19 +8,34 @@
 		"techs": 
         [
             {
-                "name": "Advancement 1",
-				"row": 2,
+                "name": "Foundation",
+				"row": 4,
+				"uniques": ["Starting tech"]
+			}
+		]
+    },
+    {
+        "columnNumber": 1,
+		"era": "Preparation Level: 1",
+		"techCost": 50,
+		"buildingCost": 50,
+		"wonderCost": 200,
+		"techs": 
+        [
+            {
+                "name": "Advancement 1","prerequisites": ["Foundation"],
+				"row": 3,
 				"uniques": []
 			}
             {
-                "name": "Advancement 2",
+                "name": "Development 1","prerequisites": ["Foundation"],
 				"row": 4,
 				"uniques": []
 			}
 		]
     },
     {
-        "columnNumber": 1,
+        "columnNumber": 2,
 		"era": "Preparation Level: 1",
 		"techCost": 75,
 		"buildingCost": 75,
@@ -29,84 +44,134 @@
         [
             {
                 "name": "Breakthrough 1",
-                "prerequisites": ["Advancement 1","Advancement 2"],
+				"prerequisites": ["Advancement 1","Development 1"],
 				"row": 3,
+				"uniques": []
+			}
+			{
+                "name": "Expansion 1",
+                "prerequisites": ["Advancement 1","Development 1"],
+				"row": 4,
+				"uniques": []
+			}
+			{
+                "name": "Renovation 1",
+                "prerequisites": ["Advancement 1","Development 1"],
+				"row": 5,
+				"uniques": []
+			}
+			{
+                "name": "Innovation 1",
+                "prerequisites": ["Advancement 1","Development 1"],
+				"row": 6,
 				"uniques": []
 			}
 		]
     },
-    {
-        "columnNumber": 2,
+	{
+        "columnNumber": 3,
 		"era": "Preparation Level: 2",
-		"techCost": 100,
-		"buildingCost": 50,
-		"wonderCost": 200,
+		"techCost": 75,
+		"buildingCost": 75,
+		"wonderCost": 250,
 		"techs": 
         [
             {
-                "name": "Advancement 3",
-                "prerequisites": ["Breakthrough 1"],
-				"row": 2,
+                "name": "Advancement 2","prerequisites": ["Breakthrough 1","Expansion 1","Renovation 1","Innovation 1"],
+				"row": 3,
 				"uniques": []
 			}
             {
-                "name": "Advancement 4",
-                "prerequisites": ["Breakthrough 1"],
+                "name": "Development 2","prerequisites": ["Breakthrough 1","Expansion 1","Renovation 1","Innovation 1"],
 				"row": 4,
 				"uniques": []
 			}
 		]
     },
-    {
-        "columnNumber": 3,
+	{
+        "columnNumber": 4,
 		"era": "Preparation Level: 2",
-		"techCost": 150,
+		"techCost": 75,
 		"buildingCost": 75,
 		"wonderCost": 250,
 		"techs": 
         [
             {
                 "name": "Breakthrough 2",
-                "prerequisites": ["Advancement 3","Advancement 4"],
+                "prerequisites": ["Advancement 2","Development 2"],
 				"row": 3,
+				"uniques": []
+			}
+			{
+                "name": "Expansion 2",
+                "prerequisites": ["Advancement 2","Development 2"],
+				"row": 4,
+				"uniques": []
+			}
+			{
+                "name": "Renovation 2",
+                "prerequisites": ["Advancement 2","Development 2"],
+				"row": 5,
+				"uniques": []
+			}
+			{
+                "name": "Innovation 2",
+				"prerequisites": ["Advancement 2","Development 2"],
+				"row": 6,
 				"uniques": []
 			}
 		]
     },
-    {
-        "columnNumber": 4,
+	{
+        "columnNumber": 5,
 		"era": "Preparation Level: 3",
-		"techCost": 200,
-		"buildingCost": 50,
-		"wonderCost": 200,
+		"techCost": 75,
+		"buildingCost": 75,
+		"wonderCost": 250,
 		"techs": 
         [
             {
-                "name": "Advancement 5",
-                "prerequisites": ["Breakthrough 2"],
-				"row": 2,
+                "name": "Advancement 3","prerequisites": ["Breakthrough 2","Expansion 2","Renovation 2","Innovation 2"],
+				"row": 3,
 				"uniques": []
 			}
             {
-                "name": "Advancement 6",
-                "prerequisites": ["Breakthrough 2"],
+                "name": "Development 3","prerequisites": ["Breakthrough 2","Expansion 2","Renovation 2","Innovation 2"],
 				"row": 4,
 				"uniques": []
 			}
 		]
     },
-    {
-        "columnNumber": 5,
+	{
+        "columnNumber": 6,
 		"era": "Preparation Level: 3",
-		"techCost": 300,
+		"techCost": 75,
 		"buildingCost": 75,
 		"wonderCost": 250,
 		"techs": 
         [
             {
                 "name": "Breakthrough 3",
-                "prerequisites": ["Advancement 5","Advancement 6"],
+                "prerequisites": ["Advancement 3","Development 3"],
 				"row": 3,
+				"uniques": []
+			}
+			{
+                "name": "Expansion 3",
+                "prerequisites": ["Advancement 3","Development 3"],
+				"row": 4,
+				"uniques": []
+			}
+			{
+                "name": "Renovation 3",
+                "prerequisites": ["Advancement 3","Development 3"],
+				"row": 5,
+				"uniques": []
+			}
+			{
+                "name": "Innovation 3",
+				"prerequisites": ["Advancement 3","Development 3"],
+				"row": 6,
 				"uniques": []
 			}
 		]
