@@ -19,7 +19,7 @@
         "Provides [1] [Specialisation Slot] <in cities with at least [18] [Population]>",
         "Provides [1] [Specialisation Slot] <in cities with at least [25] [Population]>",
         //Leadership Points
-        "Provides [1] [Leadership Point] <in cities with at least [18] [Population]>",]
+        "Provides [1] [Leadership Point] <in cities with at least [18] [Population]>",
         "Provides [1] [Leadership Point] <for every [3] [Cities]>",
     ],
     "unitUniques": [
