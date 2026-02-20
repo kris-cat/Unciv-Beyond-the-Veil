@@ -103,7 +103,8 @@
 		"cost": 225,
 		"uniques": [
 			"Mechanical","Vehicle","Transport",
-			"[+1] Movement <for [Infantry] units> <when adjacent to a [Stryker] unit>"
+			"[+1] Movement <for [Infantry] units> <when adjacent to a [Stryker] unit>",
+			"Only available <if [Bureau Military Workshop] is constructed>"
 		],
 		"attackSound": "machinegun"
 	},
@@ -117,6 +118,7 @@
 		"uniques": [
 			"Mechanical","Vehicle","Armour",
 			"Can move after attacking", "No defensive terrain bonus",
+			"Only available <if [Bureau Military Workshop] is constructed>"
 		],
 		"attackSound": "machinegun"
 	},
@@ -132,6 +134,7 @@
 			"Can move after attacking", "No defensive terrain bonus",
 			"All tiles cost 1 movement", "Ignores Zone of Control",
 			"[+50]% Strength <vs [Armour] units>",
+			"Only available <if [Bureau Craft Hangar] is constructed>"
 		],
 		"attackSound": "machinegun"
 	},
@@ -148,7 +151,8 @@
 		"uniques": [
 			"Mechanical","Aircraft","Fighter",
 			"Can see over obstacles", "Can perform Air Sweep",
-			"[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"
+			"[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>",
+			"Only available <if [Bureau Craft Hangar] is constructed>"
 		],
 		"attackSound": "machinegun"
 	},
@@ -163,6 +167,7 @@
 		"cost": 175,
 		"uniques": [
 			"Mechanical","Aircraft","Bomber",
+			"Only available <if [Bureau Craft Hangar] is constructed>"
 		],
 		"attackSound": "bombing"
 	},
