@@ -35,6 +35,7 @@
 		"cost": 100,
 		"hurryCostModifier": 25,
 		"happiness": 5,
+		"food": 2,
         "maintenance": 1,
 		"uniques": [
             "Destroyed when the city is captured" 
@@ -56,7 +57,7 @@
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"cost": 100,
 		"gold": 3,
-		"production": 2,
+		"science": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Consumes [1] [Specialisation Slot]",
