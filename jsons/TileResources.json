@@ -8,6 +8,13 @@
 			"Excluded from map editor", 
 		]
 	},
+	{
+		"name": "Leadership Point", "resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally", "Cannot be traded",
+			"Excluded from map editor", 
+		]
+	},
     //Faction resources
 	//Bureau of Paranormal Activities
 	{
