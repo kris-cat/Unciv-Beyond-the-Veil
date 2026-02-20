@@ -65,7 +65,7 @@
 	},
 	{
 		"name": "Alien Patent Office",
-		"uniqueTo": "Bureau of Paranormal Activities","requiredBuilding": "Bureau Training Facilities",
+		"uniqueTo": "Bureau of Paranormal Activities","requiredBuilding": "Supernatural Residential Zone",
 		"cost": 100,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -76,7 +76,7 @@
 	},
 	{
 		"name": "Undercover Postal Office",
-		"uniqueTo": "Bureau of Paranormal Activities","requiredBuilding": "Bureau Training Facilities",
+		"uniqueTo": "Bureau of Paranormal Activities","requiredBuilding": "Supernatural Residential Zone",
 		"cost": 100,
 		"percentStatBonus": {"gold": 25},
 		"hurryCostModifier": 25,
