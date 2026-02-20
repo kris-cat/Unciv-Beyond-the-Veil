@@ -14,11 +14,13 @@
         "[All] units gain the [Default Promotion] promotion",
         //Specialisation Slots
         "Provides [1] [Specialisation Slot] <in [all] cities>",
-        "Provides [1] [Specialisation Slot] <in cities with at least [5] [Population]>",
-        "Provides [1] [Specialisation Slot] <in cities with at least [10] [Population]>",
-        "Provides [1] [Specialisation Slot] <in cities with at least [16] [Population]>",
-        "Provides [1] [Leadership Point] <in cities with at least [16] [Population]>",
-        "Provides [1] [Specialisation Slot] <in cities with at least [23] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [7] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [12] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [18] [Population]>",
+        "Provides [1] [Specialisation Slot] <in cities with at least [25] [Population]>",
+        //Leadership Points
+        "Provides [1] [Leadership Point] <in cities with at least [18] [Population]>",]
+        "Provides [1] [Leadership Point] <for every [3] [Cities]>",
     ],
     "unitUniques": [
         "[+1] Movement <for [Infantry] units> <when adjacent to a [Transport] unit>"
