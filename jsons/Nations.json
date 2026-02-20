@@ -26,7 +26,8 @@
 			"Adopt [BPA Edicts]","New [all] units start with [200] XP [in all cities]",
 			"May buy [Government Man] units for [200] [Gold] [in all cities] at an increasing price ([100])",
 			"[Infantry] units gain the [Neuralyzer] promotion","[Infantry] units gain the [Wristwatch] promotion",
-			"[+10 Culture]"
+			"[+10 Culture]",
+			"Free [UGV 'Handy'] appears","Free [Bureau Commando] appears"
         ],
 		"cities": [
             "405 Array Avenue","77 Tom Road","Area 51","Plant 42","Cheyenne Mountain Complex","The Rock","Seattle","Camp Peary","Dugway Proving Ground","Trinity Site",
