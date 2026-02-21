@@ -125,7 +125,7 @@
         ]
 	},
 	{
-		"name": "Facility's General Store",
+		"name": "Network of General Stores",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"cost": 100,
 		"hurryCostModifier": 25,
