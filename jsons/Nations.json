@@ -23,10 +23,8 @@
         "innerColor": [0,0,0],
 		"uniqueName": "Bureau of Paranormal Activities Faction Features",
 		"uniques": [
-			"Adopt [BPA Edicts]","New [all] units start with [200] XP [in all cities]",
-			"May buy [Government Man] units for [200] [Gold] [in all cities] at an increasing price ([100])",
-			"[Infantry] units gain the [Neuralyzer] promotion","[Infantry] units gain the [Wristwatch] promotion",
-			"Free [UGV 'Handy'] appears","Free [Bureau Commando] appears"
+			"Adopt [BPA Edicts] <hidden from users>","New [all] units start with [200] XP [in all cities] <hidden from users>",
+			"[Infantry] units gain the [Neuralyzer] promotion <hidden from users>","[Infantry] units gain the [Wristwatch] promotion <hidden from users>", "Free [Bureau Commando] appears <hidden from users>"
         ],
 		"cities": [
             "405 Array Avenue","77 Tom Road","Area 51","Plant 42","Cheyenne Mountain Complex","The Rock","Seattle","Camp Peary","Dugway Proving Ground","Trinity Site",
