@@ -24,7 +24,6 @@
 		"cost": 100,
 		"uniques": [
 			"Founds a new city <by consuming this unit>",
-			"Unbuildable",
 		]
 		"hurryCostModifier": 20
 	},
@@ -42,7 +41,7 @@
 	{
 		"name": "Bureau Commando",
 		"unitType": "InfantryBC",
-		"uniqueTo": "Bureau of Paranormal Activities",
+		"uniqueTo": "Bureau of Paranormal Activities", "requiredTech": "Foundation",
 		"movement": 2,
 		"strength": 33,
 		"cost": 70,
@@ -55,7 +54,7 @@
 	{
 		"name": "Bureau Grenadier",
 		"unitType": "InfantryBG",
-		"uniqueTo": "Bureau of Paranormal Activities",
+		"uniqueTo": "Bureau of Paranormal Activities", "requiredTech": "Advancement 1",
 		"movement": 2,
 		"strength": 33,
 		"cost": 70,
@@ -68,7 +67,7 @@
 	{
 		"name": "Bureau Marksman",
 		"unitType": "InfantryBM",
-		"uniqueTo": "Bureau of Paranormal Activities",
+		"uniqueTo": "Bureau of Paranormal Activities", "requiredTech": "Development 1",
 		"movement": 2,
 		"strength": 25,
 		"range": 2,
@@ -111,7 +110,7 @@
 	{
 		"name": "UGV 'Darrell'",
 		"unitType": "UGVDL",
-		"uniqueTo": "Bureau of Paranormal Activities",
+		"uniqueTo": "Bureau of Paranormal Activities", "requiredTech": "Breakthrough 1",
 		"movement": 5,
 		"strength": 35,
 		"range": 1,
@@ -128,7 +127,7 @@
 	{
 		"name": "Black Hawk Helicopter",
 		"unitType": "HeliBH",
-		"uniqueTo": "Bureau of Paranormal Activities",
+		"uniqueTo": "Bureau of Paranormal Activities", "requiredTech": "Expansion 1",
 		"movement": 5,
 		"strength": 45,
 		"cost": 225,
