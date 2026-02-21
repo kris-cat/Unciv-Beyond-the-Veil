@@ -63,7 +63,7 @@
 		"cost": 70,
 		"uniques": [
 			"Organic","Human","Infantry",
-			"[50]% Strength <vs cities>",
+			"[+50]% Strength <vs cities>",
 		]
 		"attackSound": "shot"
 	},
@@ -120,7 +120,8 @@
 		"cost": 225,
 		"uniques": [
 			"Mechanical","Vehicle","Armour",
-			"Can move after attacking", "No defensive terrain bonus",
+			"Consumes [2] [Military Materiel]",
+			"Can move after attacking", "No defensive terrain bonus","[-50]% Strength <when attacking> <vs cities>",
 			"Only available <if [Bureau Military Workshop] is constructed>"
 		],
 		"attackSound": "machinegun"
