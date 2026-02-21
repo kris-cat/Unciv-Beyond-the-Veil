@@ -19,7 +19,7 @@
 	{
 		"name": "Government Man",
 		"unitType": "UGVH",
-		"uniqueTo": "Bureau of Paranormal Activities""replaces": "Settler",
+		"uniqueTo": "Bureau of Paranormal Activities","replaces": "Settler",
 		"movement": 2,
 		"cost": 100,
 		"uniques": [
