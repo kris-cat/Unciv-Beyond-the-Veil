@@ -9,9 +9,9 @@
         ],
         "policies": [
             {
-                "name": "Increased Quality Control",
+                "name": "Increased Training Standards",
                 "uniques": [
-                    "[+100 Gold] <for [10] turns>",
+                    "New [all] units start with [15] XP [in all cities]",
                     "Provides [1] [IQC Points] <for [10] turns>",
                     "Remove [Increased Quality Control]",
                     "Unavailable <with [IQC Points]>",
@@ -20,9 +20,9 @@
                 "row": 1,"column": 1
             },
             {
-                "name": "Increased Production Capacity",
+                "name": "Increased Recruitment Rate",
                 "uniques": [
-                    "[+100 Gold] <for [10] turns>",
+                    "[+20]% Production when constructing [all] units [in all cities] <for [10] turns>",
                     "Provides [1] [IPC Points] <for [10] turns>",
                     "Remove [Increased Production Capacity]",
                     "Unavailable <with [IPC Points]>",
@@ -33,7 +33,8 @@
             {
                 "name": "Mobile Warfare",
                 "uniques": [
-                    "[+100 Gold] <for [10] turns>",
+                    "[+1] Movement <for [all] units> <for [10] turns>",
+                    "[+1] Range <for [Aircraft] units> <for [10] turns>",
                     "Provides [1] [MW Points] <for [10] turns>",
                     "Remove [Mobile Warfare]",
                     "Unavailable <with [MW Points]>",
@@ -44,7 +45,7 @@
             {
                 "name": "In-Depth Defence",
                 "uniques": [
-                    "[+100 Gold] <for [10] turns>",
+                    "[+25]% Strength <when defending> <for [all] units> <for [10] turns>",
                     "Provides [1] [IDD Points] <for [10] turns>",
                     "Remove [In-Depth Defence]",
                     "Unavailable <with [IDD Points]>",
@@ -55,7 +56,7 @@
             {
                 "name": "Individual Operative Focus",
                 "uniques": [
-                    "[+100 Gold] <for [10] turns>",
+                    "[+20]% Strength <for [Infantry] units> <for [10] turns>",
                     "Provides [1] [IOF Points] <for [10] turns>",
                     "Remove [Individual Operative Focus]",
                     "Unavailable <with [IOF Points]>",
@@ -66,7 +67,7 @@
             {
                 "name": "Precise Targetting Focus",
                 "uniques": [
-                    "[+100 Gold] <for [10] turns>",
+                    "[+10]% Strength <for [all] units> <for [10] turns>",
                     "Provides [1] [PTF Points] <for [10] turns>",
                     "Remove [Precise Targetting Focus]",
                     "Unavailable <with [PTF Points]>",
