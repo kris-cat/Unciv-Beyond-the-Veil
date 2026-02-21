@@ -291,12 +291,25 @@
 	},
 	//Strategic resources
 	{
+		"name": "Military Materiel",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Grassland","Snow","Desert","Hill","Forest","Urban Sprawl"],
+		"production": 1,
+		"improvement": "Resource Claim",
+		"improvementStats": {"production": 3,},
+		"uniques": [
+		]
+		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 4},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+		"civilopediaText": [{ "text": "Military supplies."}]
+	},
+	{
 		"name": "Unobtainium",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Snow","Hill"],
 		"production": 1,
 		"improvement": "Resource Claim",
-		"improvementStats": {"production": 3},
+		"improvementStats": {"production": 2, "gold": 2,},
 		"uniques": [
 			"Anomalous Resource",
 			"Generated with weight [35] <in [Snow] Regions>",
