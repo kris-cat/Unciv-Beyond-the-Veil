@@ -83,6 +83,7 @@
 			"[+25]% weight to this choice for AI decisions <if [Bureau Craft Hangar] is constructed>","[+25]% weight to this choice for AI decisions <if [Bureau Training Facilities] is constructed>",
 			"Consumes [1] [Specialisation Slot]",
 			"[+15]% Production when constructing [Armour] units [in this city]",
+			"Provides [1] [Military Materiel]",
             "Destroyed when the city is captured" 
         ]
 	},
@@ -96,6 +97,7 @@
 			"[+25]% weight to this choice for AI decisions <if [Bureau Military Workshop] is constructed>","[+25]% weight to this choice for AI decisions <if [Bureau Training Facilities] is constructed>",
 			"Consumes [1] [Specialisation Slot]",
 			"[+15]% Production when constructing [Helicopter] units [in this city]","[+15]% Production when constructing [Aircraft] units [in this city]",
+			"Can carry [2] extra [Aircraft] units",
             "Destroyed when the city is captured" 
         ]
 	},
