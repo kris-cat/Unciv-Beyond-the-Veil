@@ -102,6 +102,7 @@
 		"cost": 225,
 		"uniques": [
 			"Mechanical","Vehicle","Transport",
+			"Consumes [1] [Military Materiel]",
 			"[+1] Movement <for [Infantry] units> <when adjacent to a [Stryker] unit>",
 			"Only available <if [Bureau Military Workshop] is constructed>"
 		],
@@ -133,6 +134,7 @@
 		"cost": 225,
 		"uniques": [
 			"Mechanical","Vehicle","Helicopter",
+			"Consumes [1] [Military Materiel]",
 			"Can move after attacking", "No defensive terrain bonus",
 			"All tiles cost 1 movement", "Ignores Zone of Control",
 			"[+50]% Strength <vs [Armour] units>",
