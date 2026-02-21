@@ -44,7 +44,7 @@
 		"name": "Supernatural Residential Zone",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"cost": 100,
-		"gold": 3,
+		"gold": 4,
 		"science": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
