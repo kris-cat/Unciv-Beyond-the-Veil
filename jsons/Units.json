@@ -125,7 +125,7 @@
 		"name": "UGV 'Darrell'",
 		"unitType": "UGVDL",
 		"uniqueTo": "Bureau of Paranormal Activities", "requiredTech": "Breakthrough 1",
-		"movement": 5,
+		"movement": 4,
 		"strength": 35,
 		"range": 1,
 		"rangedStrength": 40,
@@ -142,7 +142,7 @@
 		"name": "Black Hawk Helicopter",
 		"unitType": "HeliBH",
 		"uniqueTo": "Bureau of Paranormal Activities", "requiredTech": "Expansion 1",
-		"movement": 5,
+		"movement": 4,
 		"strength": 45,
 		"cost": 225,
 		"uniques": [
