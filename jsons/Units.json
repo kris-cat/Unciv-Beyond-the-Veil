@@ -114,7 +114,9 @@
 		"unitType": "ArmourAB",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 5,
-		"strength": 45,
+		"strength": 35,
+		"range": 1,
+		"rangedStrength": 40,
 		"cost": 225,
 		"uniques": [
 			"Mechanical","Vehicle","Armour",
@@ -128,7 +130,7 @@
 		"unitType": "HeliBH",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 5,
-		"strength": 40,
+		"strength": 45,
 		"cost": 225,
 		"uniques": [
 			"Mechanical","Vehicle","Helicopter",
