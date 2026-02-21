@@ -1,0 +1,22 @@
+[
+	{
+		"name":"Scientist",
+		"science":2,
+		"color": [0,0,255]
+	},
+	{
+		"name":"Financier",
+		"gold":3,
+		"color": [255,215,0]
+	},
+	{
+		"name":"Advisor",
+		"culture":2,
+		"color": [160,32,240]
+	},
+	{
+		"name":"Engineer",
+		"production":2,
+		"color": [139,69,19]
+	}
+]
