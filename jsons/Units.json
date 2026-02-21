@@ -19,7 +19,7 @@
 	{
 		"name": "Government Man",
 		"unitType": "UGVH",
-		"uniqueTo": "Bureau of Paranormal Activities"
+		"uniqueTo": "Bureau of Paranormal Activities""replaces": "Settler",
 		"movement": 2,
 		"cost": 100,
 		"uniques": [
@@ -31,15 +31,13 @@
 	{
 		"name": "UGV 'Handy'",
 		"unitType": "UGVH",
-		"uniqueTo": "Bureau of Paranormal Activities",
+		"uniqueTo": "Bureau of Paranormal Activities","replaces": "Worker",
 		"movement": 2,
-		"strength": 15,
 		"cost": 70
 		"uniques": [
 			"Mechanical","Robot","Worker",
 			"Can build [Land] improvements on tiles", "Automation is a primary action"
 		],
-		"attackSound": "shot"
 	},
 	{
 		"name": "Bureau Commando",
