@@ -39,6 +39,20 @@
 		],
 	},
 	{
+		"name": "Agent Squad Commander",
+		"unitType": "LeaderSC",
+		"uniqueTo": "Bureau of Paranormal Activities", "requiredTech": "Foundation",
+		"movement": 2,
+		"strength": 35,
+		"cost": 70,
+		"uniques": [
+			"Organic","Human","Infantry","Leader",
+			"Consumes [1] [Leadership Point]",
+			"[+15]% Strength bonus for [Infantry] units within [2] tiles",
+		]
+		"attackSound": "shot"
+	},
+	{
 		"name": "Bureau Commando",
 		"unitType": "InfantryBC",
 		"uniqueTo": "Bureau of Paranormal Activities", "requiredTech": "Foundation",
@@ -56,7 +70,7 @@
 		"unitType": "InfantryBG",
 		"uniqueTo": "Bureau of Paranormal Activities", "requiredTech": "Advancement 1",
 		"movement": 2,
-		"strength": 33,
+		"strength": 30,
 		"cost": 70,
 		"uniques": [
 			"Organic","Human","Infantry",
