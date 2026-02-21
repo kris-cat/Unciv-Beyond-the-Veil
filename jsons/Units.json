@@ -108,8 +108,8 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Abrams Tank",
-		"unitType": "ArmourAB",
+		"name": "UGV 'Darrell'",
+		"unitType": "UGVDL",
 		"uniqueTo": "Bureau of Paranormal Activities",
 		"movement": 5,
 		"strength": 35,
