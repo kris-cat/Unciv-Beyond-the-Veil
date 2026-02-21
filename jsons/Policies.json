@@ -13,7 +13,7 @@
                 "uniques": [
                     "New [all] units start with [15] XP [in all cities]",
                     "Provides [1] [IQC Points] <for [10] turns>",
-                    "Remove [Increased Quality Control]",
+                    "Remove [Increased Recruitment Rate]",
                     "Unavailable <with [IQC Points]>",
                     "Unavailable <with [IPC Points]>",
                 ],
@@ -24,7 +24,7 @@
                 "uniques": [
                     "[+20]% Production when constructing [all] units [in all cities] <for [10] turns>",
                     "Provides [1] [IPC Points] <for [10] turns>",
-                    "Remove [Increased Production Capacity]",
+                    "Remove [Increased Training Standards]",
                     "Unavailable <with [IPC Points]>",
                     "Unavailable <with [IQC Points]>",
                 ],
