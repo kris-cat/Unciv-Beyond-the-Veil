@@ -1,0 +1,106 @@
+[
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+	},
+    {
+		"name": "Bureau of Paranormal Activities",
+		"leaderName": "WIPLeader",
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		"personality": "Average Guys",
+        
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+        "declaringWar": "Sample text.",
+		"attacked": "Sample text.",
+		"defeated": "Sample text.",
+		"introduction": "Sample text.",
+		"neutralHello": "Sample text.",
+		"hateHello": "Sample text.",
+		"tradeRequest": "Sample text.",
+        "outerColor": [255,255,255]
+        "innerColor": [0,0,0],
+		"uniqueName": "Bureau of Paranormal Activities Faction Features",
+		"uniques": [],
+		"cities": [
+            "405 Array Avenue","77 Tom Road","Area 51","Plant 42","Cheyenne Mountain Complex","The Rock","Seattle","Camp Peary","Dugway Proving Ground","Trinity Site",
+			"Granite Mountain",
+        ]
+	},
+    {
+		"name": "Sanguineum Imperium",
+		"leaderName": "WIPLeader",
+		"startBias": ["Avoid [Desert]"],
+		"preferredVictoryType": "Domination",
+		"personality": "Average Guys",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+        "declaringWar": "Sample text.",
+		"attacked": "Sample text.",
+		"defeated": "Sample text.",
+		"introduction": "Sample text.",
+		"neutralHello": "Sample text.",
+		"hateHello": "Sample text.",
+		"tradeRequest": "Sample text.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [141, 40, 30],
+		"uniqueName": "Blood Pyramid Faction Features",
+		"uniques": [],
+		"cities": [
+			"Vienna","Munich","Prague","Paris"
+		],
+    },
+    {
+		"name": "Ecclesia Catholica",
+		"leaderName": "WIPLeader",
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+		"personality": "Average Guys",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+        "declaringWar": "Sample text.",
+		"attacked": "Sample text.",
+		"defeated": "Sample text.",
+		"introduction": "Sample text.",
+		"neutralHello": "Sample text.",
+		"hateHello": "Sample text.",
+		"tradeRequest": "Sample text.",
+		"outerColor": [255, 191, 0],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Papal Inquisition Faction Features",
+		"uniques": [
+        ],
+		"cities": [
+			"Vatican","Avignon","Andorra","Cologne","Mainz"
+		],
+        "spyNames": ["Pierre","Tomas","Luis"]
+    },
+    {
+		"name": "Infernal Legion",
+		"leaderName": "WIPLeader",
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		"personality": "Average Guys",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+        "declaringWar": "Sample text.",
+		"attacked": "Sample text.",
+		"defeated": "Sample text.",
+		"introduction": "Sample text.",
+		"neutralHello": "Sample text.",
+		"hateHello": "Sample text.",
+		"tradeRequest": "Sample text.",
+		"outerColor": [141, 40, 30],
+		"innerColor": [255, 212, 40],
+		"uniqueName": "Infernal Legion Faction Features",
+		"uniques": [
+        ],
+		"cities": [
+			"Vatican","Avignon","Andorra","Cologne","Mainz"
+		],
+    },
+]
