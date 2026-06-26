@@ -23,6 +23,44 @@
 		"attackSound": "shot"
 	}
 	//Federal Bureau Units
+	{
+		"name": "Bureau Commando",
+		"unitType": "default",
+		"uniqueTo": "Federal Bureau of Paranormal Activities",
+		"movement": 2,"strength": 33,"cost": 70,
+		"uniques": [
+			"Organic","Human","Infantry",
+			"Can move after attacking",
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "IFV Rioter",
+		"unitType": "default",
+		"uniqueTo": "Federal Bureau of Paranormal Activities",
+		"movement": 3,"strength": 40,"cost": 225,
+		"uniques": [
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "UGV Darrell",
+		"unitType": "default",
+		"uniqueTo": "Federal Bureau of Paranormal Activities",
+		"movement": 4,"strength": 35,"range": 1,"interceptRange": 1,"rangedStrength": 35,"cost": 225,
+		"uniques": [
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Black Hawk Helicopter",
+		"unitType": "default",
+		"uniqueTo": "Federal Bureau of Paranormal Activities",
+		"movement": 4,"strength": 45,"cost": 225,
+		"uniques": [
+		],
+		"attackSound": "machinegun"
+	},
 	//Papal Inquisition Units
 	//British Roundtable
 	//IdolArms Incorporated Units
